@@ -3,7 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
 package com.mycompany.thewalkingtec.mobStructure.Builder;
-
 /**
  *
  * @author Fabo
@@ -15,6 +14,7 @@ public class mobBuilder extends javax.swing.JFrame {
      */
     public mobBuilder() {
         initComponents();
+        
     }
 
     /**
@@ -37,6 +37,7 @@ public class mobBuilder extends javax.swing.JFrame {
         jButton2 = new javax.swing.JButton();
         zombieImage = new javax.swing.JLabel();
         blockImage = new javax.swing.JLabel();
+        gunImage = new javax.swing.JLabel();
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -65,6 +66,8 @@ public class mobBuilder extends javax.swing.JFrame {
         popupMenu2.setLabel("popupMenu2");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setForeground(java.awt.Color.gray);
+        setName("Creación de objetos"); // NOI18N
 
         welcomeLabel.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         welcomeLabel.setText("Panel de creación de objetos");
@@ -93,6 +96,9 @@ public class mobBuilder extends javax.swing.JFrame {
 
         blockImage.setIcon(new javax.swing.ImageIcon("C:\\Users\\Xtremetech\\Documents\\NetBeansProjects\\TheWalkingTEC\\src\\main\\java\\com\\mycompany\\thewalkingtec\\mobStructure\\Builder\\image\\Bloque.png")); // NOI18N
 
+        gunImage.setIcon(new javax.swing.ImageIcon("C:\\Users\\Xtremetech\\Documents\\NetBeansProjects\\TheWalkingTEC\\src\\main\\java\\com\\mycompany\\thewalkingtec\\mobStructure\\Builder\\image\\Arma.png")); // NOI18N
+        gunImage.setToolTipText("");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -108,12 +114,16 @@ public class mobBuilder extends javax.swing.JFrame {
                             .addComponent(zombieButton, javax.swing.GroupLayout.PREFERRED_SIZE, 98, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(zombieImage))
                         .addGap(71, 71, 71)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(91, 91, 91)
                                 .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(blockImage)))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(blockImage)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(gunImage)
+                                .addGap(9, 9, 9))))
                     .addGroup(layout.createSequentialGroup()
                         .addContainerGap()
                         .addComponent(welcomeLabel)))
@@ -132,19 +142,23 @@ public class mobBuilder extends javax.swing.JFrame {
                     .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(18, 18, 18)
-                        .addComponent(zombieImage))
-                    .addGroup(layout.createSequentialGroup()
                         .addGap(71, 71, 71)
-                        .addComponent(blockImage)))
-                .addContainerGap(49, Short.MAX_VALUE))
+                        .addComponent(blockImage))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(18, 18, 18)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(gunImage)
+                            .addComponent(zombieImage))))
+                .addContainerGap(91, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void zombieButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_zombieButtonActionPerformed
-        // TODO add your handling code here:
+
+        zBuilder zB = new zBuilder();
+        zB.setVisible(true);      
     }//GEN-LAST:event_zombieButtonActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
@@ -188,6 +202,7 @@ public class mobBuilder extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel blockImage;
+    private javax.swing.JLabel gunImage;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JPanel jPanel1;

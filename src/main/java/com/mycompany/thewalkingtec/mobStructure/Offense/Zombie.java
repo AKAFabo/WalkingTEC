@@ -1,7 +1,7 @@
 
 package com.mycompany.thewalkingtec.mobStructure.Offense;
 
-public abstract class Zombies {
+public abstract class Zombie {
 
     private String name;
     public String getName() {
@@ -51,14 +51,22 @@ public abstract class Zombies {
         this.unlockLevel = unlockLevel;
     }
     
-    public Zombies(String name, String appearance, int hitsPerSecond, int defenseLevel, int fieldsInMatrix,
-            int unlockLevel) {
+    private String type;
+    public String getType(){
+        return type;
+    }
+    public void setType(String type){
+        this.type = type;
+    }
+    public Zombie(String name, String appearance, int hitsPerSecond, int defenseLevel, int fieldsInMatrix,
+            int unlockLevel, String type) {
         this.name = name;
         this.appearance = appearance;
         this.hitsPerSecond = hitsPerSecond;
         this.defenseLevel = defenseLevel;
         this.fieldsInMatrix = fieldsInMatrix;
         this.unlockLevel = unlockLevel;
+        this.type = type;
     }
 }
 

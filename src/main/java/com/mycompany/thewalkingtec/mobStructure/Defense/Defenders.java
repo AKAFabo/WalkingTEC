@@ -11,20 +11,20 @@ package com.mycompany.thewalkingtec.mobStructure.Defense;
 public abstract class Defenders {
 
     protected String name;
-    protected String appearance;   
-    protected int hitsPerSecond;
-    protected int defenseLevel; 
+    protected String normalStateAppearance;   
+    protected String attackStateAppearance;
+    protected int startLevel; 
     protected int fieldsInMatrix;
     protected int unlockLevel;
     protected int health;
 
-    public Defenders(String name, String appearance, int hitsPerSecond, int defenseLevel, int fieldsInMatrix,
+    public Defenders(String name, String normalStateAppearance, String attackStateAppearance, int startLevel, int fieldsInMatrix,
             int unlockLevel, int health) {
 
         this.name = name;
-        this.appearance = appearance;
-        this.hitsPerSecond = hitsPerSecond;
-        this.defenseLevel = defenseLevel;
+        this.normalStateAppearance = normalStateAppearance;
+        this.attackStateAppearance = attackStateAppearance;
+        this.startLevel = startLevel;
         this.fieldsInMatrix = fieldsInMatrix;
         this.unlockLevel = unlockLevel;
         this.health = health;
@@ -60,25 +60,25 @@ public abstract class Defenders {
         this.fieldsInMatrix = fieldsInMatrix;
     }
 
-    public int getDefenseLevel() {
-        return defenseLevel;
+    public int getStartLevel() {
+        return startLevel;
     }
-    public void setDefenseLevel(int defenseLevel) {
-        this.defenseLevel = defenseLevel;
-    }
-
-    public int getHitsPerSecond() {
-        return hitsPerSecond;
-    }
-    public void setHitsPerSecond(int hitsPerSecond) {
-        this.hitsPerSecond = hitsPerSecond;
+    public void setStartLevel(int defenseLevel) {
+        this.startLevel = defenseLevel;
     }
 
-    public String getAppearance() {
-        return appearance;
+    public String getNormalStateAppearance() {
+        return normalStateAppearance;
     }
-    public void setAppearance(String appearance) {
-        this.appearance = appearance;
+    public void setAppearance(String normalStateAppearance) {
+        this.normalStateAppearance = normalStateAppearance;
     }
+    
+    public String getAttackStateAppearance() {
+        return attackStateAppearance;
+    }
+    public void setAttackStateAppearance(String attackStateAppearance) {
+        this.attackStateAppearance = attackStateAppearance;
+    }
+    
 }
-

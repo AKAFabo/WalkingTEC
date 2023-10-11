@@ -11,14 +11,22 @@ public abstract class Zombie {
         this.name = name;
     }
 
-    private String appearance;
-    public String getAppearance() {
-        return appearance;
+    private String normalStateAppearance;
+    public String getNormalStateAppearance() {
+        return normalStateAppearance;
     }
-    public void setAppearance(String appearance) {
-        this.appearance = appearance;
+    public void setAppearance(String normalStateAppearance) {
+        this.normalStateAppearance = normalStateAppearance;
     }
-
+    
+    private String attackStateAppearance;
+    public String getAttackStateAppearance(){
+        return attackStateAppearance;
+    }
+    public void setAttackStateAppearance(String attackStateAppearance){
+        this.attackStateAppearance = attackStateAppearance;
+    }
+    
     private int hitsPerSecond;
     public int getHitsPerSecond() {
         return hitsPerSecond;
@@ -27,12 +35,12 @@ public abstract class Zombie {
         this.hitsPerSecond = hitsPerSecond;
     }
 
-    private int defenseLevel;
-    public int getDefenseLevel() {
-        return defenseLevel;
+    private int startLevel;
+    public int getStartLevel() {
+        return startLevel;
     }
-    public void setDefenseLevel(int defenseLevel) {
-        this.defenseLevel = defenseLevel;
+    public void setStartLevel(int startLevel) {
+        this.startLevel = startLevel;
     }
 
     private int fieldsInMatrix;
@@ -58,12 +66,13 @@ public abstract class Zombie {
     public void setType(String type){
         this.type = type;
     }
-    public Zombie(String name, String appearance, int hitsPerSecond, int defenseLevel, int fieldsInMatrix,
+    public Zombie(String name, String normalStateAppearance, String attackStateAppearance, int hitsPerSecond, int startLevel, int fieldsInMatrix,
             int unlockLevel, String type) {
         this.name = name;
-        this.appearance = appearance;
+        this.normalStateAppearance = normalStateAppearance;
+        this.attackStateAppearance = attackStateAppearance;
         this.hitsPerSecond = hitsPerSecond;
-        this.defenseLevel = defenseLevel;
+        this.startLevel = startLevel;
         this.fieldsInMatrix = fieldsInMatrix;
         this.unlockLevel = unlockLevel;
         this.type = type;

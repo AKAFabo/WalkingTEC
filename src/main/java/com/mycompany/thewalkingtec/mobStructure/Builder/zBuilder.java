@@ -4,11 +4,9 @@
  */
 package com.mycompany.thewalkingtec.mobStructure.Builder;
 
-import com.mycompany.thewalkingtec.mobStructure.Offense.Zombie;
 import java.io.BufferedWriter;
 import java.io.File;
 import javax.swing.JFileChooser;
-import javax.swing.JPanel;
 import java.io.FileWriter;
 import java.io.IOException;
 
@@ -40,40 +38,41 @@ public class zBuilder extends javax.swing.JFrame {
         fieldsInMatrix = new javax.swing.JTextField();
         zombieLevel = new javax.swing.JTextField();
         unlockLevel = new javax.swing.JTextField();
-        damage = new javax.swing.JTextField();
         hps = new javax.swing.JTextField();
         zombieType = new javax.swing.JComboBox<>();
-        zombieImage = new javax.swing.JLabel();
         createButton = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
         normalStateTextField = new javax.swing.JTextField();
         normalStateButton = new javax.swing.JButton();
+        jLabel3 = new javax.swing.JLabel();
+        attackStateTextField = new javax.swing.JTextField();
+        attackStateButton = new javax.swing.JButton();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
         jLabel1.setText("Crear zombie");
 
-        zombieName.setText("Nombre del zombie");
         zombieName.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 zombieNameActionPerformed(evt);
             }
         });
 
-        fieldsInMatrix.setText("Campos en la matriz");
-
-        zombieLevel.setText("Nivel inicial");
-
-        unlockLevel.setText("Nivel de aparición");
-
-        damage.setText("Daño por golpe");
-
-        hps.setText("Golpes por segundo");
+        fieldsInMatrix.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                fieldsInMatrixActionPerformed(evt);
+            }
+        });
 
         zombieType.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "De contacto", "Aereo", "De choque", "Medio alcance" }));
 
-        zombieImage.setIcon(new javax.swing.ImageIcon("C:\\Users\\Xtremetech\\Documents\\NetBeansProjects\\TheWalkingTEC\\src\\main\\java\\com\\mycompany\\thewalkingtec\\mobStructure\\Builder\\image\\Zombie.png")); // NOI18N
-
-        createButton.setText("Créame!");
+        createButton.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        createButton.setText("Crear zombie");
         createButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 createButtonActionPerformed(evt);
@@ -85,7 +84,7 @@ public class zBuilder extends javax.swing.JFrame {
             }
         });
 
-        jLabel2.setText("Elije el archivo de imagen (Estado normal): ");
+        jLabel2.setText("Archivo de imagen (Estado normal): ");
 
         normalStateTextField.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -105,6 +104,27 @@ public class zBuilder extends javax.swing.JFrame {
             }
         });
 
+        jLabel3.setText("Archivo de imagen (Ataque):");
+
+        attackStateButton.setText("jButton1");
+        attackStateButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                attackStateButtonActionPerformed(evt);
+            }
+        });
+
+        jLabel4.setText("Nombre:");
+
+        jLabel5.setText("Campos en la matriz:");
+
+        jLabel6.setText("Nivel inicial:");
+
+        jLabel7.setText("Nivel de aparicion:");
+
+        jLabel9.setText("Golpes por segundo:");
+
+        jLabel10.setText("Tipo de zombie:");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -112,67 +132,93 @@ public class zBuilder extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(16, 16, 16)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel1)
-                        .addGap(94, 94, 94))
+                    .addComponent(zombieType, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel7)
+                    .addComponent(jLabel5)
+                    .addComponent(jLabel1)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                            .addComponent(zombieType, javax.swing.GroupLayout.Alignment.LEADING, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(hps, javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(damage, javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(unlockLevel, javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(zombieLevel, javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(unlockLevel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 183, Short.MAX_VALUE)
+                            .addComponent(jLabel6, javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel9, javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel4, javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(zombieName, javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(fieldsInMatrix, javax.swing.GroupLayout.Alignment.LEADING))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(fieldsInMatrix, javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(zombieLevel, javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(hps, javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel10, javax.swing.GroupLayout.Alignment.LEADING))
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(zombieImage)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                .addComponent(createButton)
-                                .addGap(20, 20, 20)))))
-                .addGap(14, 14, 14)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel2)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(normalStateTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(normalStateButton)))
-                .addContainerGap(21, Short.MAX_VALUE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(67, 67, 67)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
+                                        .addComponent(normalStateTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addComponent(normalStateButton))
+                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
+                                        .addComponent(attackStateTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addComponent(attackStateButton, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(jLabel3, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel2, javax.swing.GroupLayout.Alignment.LEADING))
+                                .addGap(0, 0, Short.MAX_VALUE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(202, 202, 202)
+                                .addComponent(createButton, javax.swing.GroupLayout.DEFAULT_SIZE, 157, Short.MAX_VALUE)))))
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(98, 98, 98)
+                        .addComponent(jLabel2)
+                        .addGap(18, 18, 18)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(normalStateButton)
+                            .addComponent(normalStateTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(15, 15, 15)
                         .addComponent(jLabel1)
-                        .addGap(32, 32, 32))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jLabel2)
-                        .addGap(18, 18, 18)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jLabel4)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(zombieName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel5)
+                        .addGap(2, 2, 2)))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel3)
+                    .addComponent(fieldsInMatrix, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(attackStateButton)
+                        .addComponent(attackStateTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jLabel6)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(zombieLevel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jLabel7)
+                .addGap(12, 12, 12)
+                .addComponent(unlockLevel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(zombieName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(fieldsInMatrix, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(zombieLevel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(unlockLevel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(damage, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(hps, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(zombieImage)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(normalStateTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(normalStateButton)))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(zombieType, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(createButton))
-                .addContainerGap(64, Short.MAX_VALUE))
+                        .addGap(19, 19, 19)
+                        .addComponent(createButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel9)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(hps, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel10)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(zombieType, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 13, Short.MAX_VALUE))
         );
 
         pack();
@@ -182,19 +228,9 @@ public class zBuilder extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_zombieNameActionPerformed
 
-    private void createButtonKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_createButtonKeyPressed
+    private void createButtonKeyPressed(java.awt.event.KeyEvent evt) {                                        
         // TODO add your handling code here:
-        
-        String name = zombieName.getText();
-        String type = (String) zombieType.getSelectedItem();
-        String level = zombieLevel.getText();
-        String genericUnlocked = unlockLevel.getText();
-        String genericDamage = damage.getText();
-        String genericSizeInMatrix = fieldsInMatrix.getText();
-        String genericHPS = hps.getText();
-        
-        //this = new Zombie(name, );
-    }//GEN-LAST:event_createButtonKeyPressed
+    }
 
     private void normalStateButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_normalStateButtonActionPerformed
         // TODO add your handling code here:
@@ -225,7 +261,6 @@ public class zBuilder extends javax.swing.JFrame {
         String type = (String) zombieType.getSelectedItem();
         String level = zombieLevel.getText();
         String genericUnlocked = unlockLevel.getText();
-        String genericDamage = damage.getText();
         String genericSizeInMatrix = fieldsInMatrix.getText();
         String genericHPS = hps.getText();
 
@@ -245,8 +280,6 @@ public class zBuilder extends javax.swing.JFrame {
             writer.newLine();
             writer.write(genericUnlocked);
             writer.newLine();
-            writer.write(genericDamage);
-            writer.newLine();
             writer.write(genericSizeInMatrix);
             writer.newLine();
             writer.write(genericHPS);
@@ -261,6 +294,22 @@ public class zBuilder extends javax.swing.JFrame {
         
         
     }//GEN-LAST:event_createButtonActionPerformed
+
+    private void attackStateButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_attackStateButtonActionPerformed
+        
+        JFileChooser fc = new JFileChooser();
+        
+        int seleccion = fc.showOpenDialog(this);
+        
+        if (seleccion == JFileChooser.APPROVE_OPTION){ //COMPROBAR QUE SE DE CLICK EN ACEPTAR
+            File archivo = fc.getSelectedFile();
+            attackStateTextField.setText(archivo.getAbsolutePath());
+        }  
+    }//GEN-LAST:event_attackStateButtonActionPerformed
+
+    private void fieldsInMatrixActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fieldsInMatrixActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_fieldsInMatrixActionPerformed
 
     /**
      * @param args the command line arguments
@@ -298,17 +347,24 @@ public class zBuilder extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton attackStateButton;
+    private javax.swing.JTextField attackStateTextField;
     private javax.swing.JButton createButton;
-    private javax.swing.JTextField damage;
     private javax.swing.JTextField fieldsInMatrix;
     private javax.swing.JTextField hps;
     private javax.swing.JFileChooser jFileChooser1;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JButton normalStateButton;
     private javax.swing.JTextField normalStateTextField;
     private javax.swing.JTextField unlockLevel;
-    private javax.swing.JLabel zombieImage;
     private javax.swing.JTextField zombieLevel;
     private javax.swing.JTextField zombieName;
     private javax.swing.JComboBox<String> zombieType;

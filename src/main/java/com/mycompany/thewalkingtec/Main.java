@@ -1,7 +1,7 @@
 package com.mycompany.thewalkingtec;
 
-import com.mycompany.thewalkingtec.mobStructure.Defense.Guns;
-import com.mycompany.thewalkingtec.mobStructure.Builder.mobBuilder;
+import com.mycompany.thewalkingtec.CreationGUI.mobStructure.Defense.Guns;
+import com.mycompany.thewalkingtec.CreationGUI.mobStructure.Builder.mobBuilder;
 
 /**
  *

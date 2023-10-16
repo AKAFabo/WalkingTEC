@@ -170,7 +170,7 @@ public class bBuilder extends javax.swing.JFrame {
             String unlockLevel = unlockLevelTextField.getText();
             String fileImage = fileTextField.getText();
             
-            String txtFilePath = "src/main/java/com/mycompany/thewalkingtec/mobFiles/Blocks/" + name + ".txt";
+            String txtFilePath = "src/main/java/com/mycompany/thewalkingtec/CreationGUI/mobFiles/Blocks/" + name + ".txt";
             
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(txtFilePath))) {
             

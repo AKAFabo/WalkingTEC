@@ -96,12 +96,8 @@ public class mobBuilder extends javax.swing.JFrame {
             }
         });
 
-        zombieImage.setIcon(new javax.swing.ImageIcon("C:\\Users\\Xtremetech\\Documents\\NetBeansProjects\\TheWalkingTEC\\src\\main\\java\\com\\mycompany\\thewalkingtec\\mobStructure\\Builder\\image\\Zombie.png")); // NOI18N
         zombieImage.setToolTipText("");
 
-        blockImage.setIcon(new javax.swing.ImageIcon("C:\\Users\\Xtremetech\\Documents\\NetBeansProjects\\TheWalkingTEC\\src\\main\\java\\com\\mycompany\\thewalkingtec\\mobStructure\\Builder\\image\\Bloque.png")); // NOI18N
-
-        gunImage.setIcon(new javax.swing.ImageIcon("C:\\Users\\Xtremetech\\Documents\\NetBeansProjects\\TheWalkingTEC\\src\\main\\java\\com\\mycompany\\thewalkingtec\\mobStructure\\Builder\\image\\Arma.png")); // NOI18N
         gunImage.setToolTipText("");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -154,7 +150,7 @@ public class mobBuilder extends javax.swing.JFrame {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(gunImage)
                             .addComponent(zombieImage))))
-                .addContainerGap(91, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();

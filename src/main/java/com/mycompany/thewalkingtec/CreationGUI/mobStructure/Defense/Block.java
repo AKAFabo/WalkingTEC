@@ -8,12 +8,12 @@ package com.mycompany.thewalkingtec.CreationGUI.mobStructure.Defense;
  *
  * @author Fabo
  */
-public class Block extends Defenders{
+public class Block extends Defender{
 
 
-    public Block(String name, String normalStateAppearance, int startLevel, int fieldsInMatrix,
+    public Block(String name, String normalStateAppearance, int fieldsInMatrix,
             int unlockLevel, int health) {
-        super(name, normalStateAppearance, startLevel, fieldsInMatrix, unlockLevel, health);
+        super(name, normalStateAppearance, fieldsInMatrix, unlockLevel, health);
         
     }
 

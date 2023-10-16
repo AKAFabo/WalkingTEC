@@ -1,0 +1,9 @@
+AereaPrueba
+Aerea
+50
+2
+5
+3
+5
+C:\Users\Xtremetech\Documents\NetBeansProjects\TheWalkingTEC\src\main\resources\image\redDot.png
+C:\Users\Xtremetech\Documents\NetBeansProjects\TheWalkingTEC\src\main\resources\image\redDot.png

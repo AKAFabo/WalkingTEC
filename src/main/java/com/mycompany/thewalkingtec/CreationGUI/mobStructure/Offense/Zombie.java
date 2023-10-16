@@ -2,7 +2,23 @@
 package com.mycompany.thewalkingtec.CreationGUI.mobStructure.Offense;
 
 public abstract class Zombie {
-
+    
+    private int x = 0;
+    public int getX(){
+        return x;
+    }
+    public void setX(int x){
+        this.x = x;
+    }
+        
+    private int y = 0;
+    public int getY(){
+        return y;
+    }
+    public void setY(int y){
+        this.y = y;
+    }
+       
     private String name;
     public String getName() {
         return name;
@@ -35,12 +51,12 @@ public abstract class Zombie {
         this.hitsPerSecond = hitsPerSecond;
     }
 
-    private int startLevel;
-    public int getStartLevel() {
-        return startLevel;
+    private int range;
+    public int getRange() {
+        return range;
     }
-    public void setStartLevel(int startLevel) {
-        this.startLevel = startLevel;
+    public void setStartLevel(int range) {
+        this.range = range;
     }
 
     private int fieldsInMatrix;
@@ -75,13 +91,13 @@ public abstract class Zombie {
         this.health = health;
     }
     
-    public Zombie(String name, String normalStateAppearance, String attackStateAppearance, int hitsPerSecond, int startLevel, int fieldsInMatrix,
+    public Zombie(String name, String normalStateAppearance, String attackStateAppearance, int hitsPerSecond, int range, int fieldsInMatrix,
             int unlockLevel, String type, int health) {
         this.name = name;
         this.normalStateAppearance = normalStateAppearance;
         this.attackStateAppearance = attackStateAppearance;
         this.hitsPerSecond = hitsPerSecond;
-        this.startLevel = startLevel;
+        this.range = range;
         this.fieldsInMatrix = fieldsInMatrix;
         this.unlockLevel = unlockLevel;
         this.type = type;

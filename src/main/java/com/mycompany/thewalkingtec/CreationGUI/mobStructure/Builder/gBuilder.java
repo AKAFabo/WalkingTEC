@@ -38,7 +38,7 @@ public class gBuilder extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
         fieldsInMatrixTextField = new javax.swing.JTextField();
         jLabel4 = new javax.swing.JLabel();
-        startLevelTextField = new javax.swing.JTextField();
+        rangeTextField = new javax.swing.JTextField();
         jLabel5 = new javax.swing.JLabel();
         unlockLevelTextField = new javax.swing.JTextField();
         jLabel6 = new javax.swing.JLabel();
@@ -62,7 +62,7 @@ public class gBuilder extends javax.swing.JFrame {
 
         jLabel3.setText("Campos en la matriz:");
 
-        jLabel4.setText("Nivel inicial:");
+        jLabel4.setText("Rango:");
 
         jLabel5.setText("Nivel de desbloqueo:");
 
@@ -70,7 +70,7 @@ public class gBuilder extends javax.swing.JFrame {
 
         jLabel7.setText("Tipo de arma:");
 
-        gunTypeTextField.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "De contacto", "Medio alcanca", "Aerea", "Impacto", "Ataque multiple" }));
+        gunTypeTextField.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "De contacto", "Medio alcance", "Aerea", "Impacto", "Ataque multiple" }));
 
         jLabel8.setText("Archivo de imagen (Estado normal):");
 
@@ -117,7 +117,7 @@ public class gBuilder extends javax.swing.JFrame {
                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                                 .addComponent(gunTypeTextField, javax.swing.GroupLayout.Alignment.LEADING, 0, 153, Short.MAX_VALUE)
                                 .addComponent(unlockLevelTextField, javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(startLevelTextField, javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(rangeTextField, javax.swing.GroupLayout.Alignment.LEADING)
                                 .addComponent(fieldsInMatrixTextField, javax.swing.GroupLayout.Alignment.LEADING)
                                 .addComponent(nameTextField, javax.swing.GroupLayout.Alignment.LEADING))
                             .addComponent(jLabel3))
@@ -171,7 +171,7 @@ public class gBuilder extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel4)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(startLevelTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(rangeTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel5)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -204,13 +204,13 @@ public class gBuilder extends javax.swing.JFrame {
         String normalStateFile = normalStateTextField.getText();
         String attackStateFile = attackStateTextField.getText();
         String type = (String) gunTypeTextField.getSelectedItem();
-        String startLevel = startLevelTextField.getText();
+        String range = rangeTextField.getText();
         String unlockLevel = unlockLevelTextField.getText();
         String HPS = HPSTextField.getText();
         String fieldsInMatrix = fieldsInMatrixTextField.getText();
         String health = healthTextField.getText();
         
-        String txtFilePath = "src/main/java/com/mycompany/thewalkingtec/mobFiles/Guns/" + name + ".txt";
+        String txtFilePath = "src/main/java/com/mycompany/thewalkingtec/CreationGUI/mobFiles/Guns/" + name + ".txt";
         
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(txtFilePath))) {
             // Escribir los datos en el archivo de texto, uno por línea
@@ -222,7 +222,7 @@ public class gBuilder extends javax.swing.JFrame {
             writer.newLine();
             writer.write(HPS);
             writer.newLine();
-            writer.write(startLevel);
+            writer.write(range);
             writer.newLine();
             writer.write(unlockLevel);
             writer.newLine();
@@ -323,7 +323,7 @@ public class gBuilder extends javax.swing.JFrame {
     private javax.swing.JTextField nameTextField;
     private javax.swing.JButton normalStateButton;
     private javax.swing.JTextField normalStateTextField;
-    private javax.swing.JTextField startLevelTextField;
+    private javax.swing.JTextField rangeTextField;
     private javax.swing.JTextField unlockLevelTextField;
     // End of variables declaration//GEN-END:variables
 }

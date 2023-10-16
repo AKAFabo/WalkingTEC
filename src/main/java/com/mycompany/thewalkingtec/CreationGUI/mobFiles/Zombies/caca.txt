@@ -1,0 +1,9 @@
+caca
+De contacto
+20
+1
+1
+1
+1
+C:\Users\Xtremetech\Documents\NetBeansProjects\TheWalkingTEC\src\main\resources\image\yellowDot.png
+C:\Users\Xtremetech\Documents\NetBeansProjects\TheWalkingTEC\src\main\resources\image\yellowDot.png

@@ -1,0 +1,9 @@
+MedioPrueba
+Medio alcance
+100
+1
+5
+2
+2
+C:\Users\Xtremetech\Documents\NetBeansProjects\TheWalkingTEC\src\main\resources\image\blueDot.png
+C:\Users\Xtremetech\Documents\NetBeansProjects\TheWalkingTEC\src\main\resources\image\blueDot.png

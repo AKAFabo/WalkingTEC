@@ -36,7 +36,7 @@ public class zBuilder extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         zombieName = new javax.swing.JTextField();
         fieldsInMatrix = new javax.swing.JTextField();
-        zombieLevel = new javax.swing.JTextField();
+        rangeTextField = new javax.swing.JTextField();
         unlockLevel = new javax.swing.JTextField();
         hps = new javax.swing.JTextField();
         zombieType = new javax.swing.JComboBox<>();
@@ -119,7 +119,7 @@ public class zBuilder extends javax.swing.JFrame {
 
         jLabel5.setText("Campos en la matriz:");
 
-        jLabel6.setText("Nivel inicial:");
+        jLabel6.setText("Rango:");
 
         jLabel7.setText("Nivel de aparicion:");
 
@@ -149,7 +149,7 @@ public class zBuilder extends javax.swing.JFrame {
                             .addComponent(jLabel4, javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(zombieName, javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(fieldsInMatrix, javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(zombieLevel, javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(rangeTextField, javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(hps, javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel10, javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel8, javax.swing.GroupLayout.Alignment.LEADING))
@@ -199,7 +199,7 @@ public class zBuilder extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jLabel6)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(zombieLevel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(rangeTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(attackStateTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel7)
@@ -262,14 +262,14 @@ public class zBuilder extends javax.swing.JFrame {
         String normalStateFile = normalStateTextField.getText();
         String attackStateFile = attackStateTextField.getText();
         String type = (String) zombieType.getSelectedItem();
-        String level = zombieLevel.getText();
+        String range = rangeTextField.getText();
         String genericUnlocked = unlockLevel.getText();
         String genericSizeInMatrix = fieldsInMatrix.getText();
         String genericHPS = hps.getText();
         String health = healthTextField.getText();
 
         // Obtener la ruta del archivo de texto
-        String txtFilePath = "src/main/java/com/mycompany/thewalkingtec/mobFiles/Zombies/" + name + ".txt";
+        String txtFilePath = "src/main/java/com/mycompany/thewalkingtec/CreationGUI/mobFiles/Zombies/" + name + ".txt";
 
         // Crear un objeto BufferedWriter para escribir en el archivo de texto
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(txtFilePath))) {
@@ -282,7 +282,7 @@ public class zBuilder extends javax.swing.JFrame {
             writer.newLine();
             writer.write(genericHPS);
             writer.newLine();
-            writer.write(level);
+            writer.write(range);
             writer.newLine();
             writer.write(genericUnlocked);
             writer.newLine();
@@ -374,8 +374,8 @@ public class zBuilder extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel9;
     private javax.swing.JButton normalStateButton;
     private javax.swing.JTextField normalStateTextField;
+    private javax.swing.JTextField rangeTextField;
     private javax.swing.JTextField unlockLevel;
-    private javax.swing.JTextField zombieLevel;
     private javax.swing.JTextField zombieName;
     private javax.swing.JComboBox<String> zombieType;
     // End of variables declaration//GEN-END:variables

@@ -8,21 +8,22 @@ package com.mycompany.thewalkingtec.CreationGUI.mobStructure.Defense;
  *
  * @author Fabo
  */
-public abstract class Defenders {
+public abstract class Defender {
 
     protected String name;
     protected String normalStateAppearance;   
-    protected int startLevel; 
     protected int fieldsInMatrix;
     protected int unlockLevel;
     protected int health;
+    protected int x = 0;
+    protected int y = 0;
 
-    public Defenders(String name, String normalStateAppearance, int startLevel, int fieldsInMatrix,
+    public Defender(String name, String normalStateAppearance, int fieldsInMatrix,
             int unlockLevel, int health) {
 
         this.name = name;
         this.normalStateAppearance = normalStateAppearance;
-        this.startLevel = startLevel;
+ 
         this.fieldsInMatrix = fieldsInMatrix;
         this.unlockLevel = unlockLevel;
         this.health = health;
@@ -58,17 +59,24 @@ public abstract class Defenders {
         this.fieldsInMatrix = fieldsInMatrix;
     }
 
-    public int getStartLevel() {
-        return startLevel;
-    }
-    public void setStartLevel(int defenseLevel) {
-        this.startLevel = defenseLevel;
-    }
-
     public String getNormalStateAppearance() {
         return normalStateAppearance;
     }
     public void setAppearance(String normalStateAppearance) {
         this.normalStateAppearance = normalStateAppearance;
+    }
+    
+    public int getX(){
+        return x;
+    }
+    public void setX(int x){
+        this.x = x;
+    }
+    
+    public int getY(){
+        return y;
+    }
+    public void setY(int y){
+        this.y = y;
     }
 }

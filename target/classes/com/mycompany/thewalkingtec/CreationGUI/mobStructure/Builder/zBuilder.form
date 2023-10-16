@@ -40,7 +40,7 @@
                           <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="zombieName" alignment="0" max="32767" attributes="0"/>
                           <Component id="fieldsInMatrix" alignment="0" max="32767" attributes="0"/>
-                          <Component id="zombieLevel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="rangeTextField" alignment="0" max="32767" attributes="0"/>
                           <Component id="hps" alignment="0" max="32767" attributes="0"/>
                           <Component id="jLabel10" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="jLabel8" alignment="0" min="-2" max="-2" attributes="0"/>
@@ -103,7 +103,7 @@
                   <Group type="102" alignment="0" attributes="0">
                       <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" max="-2" attributes="0"/>
-                      <Component id="zombieLevel" min="-2" max="-2" attributes="0"/>
+                      <Component id="rangeTextField" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <Component id="attackStateTextField" alignment="0" min="-2" max="-2" attributes="0"/>
               </Group>
@@ -152,7 +152,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fieldsInMatrixActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JTextField" name="zombieLevel">
+    <Component class="javax.swing.JTextField" name="rangeTextField">
     </Component>
     <Component class="javax.swing.JTextField" name="unlockLevel">
     </Component>
@@ -231,7 +231,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel6">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Nivel inicial:"/>
+        <Property name="text" type="java.lang.String" value="Rango:"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel7">

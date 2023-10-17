@@ -1,7 +1,7 @@
 
 package com.mycompany.thewalkingtec.CreationGUI.mobStructure.Offense;
 
-public abstract class Zombie {
+public class Zombie {
     
     private int x = 0;
     public int getX(){

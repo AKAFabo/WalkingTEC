@@ -13,14 +13,16 @@ import java.util.ArrayList;
  * @author Fabo
  */
 public class Combat {
+    
     public static void doCombat(ArrayList<Zombie> zombies, ArrayList<Gun> armas) {
+        
         for (Zombie zombie : zombies) {
-            for (Gun arma : armas) {
-                if (rangeCheck(zombie, arma)) {
-                    doAttack(zombie, arma);
+                for (Gun arma : armas) {
+                    if (rangeCheck(zombie, arma)) {
+                        doAttack(zombie, arma);
+                    }
                 }
             }
-        }
     }
 
     private static boolean rangeCheck(Zombie zombie, Gun arma) {

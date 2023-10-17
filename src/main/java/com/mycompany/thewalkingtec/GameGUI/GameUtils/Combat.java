@@ -6,7 +6,9 @@ package com.mycompany.thewalkingtec.GameGUI.GameUtils;
 
 import com.mycompany.thewalkingtec.CreationGUI.mobStructure.Defense.Guns.Gun;
 import com.mycompany.thewalkingtec.CreationGUI.mobStructure.Offense.Zombie;
+import com.mycompany.thewalkingtec.Game;
 import java.util.ArrayList;
+import javax.swing.SwingUtilities;
 
 /**
  *
@@ -14,24 +16,27 @@ import java.util.ArrayList;
  */
 public class Combat {
     
-    public static void doCombat(ArrayList<Zombie> zombies, ArrayList<Gun> armas) {
-        
-        for (Zombie zombie : zombies) {
-                for (Gun arma : armas) {
-                    if (rangeCheck(zombie, arma)) {
-                        doAttack(zombie, arma);
-                    }
-                }
-            }
+    private Game game;
+    private ArrayList<Gun> guns;
+    
+    
+    public Combat(Game game, ArrayList<Gun> guns){
+        this.game = game;
+        this.guns = guns;
     }
+    
+    //public void doCombat(ArrayList<Zombie> zombies, ArrayList<Gun> guns) {
+        
 
-    private static boolean rangeCheck(Zombie zombie, Gun arma) {
+
+
+    private boolean rangeCheck(Zombie zombie, Gun arma) {
         int distanciaX = Math.abs(zombie.getX() - arma.getX());
         int distanciaY = Math.abs(zombie.getY() - arma.getY());
         return distanciaX <= arma.getRange() && distanciaY <= arma.getRange();
     }
 
-    private static void doAttack(Zombie zombie, Gun arma) {
+    private void doAttack(Zombie zombie, Gun arma) {
         int DPS = arma.getHitsPerSecond();
         int zombieHealth = zombie.getHealth();
 
@@ -42,15 +47,21 @@ public class Combat {
         zombieHealth  -= totalDamage;
         zombie.setHealth(zombieHealth );
 
-        if (zombieHealth  <= 0) {
+        //if (zombieHealth  <= 0) {
             // El zombie ha sido derrotado, quita su imagen de la matriz
-            deleteZombie(zombie);
-        }
-    }
+           // game.deleteZombieFromMatrix(zombie);
+        //}
+   // }
+    
 
-    private static void deleteZombie(Zombie zombie) {
-        // Elimina la imagen del zombie de la matriz y de la lista de zombies
-        // Aquí debes implementar la lógica específica para eliminar la imagen y actualizar las estructuras de datos.
-    }
+
+
+    /*public void levelCompleted() {
+        // Aquí puedes implementar la lógica para el final del nivel
+        System.out.println("¡Nivel completado!");
+    }*/
+
+
+}
 }
 

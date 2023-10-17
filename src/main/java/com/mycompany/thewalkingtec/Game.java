@@ -1,7 +1,6 @@
 
 package com.mycompany.thewalkingtec;
 
-import com.mycompany.thewalkingtec.CreationGUI.mobStructure.Builder.mobBuilder;
 import com.mycompany.thewalkingtec.CreationGUI.mobStructure.Defense.Block;
 import com.mycompany.thewalkingtec.CreationGUI.mobStructure.Defense.Guns.AerialGun;
 import com.mycompany.thewalkingtec.CreationGUI.mobStructure.Defense.Guns.ContactGun;
@@ -15,7 +14,6 @@ import com.mycompany.thewalkingtec.CreationGUI.mobStructure.Offense.CrashZombie;
 import com.mycompany.thewalkingtec.CreationGUI.mobStructure.Offense.MidRangeZombie;
 import com.mycompany.thewalkingtec.CreationGUI.mobStructure.Offense.Zombie;
 import com.mycompany.thewalkingtec.GameGUI.GameUtils.Combat;
-import com.mycompany.thewalkingtec.GameGUI.GameUtils.Entity;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseAdapter;
@@ -24,6 +22,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.util.ArrayList;
+import java.util.Random;
 
 public class Game extends JFrame {
     private JLayeredPane matrixPanel = new JLayeredPane();
@@ -33,6 +32,7 @@ public class Game extends JFrame {
     
     private Zombie[][] zombieMatrix = new Zombie[25][25]; //GUARDAR INFO DE COORDENADAS
     private Gun[][] gunMatrix = new Gun[25][25]; //GUARDAR  INFO DE COORDENADAS
+    private JLabel[][] zombieLabels = new JLabel[25][25];
     
     private ArrayList<Gun> guns = new ArrayList<>();
     private ArrayList<Zombie> zombies = new ArrayList<>();
@@ -41,7 +41,9 @@ public class Game extends JFrame {
     private JLabel counterLabel;
     
     private int defenseCounter = 0;
+    private int zombieCounter = 0;
     private int maxGenericCounter = 20;
+    private int actualLevel = 0;
     
     private ArrayList<Gun> availableGuns;
     private ArrayList<Zombie> availableZombies;
@@ -87,31 +89,9 @@ public class Game extends JFrame {
                                 showEntityInformation(x, y);
                                 if (!casillasConImagen[x][y]) {
                                     if (iconoSeleccionado != null && defenseCounter < maxGenericCounter) {
-                                        // Verifica si hay un icono seleccionado y coloca ese icono en la casilla
-                                        boolean canPlace = canPlaceGun(x, y);
-                                        if (canPlace) {
-                                            
-                                            //gun.setX(x);                                          
-                                            ImageIcon icono = new ImageIcon(iconoSeleccionado.getImage());
-                                            JLabel imagenSuperpuesta = new JLabel(icono);
-                                            imagenSuperpuesta.setBounds(matriz[x][y].getBounds());
-                                            matrixPanel.add(imagenSuperpuesta, JLayeredPane.PALETTE_LAYER);
-                                            casillasConImagen[x][y] = true;
-                                            
-                                            defenseCounter++;
-                                            updateCounter();
-                                            
-                                            for (Zombie zombie : availableZombies) {
-                                                if (zombie.getNormalStateAppearance().equals(iconoSeleccionado.getDescription())) {
-                                                    
-                                                    zombieMatrix[x][y] = new Zombie(zombie.getName(), zombie.getNormalStateAppearance(), zombie.getAttackStateAppearance(), zombie.getHitsPerSecond(), zombie.getRange(), zombie.getFieldsInMatrix(), zombie.getUnlockLevel(), zombie.getType(), zombie.getHealth());
-                                                    zombieMatrix[x][y].setX(x);
-                                                    zombieMatrix[x][y].setY(y);
-                                                    zombies.add(new Zombie(zombie.getName(), zombie.getNormalStateAppearance(), zombie.getAttackStateAppearance(), zombie.getHitsPerSecond(), zombie.getRange(), zombie.getFieldsInMatrix(), zombie.getUnlockLevel(), zombie.getType(), zombie.getHealth()));
-                                                    System.out.println(zombieMatrix[x][y].getHealth());
-                                                                                                  
-                                                }
-                                            }
+                                        // Verifica si hay un icono seleccionado y coloca ese icono en la casilla                              
+                                            casillasConImagen[x][y] = true;                                           
+
                                             for (Gun gun : availableGuns) {
                                                 if (gun.getNormalStateAppearance().equals(iconoSeleccionado.getDescription())){
                                                     gunMatrix[x][y] = new Gun(gun.getName(),
@@ -121,10 +101,20 @@ public class Game extends JFrame {
                                                     gunMatrix[x][y].setX(x);
                                                     gunMatrix[x][y].setY(y);
                                                     guns.add(gunMatrix[x][y]);
+                                                    defenseCounter += gunMatrix[x][y].getFieldsInMatrix();
+                                                    updateCounter();
+                                                    
+                                                    ImageIcon gunIcon = new ImageIcon(gun.getNormalStateAppearance());
+                                                    JLabel gunLabel = new JLabel(gunIcon);
+                                                    gunLabel.setBounds(matriz[x][y].getBounds());
+                                                    matrixPanel.add(gunLabel, JLayeredPane.PALETTE_LAYER);
+                                                    zombieLabels[x][y] = gunLabel;
+                                                    
+
                                                 }                                    
                                             }
-                                            System.out.println("Label clickeado en la posición: (" + x + ", " + y + ")");
-                                    }
+                                            //System.out.println("Label clickeado en la posición: (" + x + ", " + y + ")");
+                                    
                                     return;
                                 }
                             }
@@ -145,15 +135,7 @@ public class Game extends JFrame {
             gunButtonPanel.add(gunButton);
         }
         
-        
-        //SOLO PRUEBA: CREAR BOTONES PARA ZOMBIES
-        JPanel zombieButtonPanel = new JPanel();       
-        for (Zombie zombie : availableZombies){
-            JButton zombieButton = new JButton(new ImageIcon(zombie.getNormalStateAppearance()));
-            zombieButton.addActionListener(e -> iconoSeleccionado = (ImageIcon) zombieButton.getIcon());
-            zombieButtonPanel.add(zombieButton);          
-        }
-        
+            
         startGameButton = new JButton("Iniciar nivel");
         startGameButton.addActionListener(e -> startGameLoop());
         
@@ -167,7 +149,6 @@ public class Game extends JFrame {
         buttonPanelContainers.setLayout(new FlowLayout());
              
         buttonPanelContainers.add(gunButtonPanel);
-        buttonPanelContainers.add(zombieButtonPanel);
         buttonPanelContainers.add(startGameButton);
         
         panelContenedor.add(buttonPanelContainers, BorderLayout.SOUTH);
@@ -182,17 +163,45 @@ public class Game extends JFrame {
     }
     
     public void startGameLoop() {
-        Thread gameThread = new Thread(new Runnable() {
+        
+        Combat combat = new Combat(this, guns);
+        Thread gameThread;
+        
+        ArrayList<Zombie> zombiesInLevel = generateZombies(maxGenericCounter);
+        
+        gameThread = new Thread(new Runnable() {
             @Override
             public void run() {
                 while (true) {
-                    Combat.doCombat(zombies, guns); // Llama al método de combate dentro del bucle
-                    // Otro código del bucle del juego                  
-                    checkForNewZombies();
-                    checkForNewGuns();
+                    
+                    for (Zombie zombie : zombiesInLevel) {
+                        
+                        Gun nearestGun = findNearestGun(zombie, guns);
+                        if (nearestGun != null && zombie.checkIsGunNotInRange()) {
+                            moveZombieTowardsGun(zombie, nearestGun);
+                            
+                            if (isZombieInRange(zombie, nearestGun)){
+                                zombie.changeIsGunInRange();
+                                zombie.attack(zombie, nearestGun);
+                            }
+                        }
+                    }
+                    
+                    /*for (Gun gun : guns) {
+                        Zombie nearestZombie = findNearestZombie(gun);
+                        if (nearestZombie != null){
+                            gun.attack(nearestZombie);
+                        }
+                    }*/
+                    
+                   /* if (zombiesInLevel.isEmpty()){
+                        
+                        combat.levelCompleted();
+                        break;
+                    }*/
 
                     try {
-                        Thread.sleep(1000); // Agrega un retraso (en milisegundos) para controlar la velocidad del bucle
+                        Thread.sleep(1000); 
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
@@ -203,29 +212,7 @@ public class Game extends JFrame {
         gameThread.start(); // Inicia el hilo del juego
     }
     
-    private void checkForNewZombies() {
-
-        for (int x = 0; x < 25; x++) {
-            for (int y = 0; y < 25; y++) {
-                if (zombieMatrix[x][y] != null && !zombies.contains(zombieMatrix[x][y])) {
-                    zombies.add(zombieMatrix[x][y]);
-                }
-            }
-        }
-    }
-    
-    private void checkForNewGuns() {
-        // Aquí puedes verificar si hay nuevos zombies en zombieMatrix y agregarlos a la lista de zombies
-        // Por ejemplo:
-        for (int x = 0; x < 25; x++) {
-            for (int y = 0; y < 25; y++) {
-                if (gunMatrix[x][y] != null && !zombies.contains(gunMatrix[x][y])) {
-                    guns.add(gunMatrix[x][y]);
-                }
-            }
-        }
-    }
-    
+   
     
 //GUN ARRAY CREATION STARTS
     public static ArrayList<Gun> loadGunsFromFiles() {
@@ -303,8 +290,7 @@ public class Game extends JFrame {
         }
 
         return zombies;
-    }
-    
+    }  
     private static Zombie createZombieFromFile(File file) {
         try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
             String name = reader.readLine();
@@ -340,36 +326,158 @@ public class Game extends JFrame {
 //END ZOMBIE ARRAY    
     
 //MATRIX LABEL MANAGERS
-    
-    private boolean canPlaceGun(int x, int y) {
-    // Obtener el rango del arma seleccionada
-    int selectedGunRange = getSelectedGunRange();
+      
+   public ArrayList<Zombie> generateZombies(int maxZombies) {
+    ArrayList<Zombie> zombiesInLevel = new ArrayList<>();
 
-    // Verificar si hay un arma dentro del rango de la casilla
-    for (int i = x - selectedGunRange; i <= x + selectedGunRange; i++) {
-        for (int j = y - selectedGunRange; j <= y + selectedGunRange; j++) {
-            if (i >= 0 && i < 25 && j >= 0 && j < 25 && casillasConImagen[i][j]) {
-                // Si hay un arma dentro del rango, no se puede colocar
-                return false;
-            }
-        }
-    }
+    Thread zombieGenerationThread = new Thread(new Runnable() {
+        @Override
+        public void run() {
+            while (zombieCounter < maxGenericCounter && zombiesInLevel.size() < maxZombies) {
+                int border = (int) (Math.random() * 4); // 0, 1, 2 o 3 para elegir un borde al azar
+                int x = 0, y = 0;
 
-    return true;
-}
+                do {
+                    switch (border) {
+                        case 0:
+                            x = (int) (Math.random() * 25);
+                            y = 0;
+                            break;
+                        case 1:
+                            x = 24;
+                            y = (int) (Math.random() * 25);
+                            break;
+                        case 2:
+                            x = (int) (Math.random() * 25);
+                            y = 24;
+                            break;
+                        case 3:
+                            x = 0;
+                            y = (int) (Math.random() * 25);
+                            break;
+                    }
+                } while (zombieMatrix[x][y] != null); // Verifica si la posición ya está ocupada
 
-    private int getSelectedGunRange() {
-        // Obtener el rango del arma seleccionada (en este caso, simplemente obtén el rango de la arma actual)
-        if (iconoSeleccionado != null) {
-            for (Gun gun : availableGuns) {
-                if (gun.getNormalStateAppearance().equals(iconoSeleccionado.getDescription())) {
-                    return gun.getRange();
+                int randomIndex = (int) (Math.random() * availableZombies.size());
+                Zombie randomZombie = availableZombies.get(randomIndex);
+
+                if (randomZombie != null) {
+                    // Crea una etiqueta para el zombie y agrégala a la matriz
+                    ImageIcon zombieIcon = new ImageIcon(randomZombie.getNormalStateAppearance());
+                    JLabel zombieLabel = new JLabel(zombieIcon);
+                    zombieLabel.setBounds(x * 25, y * 25, 25, 25);
+                    matrixPanel.add(zombieLabel, JLayeredPane.PALETTE_LAYER);
+                    zombieLabels[x][y] = zombieLabel;
+                    // Establece la posición del zombie y agrégalo a la lista de zombies en el nivel
+                    Zombie z = new Zombie(randomZombie.getName(), randomZombie.getNormalStateAppearance(),
+                            randomZombie.getAttackStateAppearance(), randomZombie.getHitsPerSecond(), randomZombie.getRange(),
+                            randomZombie.getFieldsInMatrix(), randomZombie.getUnlockLevel(), randomZombie.getType(), randomZombie.getHealth());
+                    z.setX(x);
+                    z.setY(y);
+                    zombiesInLevel.add(z);
+                    zombieMatrix[x][y] = z;
+                    casillasConImagen[x][y] = true;
+                    zombieCounter += z.getFieldsInMatrix();
+                }
+
+                try {
+                    Thread.sleep(700); //Agregar retraso para mas interaccion
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
                 }
             }
         }
-        return 0;
+    });
+
+    zombieGenerationThread.start();
+
+    return zombiesInLevel;
+}
+
+   public Gun findNearestGun(Zombie zombie, ArrayList<Gun> guns) {
+        Gun nearestGun = null;
+        double shortestDistance = Double.MAX_VALUE;
+
+        // Obtiene la posición actual del zombie
+        int zombieX = zombie.getX();
+        int zombieY = zombie.getY();
+
+        for (Gun gun : guns) {
+            // Obtiene la posición actual del arma
+            int gunX = gun.getX();
+            int gunY = gun.getY();
+            // Calcula la distancia entre el zombie y el arma
+            double distance = Math.sqrt(Math.pow(zombieX - gunX, 2) + Math.pow(zombieY - gunY, 2));
+            // Compara si esta arma está más cerca que la anteriormente encontrada
+            if (distance < shortestDistance) {
+                nearestGun = gun;
+                shortestDistance = distance;
+            }
+        }
+        return nearestGun;
     }
-    
+   
+   public void moveZombieTowardsGun(Zombie zombie, Gun nearestGun) {
+        // Obtiene la posición actual del zombie
+        int zombieX = zombie.getX();
+        int zombieY = zombie.getY();
+
+        // Obtiene la posición del arma más cercana
+        int gunX = nearestGun.getX();
+        int gunY = nearestGun.getY();
+
+        // Calcula la dirección del movimiento
+        int deltaX = 0, deltaY = 0;
+
+        if (zombieX < gunX) {
+            deltaX = 1;
+        } else if (zombieX > gunX) {
+            deltaX = -1;
+        }
+
+        if (zombieY < gunY) {
+            deltaY = 1;
+        } else if (zombieY > gunY) {
+            deltaY = -1;
+        }
+
+        // Calcula las coordenadas de destino
+        int destinationX = zombieX + deltaX;
+        int destinationY = zombieY + deltaY;
+
+        // Verifica si la casilla de destino está ocupada por otro zombie
+        if (zombieMatrix[destinationX][destinationY] == null) {
+            // Mueve el zombie en la matriz
+            zombieMatrix[zombieX][zombieY] = null;
+            zombieMatrix[destinationX][destinationY] = zombie;
+
+            // Mueve el label que representa al zombie
+            JLabel zombieLabel = zombieLabels[zombie.getX()][zombie.getY()];
+            zombieLabel.setBounds(destinationX * 25, destinationY * 25, 25, 25);
+            zombieLabels[destinationX][destinationY] = zombieLabel;
+            zombieLabels[zombieX][zombieY] = null;
+
+            // Actualiza las coordenadas del zombie
+            zombie.setX(destinationX);
+            zombie.setY(destinationY);
+        }
+    }
+
+   
+   public boolean isZombieInRange(Zombie zombie, Gun gun) {
+        int zombieX = zombie.getX();
+        int zombieY = zombie.getY();
+        int gunX = gun.getX();
+        int gunY = gun.getY();
+        int range = zombie.getRange();
+
+        // Calcula la distancia entre el zombie y el arma
+        int distance = Math.abs(zombieX - gunX) + Math.abs(zombieY - gunY);
+
+        // Comprueba si la distancia es menor o igual al rango del arma
+        return distance <= range;
+    }
+   
 //MATRIX LABEL MANAGERS ENDS  
     
     public void showEntityInformation(int x, int y) {
@@ -380,22 +488,24 @@ public class Game extends JFrame {
 
             if (zombie != null) {
                 // Se hizo clic en un zombie
+                System.out.println("-------------------------");
                 System.out.println("Información del Zombie:");
                 System.out.println("Nombre: " + zombie.getName());
                 System.out.println("Tipo: " + zombie.getType());
                 System.out.println("Salud: " + zombie.getHealth());
-                System.out.println("Otra información del zombie...");
+                System.out.println("Espacios: " + zombie.getFieldsInMatrix());
+                System.out.println("-------------------------");
             } else if (gun != null) {
-                // Se hizo clic en un arma
+                System.out.println("-------------------------");
                 System.out.println("Información del Arma:");
                 System.out.println("Nombre: " + gun.getName());
                 System.out.println("Tipo: " + gun.getType());
                 System.out.println("Salud: " + gun.getHealth());
-                System.out.println("Otra información del arma...");
+                System.out.println("Espacios: " + gun.getFieldsInMatrix());
+                System.out.println("-------------------------");
             }
         }
     }
-    
     
     public static void main(String[] args) {
       
@@ -408,5 +518,4 @@ public class Game extends JFrame {
             }
         });
     }
-
 }

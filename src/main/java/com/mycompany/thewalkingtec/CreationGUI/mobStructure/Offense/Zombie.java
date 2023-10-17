@@ -1,6 +1,8 @@
 
 package com.mycompany.thewalkingtec.CreationGUI.mobStructure.Offense;
 
+import com.mycompany.thewalkingtec.CreationGUI.mobStructure.Defense.Guns.Gun;
+
 public class Zombie {
     
     private int x = 0;
@@ -83,7 +85,7 @@ public class Zombie {
         this.type = type;
     }
     
-    public int health;
+    private int health;
     public int getHealth(){
         return health;
     }
@@ -91,8 +93,15 @@ public class Zombie {
         this.health = health;
     }
     
-    public Zombie(String name, String normalStateAppearance, String attackStateAppearance, int hitsPerSecond, int range, int fieldsInMatrix,
-            int unlockLevel, String type, int health) {
+    private boolean isGunNotInRange = true;
+    public boolean checkIsGunNotInRange(){
+        return isGunNotInRange;
+    }
+    public void changeIsGunInRange(){
+        this.isGunNotInRange = !this.isGunNotInRange;
+    }
+    
+    public Zombie(String name, String normalStateAppearance, String attackStateAppearance, int hitsPerSecond, int range, int fieldsInMatrix, int unlockLevel, String type, int health) {
         this.name = name;
         this.normalStateAppearance = normalStateAppearance;
         this.attackStateAppearance = attackStateAppearance;
@@ -102,6 +111,34 @@ public class Zombie {
         this.unlockLevel = unlockLevel;
         this.type = type;
         this.health = health;
+    }
+    
+    public void attack(Zombie z, Gun g){
+          
+        Thread attackThread = new Thread(new Runnable() {
+            @Override
+            public void run(){        
+                while (z.getHealth() > 0) {
+                    g.takeDamage(1); //CADA GOLPE EQUIVALE A 1 DE DAÑO
+
+                    try {
+                        Thread.sleep(1000/z.getHitsPerSecond());
+                    }   catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+
+                }
+            }      
+        });
+        
+        attackThread.start();
+     }
+    
+    public void takeDamage(int damage){
+        this.health -= damage;
+        if (this.health <= 0){
+            this.health = 0;
+        }
     }
 }
 

@@ -2,6 +2,7 @@
 package com.mycompany.thewalkingtec.CreationGUI.mobStructure.Defense.Guns;
 
 import com.mycompany.thewalkingtec.CreationGUI.mobStructure.Defense.Defender;
+import com.mycompany.thewalkingtec.CreationGUI.mobStructure.Offense.Zombie;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 
@@ -54,4 +55,26 @@ public class Gun extends Defender{
         button.setToolTipText(getName()); // Establecer el nombre del arma como tooltip
         return button;
     }
+    
+    public void attack(Zombie z){
+        while (this.getHealth() > 0) {
+            z.takeDamage(1); //CADA GOLPE EQUIVALE A 1 DE DAÑO
+            
+            try {
+                Thread.sleep(1000/this.getHitsPerSecond());
+            }   catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+                    
+        }
+    }
+    
+    public void takeDamage(int damage){
+        this.health -= damage;
+        if (this.health <= 0){
+            this.health = 0;
+        }
+    }
+    
+    
 }

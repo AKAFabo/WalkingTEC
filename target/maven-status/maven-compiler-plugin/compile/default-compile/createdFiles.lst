@@ -5,6 +5,7 @@ com\mycompany\thewalkingtec\Game.class
 com\mycompany\thewalkingtec\CreationGUI\mobStructure\Builder\zBuilder$4.class
 com\mycompany\thewalkingtec\CreationGUI\mobStructure\Defense\Guns\Gun.class
 com\mycompany\thewalkingtec\CreationGUI\mobStructure\Defense\Guns\MidRangeGun.class
+com\mycompany\thewalkingtec\Game$4.class
 com\mycompany\thewalkingtec\CreationGUI\mobStructure\Builder\zBuilder$8.class
 com\mycompany\thewalkingtec\CreationGUI\mobStructure\Offense\CrashZombie.class
 com\mycompany\thewalkingtec\CreationGUI\mobStructure\Offense\Zombie.class
@@ -16,6 +17,7 @@ com\mycompany\thewalkingtec\CreationGUI\mobStructure\Builder\gBuilder$2.class
 com\mycompany\thewalkingtec\CreationGUI\mobStructure\Builder\zBuilder.class
 com\mycompany\thewalkingtec\Game$1.class
 com\mycompany\thewalkingtec\CreationGUI\mobStructure\Builder\zBuilder$5.class
+com\mycompany\thewalkingtec\CreationGUI\mobStructure\Offense\Zombie$1.class
 com\mycompany\thewalkingtec\CreationGUI\mobStructure\Offense\ContactZombie.class
 com\mycompany\thewalkingtec\CreationGUI\mobStructure\Defense\Guns\AerialGun.class
 com\mycompany\thewalkingtec\CreationGUI\mobStructure\Builder\bBuilder$2.class

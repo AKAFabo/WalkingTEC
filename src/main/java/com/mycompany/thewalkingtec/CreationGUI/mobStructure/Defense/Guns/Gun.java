@@ -3,15 +3,36 @@ package com.mycompany.thewalkingtec.CreationGUI.mobStructure.Defense.Guns;
 
 import com.mycompany.thewalkingtec.CreationGUI.mobStructure.Defense.Defender;
 import com.mycompany.thewalkingtec.CreationGUI.mobStructure.Offense.Zombie;
+import com.mycompany.thewalkingtec.Game;
+import java.util.ArrayList;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 
 public class Gun extends Defender{
-
+    
     private String type;
     private int range;
     private int hitsPerSecond;
     private String attackStateAppearance;
+    private boolean isAttacking = false;
+    private String scaledAppearance = "";
+    private boolean isAlive = true;
+
+    public boolean isIsAlive() {
+        return isAlive;
+    }
+
+    public void setIsAlive(boolean isAlive) {
+        this.isAlive = isAlive;
+    }
+
+    public String getScaledAppearance() {
+        return scaledAppearance;
+    }
+
+    public void setScaledAppearance(String scaledAppearance) {
+        this.scaledAppearance = scaledAppearance;
+    }
     
     public int getHitsPerSecond() {
         return hitsPerSecond;
@@ -41,6 +62,15 @@ public class Gun extends Defender{
         return attackStateAppearance;
     }
     
+    public boolean checkIsAttacking(){
+        return isAttacking;
+    }
+    public void setAttackState(boolean b){
+        this.isAttacking = b;
+    }
+    
+    
+    
     public Gun(String name, String normalStateAppearance, String attackStateAppearance, int fieldsInMatrix,
             int unlockLevel, int health, String type, int range, int hitsPerSecond) {
         super(name, normalStateAppearance, fieldsInMatrix, unlockLevel, health);
@@ -56,25 +86,52 @@ public class Gun extends Defender{
         return button;
     }
     
-    public void attack(Zombie z){
-        while (this.getHealth() > 0) {
-            z.takeDamage(1); //CADA GOLPE EQUIVALE A 1 DE DAÑO
-            
-            try {
-                Thread.sleep(1000/this.getHitsPerSecond());
-            }   catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+    public void attack(Gun g, Zombie z, Game game, ArrayList<Zombie> zombiesInLevel){  
+
+        Thread attackThread = new Thread(new Runnable(){
+            @Override
+            public void run(){
+                while (z.isIsAlive()) {
+                    z.takeDamage(1); //CADA GOLPE EQUIVALE A 1 DE DAÑO
                     
-        }
+                    if (z.getHealth() <= 0){
+                        z.setIsAlive(false);
+                    }
+
+                    try {
+                         Thread.sleep(1000/g.getHitsPerSecond());
+                    }   catch (InterruptedException e) {
+                        e.printStackTrace();
+                     }                 
+                }
+                game.deleteZombieFromMatrix(z, g, zombiesInLevel);
+                
+            Zombie newTarget = game.findNearestZombie(g, zombiesInLevel);
+
+            if (newTarget != null){
+                g.attack(g, newTarget, game, zombiesInLevel);
+            } else{
+                try {
+                    Thread.sleep(3000);
+                }   catch (InterruptedException e){
+                    e.printStackTrace();
+                }
+            }
+                
+                
+            }
+
+         });    
+        attackThread.start();
     }
     
     public void takeDamage(int damage){
         this.health -= damage;
-        if (this.health <= 0){
-            this.health = 0;
-        }
     }
     
-    
+    public void upgrade(int value){
+        this.health += (int) (value*this.getHealth())/100;
+        this.hitsPerSecond += (int) (value*this.getHitsPerSecond())/100;
+    }
 }
+

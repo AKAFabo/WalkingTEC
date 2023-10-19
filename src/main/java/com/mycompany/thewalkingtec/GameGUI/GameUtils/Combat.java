@@ -8,6 +8,7 @@ import com.mycompany.thewalkingtec.CreationGUI.mobStructure.Defense.Guns.Gun;
 import com.mycompany.thewalkingtec.CreationGUI.mobStructure.Offense.Zombie;
 import com.mycompany.thewalkingtec.Game;
 import java.util.ArrayList;
+import javax.swing.JOptionPane;
 import javax.swing.SwingUtilities;
 
 /**
@@ -24,44 +25,12 @@ public class Combat {
         this.game = game;
         this.guns = guns;
     }
-    
-    //public void doCombat(ArrayList<Zombie> zombies, ArrayList<Gun> guns) {
-        
 
+    public void levelCompleted() {
 
-
-    private boolean rangeCheck(Zombie zombie, Gun arma) {
-        int distanciaX = Math.abs(zombie.getX() - arma.getX());
-        int distanciaY = Math.abs(zombie.getY() - arma.getY());
-        return distanciaX <= arma.getRange() && distanciaY <= arma.getRange();
+        JOptionPane.showMessageDialog(null, "Nivel terminado con éxito", "The Walking TEC", JOptionPane.INFORMATION_MESSAGE);
     }
 
-    private void doAttack(Zombie zombie, Gun arma) {
-        int DPS = arma.getHitsPerSecond();
-        int zombieHealth = zombie.getHealth();
-
-        // Calcula el daño total infligido por el arma al zombie
-        int totalDamage = DPS;
-
-        // Actualiza la vida del zombie
-        zombieHealth  -= totalDamage;
-        zombie.setHealth(zombieHealth );
-
-        //if (zombieHealth  <= 0) {
-            // El zombie ha sido derrotado, quita su imagen de la matriz
-           // game.deleteZombieFromMatrix(zombie);
-        //}
-   // }
-    
-
-
-
-    /*public void levelCompleted() {
-        // Aquí puedes implementar la lógica para el final del nivel
-        System.out.println("¡Nivel completado!");
-    }*/
-
-
 }
-}
+
 

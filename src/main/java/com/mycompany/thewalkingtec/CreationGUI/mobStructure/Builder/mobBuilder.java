@@ -65,7 +65,6 @@ public class mobBuilder extends javax.swing.JFrame {
 
         popupMenu2.setLabel("popupMenu2");
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setForeground(java.awt.Color.gray);
         setName("Creación de objetos"); // NOI18N
 

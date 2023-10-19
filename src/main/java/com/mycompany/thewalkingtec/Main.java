@@ -1,5 +1,6 @@
 package com.mycompany.thewalkingtec;
 
+import com.mycompany.thewalkingtec.CreationGUI.SelectionMenu;
 import com.mycompany.thewalkingtec.CreationGUI.mobStructure.Defense.Guns.Gun;
 import com.mycompany.thewalkingtec.CreationGUI.mobStructure.Builder.mobBuilder;
 
@@ -14,8 +15,8 @@ public class Main {
         //mobBuilder mV = new mobBuilder();
         //mV.setVisible(true);
         
-        Game game = new Game();
-        game.setVisible(true);
+        SelectionMenu sM = new SelectionMenu();
+        sM.setVisible(true);
         
 
     }

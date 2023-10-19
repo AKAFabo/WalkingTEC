@@ -2,6 +2,8 @@
 package com.mycompany.thewalkingtec.CreationGUI.mobStructure.Offense;
 
 import com.mycompany.thewalkingtec.CreationGUI.mobStructure.Defense.Guns.Gun;
+import com.mycompany.thewalkingtec.Game;
+import java.util.ArrayList;
 
 public class Zombie {
     
@@ -97,8 +99,18 @@ public class Zombie {
     public boolean checkIsGunNotInRange(){
         return isGunNotInRange;
     }
-    public void changeIsGunInRange(){
-        this.isGunNotInRange = !this.isGunNotInRange;
+    public void setIsGunNotInRange(boolean b){
+        this.isGunNotInRange = b;
+    }
+    
+    private boolean isAlive = true;
+
+    public boolean isIsAlive() {
+        return isAlive;
+    }
+
+    public void setIsAlive(boolean isAlive) {
+        this.isAlive = isAlive;
     }
     
     public Zombie(String name, String normalStateAppearance, String attackStateAppearance, int hitsPerSecond, int range, int fieldsInMatrix, int unlockLevel, String type, int health) {
@@ -113,13 +125,15 @@ public class Zombie {
         this.health = health;
     }
     
-    public void attack(Zombie z, Gun g){
-          
+    public void attack(Zombie z, Gun g, Game game, ArrayList<Gun> guns){    
         Thread attackThread = new Thread(new Runnable() {
             @Override
             public void run(){        
-                while (z.getHealth() > 0) {
+                while (g.isIsAlive()) {
                     g.takeDamage(1); //CADA GOLPE EQUIVALE A 1 DE DAÑO
+                    if (g.getHealth() <= 0){
+                        g.setIsAlive(false);
+                    }
 
                     try {
                         Thread.sleep(1000/z.getHitsPerSecond());
@@ -128,6 +142,26 @@ public class Zombie {
                     }
 
                 }
+                game.deleteGunFromMatrix(g, z, guns);
+                
+            Gun newTarget = game.findNearestGun(z, guns);
+            
+            if (newTarget != null){
+                if (newTarget != null && z.checkIsGunNotInRange()) {
+                            game.moveZombieTowardsGun(z, newTarget);
+                            
+                            if (game.isZombieInRange(z, newTarget)){
+                                z.setIsGunNotInRange(false);
+                                z.attack(z, newTarget, game, guns);
+                            }
+                        }
+            } else {
+                try {
+                    Thread.sleep(3000);
+                } catch (InterruptedException e){
+                    e.printStackTrace();
+                }
+            }
             }      
         });
         
@@ -136,9 +170,11 @@ public class Zombie {
     
     public void takeDamage(int damage){
         this.health -= damage;
-        if (this.health <= 0){
-            this.health = 0;
-        }
+    }
+    
+    public void upgrade(int value){
+        this.health += (int) (value*this.getHealth())/100;
+        this.hitsPerSecond += (int) (value*this.getHitsPerSecond())/100;
     }
 }
 

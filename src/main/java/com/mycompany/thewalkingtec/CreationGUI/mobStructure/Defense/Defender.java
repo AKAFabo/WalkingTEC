@@ -8,15 +8,15 @@ package com.mycompany.thewalkingtec.CreationGUI.mobStructure.Defense;
  *
  * @author Fabo
  */
-public abstract class Defender {
+public class Defender {
 
-    protected String name;
-    protected String normalStateAppearance;   
-    protected int fieldsInMatrix;
-    protected int unlockLevel;
+    private String name;
+    private String normalStateAppearance;   
+    private int fieldsInMatrix;
+    private int unlockLevel;
     protected int health;
-    protected int x = 0;
-    protected int y = 0;
+    private int x = 0;
+    private int y = 0;
 
     public Defender(String name, String normalStateAppearance, int fieldsInMatrix,
             int unlockLevel, int health) {

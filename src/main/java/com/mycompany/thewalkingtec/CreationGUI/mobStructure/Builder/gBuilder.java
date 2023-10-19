@@ -9,6 +9,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import javax.swing.JFileChooser;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -231,6 +232,8 @@ public class gBuilder extends javax.swing.JFrame {
             writer.write(normalStateFile);
             writer.newLine();
             writer.write(attackStateFile);
+            
+            JOptionPane.showMessageDialog(this, "Arma creado con éxito", "Éxito", JOptionPane.INFORMATION_MESSAGE);
         } catch (IOException e) {
             e.printStackTrace();
         }

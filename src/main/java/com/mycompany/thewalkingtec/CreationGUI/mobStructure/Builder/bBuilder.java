@@ -9,6 +9,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import javax.swing.JFileChooser;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -186,6 +187,8 @@ public class bBuilder extends javax.swing.JFrame {
             writer.newLine();
             writer.write(fileImage);
             
+            JOptionPane.showMessageDialog(this, "Bloque creado con éxito", "Éxito", JOptionPane.INFORMATION_MESSAGE);
+         
         }   catch (IOException e) {
             e.printStackTrace();
         }
@@ -193,7 +196,9 @@ public class bBuilder extends javax.swing.JFrame {
         } catch (NumberFormatException e) {
         // Manejar excepciones si los valores no son números válidos
         e.printStackTrace();      
-    }              
+    }          
+        
+      
     }//GEN-LAST:event_createButtonActionPerformed
 
     /**

@@ -9,6 +9,7 @@ import java.io.File;
 import javax.swing.JFileChooser;
 import java.io.FileWriter;
 import java.io.IOException;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -291,6 +292,8 @@ public class zBuilder extends javax.swing.JFrame {
             writer.write(normalStateFile);
             writer.newLine();
             writer.write(attackStateFile);
+            
+            JOptionPane.showMessageDialog(this, "Zombie creado con éxito", "Éxito", JOptionPane.INFORMATION_MESSAGE);
         } catch (IOException e) {
             e.printStackTrace();
         }

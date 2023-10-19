@@ -39,24 +39,28 @@ public class Game extends JFrame {
     
     private ImageIcon iconoSeleccionado = null; // Almacena el icono seleccionado
     private JLabel counterLabel;
+    private JLabel levelInGame;
+    private JPanel infoPanel;
+    private JTextArea infoTextArea;
     
     private int defenseCounter = 0;
     private int zombieCounter = 0;
     private int maxGenericCounter = 20;
-    private int actualLevel = 0;
+    private int actualLevel = 1;
     
     private ArrayList<Gun> availableGuns;
     private ArrayList<Zombie> availableZombies;
     private ArrayList<Block> availableBlocks;
 
     public Game() {
+
         
         //Builds Matrix and adds listener to each i,j position
         availableGuns = loadGunsFromFiles();
         availableZombies = loadZombiesFromFiles();
         
         setTitle("The Walking TEC");
-        setSize(642, 800);
+        setSize(642, 900);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         JPanel panelContenedor = new JPanel(new BorderLayout());
@@ -77,6 +81,7 @@ public class Game extends JFrame {
                 matriz[i][j].setBounds(i * 25, j * 25, 25, 25); // Posición y tamaño del JLabel
                 matrixPanel .add(matriz[i][j], JLayeredPane.DEFAULT_LAYER);
                 casillasConImagen[i][j] = false;
+                zombieLabels[i][j] = null;
 
                 matriz[i][j].addMouseListener(new MouseAdapter() {
                     
@@ -93,7 +98,7 @@ public class Game extends JFrame {
                                             casillasConImagen[x][y] = true;                                           
 
                                             for (Gun gun : availableGuns) {
-                                                if (gun.getNormalStateAppearance().equals(iconoSeleccionado.getDescription())){
+                                               if (gun.getNormalStateAppearance().equals(iconoSeleccionado.getDescription()) && gun.getUnlockLevel() <= actualLevel){
                                                     gunMatrix[x][y] = new Gun(gun.getName(),
                                                             gun.getNormalStateAppearance(), gun.getAttackStateAppearance(), 
                                                             gun.getFieldsInMatrix(), gun.getUnlockLevel(), 
@@ -102,19 +107,26 @@ public class Game extends JFrame {
                                                     gunMatrix[x][y].setY(y);
                                                     guns.add(gunMatrix[x][y]);
                                                     defenseCounter += gunMatrix[x][y].getFieldsInMatrix();
-                                                    updateCounter();
+                                                    updateGameLabels();
                                                     
-                                                    ImageIcon gunIcon = new ImageIcon(gun.getNormalStateAppearance());
-                                                    JLabel gunLabel = new JLabel(gunIcon);
+                                                     String imagePath = gun.getNormalStateAppearance(); // Ruta de la imagen
+                                                    ImageIcon originalIcon = new ImageIcon(imagePath); // Crear un ImageIcon a partir de la ruta
+
+                                                    // Reescalar la imagen al tamaño deseado (25x25)
+                                                    Image originalImage = originalIcon.getImage();
+                                                    Image scaledImage = originalImage.getScaledInstance(23, 23, Image.SCALE_SMOOTH);
+
+                                                    // Crear un nuevo ImageIcon con la imagen reescalada
+                                                    ImageIcon scaledIcon = new ImageIcon(scaledImage);
+                   
+                                                    JLabel gunLabel = new JLabel(scaledIcon);
                                                     gunLabel.setBounds(matriz[x][y].getBounds());
                                                     matrixPanel.add(gunLabel, JLayeredPane.PALETTE_LAYER);
                                                     zombieLabels[x][y] = gunLabel;
                                                     
 
-                                                }                                    
-                                            }
-                                            //System.out.println("Label clickeado en la posición: (" + x + ", " + y + ")");
-                                    
+                                                }                                   
+                                            }                                
                                     return;
                                 }
                             }
@@ -127,14 +139,24 @@ public class Game extends JFrame {
         }
         panelContenedor.add(matrixPanel , BorderLayout.CENTER);
             
-        // Crear botones para las armas
-        JPanel gunButtonPanel = new JPanel();       
+        JPanel gunButtonPanel = new JPanel();
+
         for (Gun gun : availableGuns) {
-            JButton gunButton = new JButton(new ImageIcon(gun.getNormalStateAppearance()));
-            gunButton.addActionListener(e -> iconoSeleccionado = (ImageIcon) gunButton.getIcon());
+            String imagePath = gun.getNormalStateAppearance(); // Ruta de la imagen
+            ImageIcon originalIcon = new ImageIcon(imagePath); // Crear un ImageIcon a partir de la ruta
+
+            // Reescalar la imagen al tamaño deseado (25x25)
+            Image originalImage = originalIcon.getImage();
+            Image scaledImage = originalImage.getScaledInstance(25, 25, Image.SCALE_SMOOTH);
+
+            // Crear un nuevo ImageIcon con la imagen reescalada
+            ImageIcon scaledIcon = new ImageIcon(scaledImage);
+
+            JButton gunButton = new JButton(scaledIcon);
+            gunButton.addActionListener(e -> iconoSeleccionado = originalIcon);
             gunButtonPanel.add(gunButton);
+            gun.setScaledAppearance(scaledIcon.getDescription());
         }
-        
             
         startGameButton = new JButton("Iniciar nivel");
         startGameButton.addActionListener(e -> startGameLoop());
@@ -143,6 +165,9 @@ public class Game extends JFrame {
         counterLabel = new JLabel(defenseCounter + "/" + maxGenericCounter);
         gunButtonPanel.add(counterLabel);
         
+        //Agregar Nivel actual
+        levelInGame = new JLabel("Nivel: " + actualLevel);
+        
         //AGREGAR BOTONES
         
         JPanel buttonPanelContainers = new JPanel();
@@ -150,6 +175,18 @@ public class Game extends JFrame {
              
         buttonPanelContainers.add(gunButtonPanel);
         buttonPanelContainers.add(startGameButton);
+        buttonPanelContainers.add(levelInGame);
+        
+        infoPanel = new JPanel();
+        infoPanel.setBounds(650, 0, 200, 800); // Ajusta la posición y tamaño según tus necesidades
+        infoPanel.setLayout(new BorderLayout());
+
+        infoTextArea = new JTextArea();
+        infoTextArea.setEditable(false);
+        infoPanel.add(infoTextArea, BorderLayout.CENTER);
+
+        // Agregar el panel de información a la ventana
+        buttonPanelContainers.add(infoPanel);
         
         panelContenedor.add(buttonPanelContainers, BorderLayout.SOUTH);
         
@@ -158,22 +195,23 @@ public class Game extends JFrame {
         //startGameLoop();
     }
     
-    public void updateCounter(){
+    public void updateGameLabels(){
         counterLabel.setText(defenseCounter + "/" + maxGenericCounter);
+        levelInGame.setText("Nivel: " + actualLevel);
     }
     
     public void startGameLoop() {
-        
-        Combat combat = new Combat(this, guns);
         Thread gameThread;
+        Game currentGame = this;
+        Combat combat = new Combat(currentGame, guns);
         
-        ArrayList<Zombie> zombiesInLevel = generateZombies(maxGenericCounter);
-        
-        gameThread = new Thread(new Runnable() {
+        ArrayList<Zombie> zombiesInLevel = generateZombies(maxGenericCounter); 
+
+        gameThread = new Thread(new Runnable() {     
             @Override
             public void run() {
-                while (true) {
-                    
+                while (!zombiesInLevel.isEmpty()) {
+
                     for (Zombie zombie : zombiesInLevel) {
                         
                         Gun nearestGun = findNearestGun(zombie, guns);
@@ -181,24 +219,20 @@ public class Game extends JFrame {
                             moveZombieTowardsGun(zombie, nearestGun);
                             
                             if (isZombieInRange(zombie, nearestGun)){
-                                zombie.changeIsGunInRange();
-                                zombie.attack(zombie, nearestGun);
+                                zombie.setIsGunNotInRange(false);
+                                zombie.attack(zombie, nearestGun, currentGame, guns);
                             }
                         }
                     }
                     
-                    /*for (Gun gun : guns) {
-                        Zombie nearestZombie = findNearestZombie(gun);
-                        if (nearestZombie != null){
-                            gun.attack(nearestZombie);
+                    for (Gun gun : guns) {
+                        for (Zombie zombie : zombiesInLevel) {
+                            if (isZombieInRange(zombie, gun) && !gun.checkIsAttacking()){
+                                gun.setAttackState(true);
+                                gun.attack(gun, zombie, currentGame, zombiesInLevel);
+                            }
                         }
-                    }*/
-                    
-                   /* if (zombiesInLevel.isEmpty()){
-                        
-                        combat.levelCompleted();
-                        break;
-                    }*/
+                    }
 
                     try {
                         Thread.sleep(1000); 
@@ -206,13 +240,151 @@ public class Game extends JFrame {
                         e.printStackTrace();
                     }
                 }
+                
+               if (actualLevel == 10) {
+                    JFrame congratulationsFrame = new JFrame("¡Felicidades, ganaste el juego!");
+                    congratulationsFrame.setSize(400, 200);
+                    congratulationsFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+
+                    JPanel congratulationsPanel = new JPanel();
+                    congratulationsPanel.setLayout(new BorderLayout());
+
+                    JLabel congratulationsLabel = new JLabel("¡Felicidades, ganaste el juego!");
+                    congratulationsLabel.setHorizontalAlignment(JLabel.CENTER);
+                    congratulationsPanel.add(congratulationsLabel, BorderLayout.CENTER);
+
+                    JButton exitButton = new JButton("Vencer Juego");
+                    exitButton.addActionListener(e -> {
+                        congratulationsFrame.dispose(); // Cierra el cuadro de diálogo
+                        dispose(); // Cierra la ventana principal
+                    });
+
+                    JButton continueButton = new JButton("Continuar Juego");
+                    continueButton.addActionListener(e -> {
+                        congratulationsFrame.dispose(); // Cierra el cuadro de diálogo
+                        // Coloca aquí la lógica para continuar el juego, si es necesario
+                    });
+
+                    JPanel buttonPanel = new JPanel();
+                    buttonPanel.add(exitButton);
+                    buttonPanel.add(continueButton);
+                    congratulationsPanel.add(buttonPanel, BorderLayout.SOUTH);
+
+                    congratulationsFrame.add(congratulationsPanel);
+                    congratulationsFrame.setLocationRelativeTo(null); // Centra el cuadro de diálogo en la pantalla
+                    congratulationsFrame.setVisible(true);
+                }
+               
+                combat.levelCompleted();
+                actualLevel++;
+                maxGenericCounter += 5;
+                zombieCounter = 0;
+                defenseCounter = 0;
+                upgradeComponents();
+                clearMatrix();
+                
+                
             }
         });
 
         gameThread.start(); // Inicia el hilo del juego
     }
     
-   
+    public void upgradeComponents(){
+        
+        for (Zombie zombie : availableZombies){
+            
+            int randomNumber = (int) (Math.random() * (20 - 5 + 1)+5);           
+            zombie.upgrade(randomNumber);
+        }
+        for (Gun gun : availableGuns){
+            int randomNumber = (int) (Math.random() * (20 - 5 + 1) + 5);
+            gun.upgrade(randomNumber);
+            
+        }
+    }
+    
+    public void clearMatrix() {
+        matrixPanel.removeAll(); // Elimina todos los componentes en el JLayeredPane
+        
+        for (int i = 0; i < 25; i++) {
+            for (int j = 0; j < 25; j++) {
+                gunMatrix[i][j] = null;
+                zombieMatrix[i][j] = null;
+                matriz[i][j] = new JLabel(new ImageIcon("src/main/resources/image/grass.png"));
+                matriz[i][j].setBounds(i * 25, j * 25, 25, 25); // Posición y tamaño del JLabel
+                matrixPanel .add(matriz[i][j], JLayeredPane.DEFAULT_LAYER);
+                casillasConImagen[i][j] = false;
+
+                matriz[i][j].addMouseListener(new MouseAdapter() {
+                    
+                    @Override
+                    public void mouseClicked(MouseEvent e) {
+                    JLabel label = (JLabel) e.getSource();
+                    for (int x = 0; x < 25; x++) {
+                        for (int y = 0; y < 25; y++) {
+                            if (matriz[x][y] == label) {
+                                showEntityInformation(x, y);
+                                if (!casillasConImagen[x][y]) {
+                                    if (iconoSeleccionado != null && defenseCounter < maxGenericCounter) {
+                                        // Verifica si hay un icono seleccionado y coloca ese icono en la casilla                              
+                                            casillasConImagen[x][y] = true;                                           
+
+                                            for (Gun gun : availableGuns) {
+                                               if (gun.getNormalStateAppearance().equals(iconoSeleccionado.getDescription()) && gun.getUnlockLevel() <= actualLevel){
+                                                    gunMatrix[x][y] = new Gun(gun.getName(),
+                                                            gun.getNormalStateAppearance(), gun.getAttackStateAppearance(), 
+                                                            gun.getFieldsInMatrix(), gun.getUnlockLevel(), 
+                                                            gun.getHealth(), gun.getType(), gun.getRange(), gun.getHitsPerSecond());
+                                                    gunMatrix[x][y].setX(x);
+                                                    gunMatrix[x][y].setY(y);
+                                                    guns.add(gunMatrix[x][y]);
+                                                    defenseCounter += gunMatrix[x][y].getFieldsInMatrix();
+                                                    updateGameLabels();
+                                                    
+                                                     String imagePath = gun.getNormalStateAppearance(); // Ruta de la imagen
+                                                    ImageIcon originalIcon = new ImageIcon(imagePath); // Crear un ImageIcon a partir de la ruta
+
+                                                    // Reescalar la imagen al tamaño deseado (25x25)
+                                                    Image originalImage = originalIcon.getImage();
+                                                    Image scaledImage = originalImage.getScaledInstance(23, 23, Image.SCALE_SMOOTH);
+
+                                                    // Crear un nuevo ImageIcon con la imagen reescalada
+                                                    ImageIcon scaledIcon = new ImageIcon(scaledImage);
+                   
+                                                    JLabel gunLabel = new JLabel(scaledIcon);
+                                                    gunLabel.setBounds(matriz[x][y].getBounds());
+                                                    matrixPanel.add(gunLabel, JLayeredPane.PALETTE_LAYER);
+                                                    zombieLabels[x][y] = gunLabel;
+                                                    
+
+                                                }                                   
+                                            }
+                                            System.out.println("Label clickeado en la posición: (" + x + ", " + y + ")");
+                                    
+                                    return;
+                                }
+                            }
+                        }
+                    }
+                    }
+                }
+                });
+            }
+        }
+
+        // Actualiza el contador
+        updateGameLabels();
+
+        // Vuelve a validar el juego si es necesario
+        if (defenseCounter < maxGenericCounter) {
+            startGameButton.setEnabled(true); // Vuelve a habilitar el botón de inicio de juego
+        }
+
+        // Repinta la matriz para que se reflejen los cambios
+        matrixPanel.revalidate();
+        matrixPanel.repaint();
+    }
     
 //GUN ARRAY CREATION STARTS
     public static ArrayList<Gun> loadGunsFromFiles() {
@@ -330,9 +502,6 @@ public class Game extends JFrame {
    public ArrayList<Zombie> generateZombies(int maxZombies) {
     ArrayList<Zombie> zombiesInLevel = new ArrayList<>();
 
-    Thread zombieGenerationThread = new Thread(new Runnable() {
-        @Override
-        public void run() {
             while (zombieCounter < maxGenericCounter && zombiesInLevel.size() < maxZombies) {
                 int border = (int) (Math.random() * 4); // 0, 1, 2 o 3 para elegir un borde al azar
                 int x = 0, y = 0;
@@ -360,10 +529,21 @@ public class Game extends JFrame {
 
                 int randomIndex = (int) (Math.random() * availableZombies.size());
                 Zombie randomZombie = availableZombies.get(randomIndex);
-
-                if (randomZombie != null) {
+                          
+                if (randomZombie != null && randomZombie.getUnlockLevel() <= actualLevel) {
                     // Crea una etiqueta para el zombie y agrégala a la matriz
-                    ImageIcon zombieIcon = new ImageIcon(randomZombie.getNormalStateAppearance());
+                    
+                    String imagePath = randomZombie.getNormalStateAppearance(); // Ruta de la imagen
+                    ImageIcon originalIcon = new ImageIcon(imagePath); // Crear un ImageIcon a partir de la ruta
+
+                    // Reescalar la imagen al tamaño deseado (25x25)
+                    Image originalImage = originalIcon.getImage();
+                    Image scaledImage = originalImage.getScaledInstance(15, 15, Image.SCALE_SMOOTH);
+
+                    // Crear un nuevo ImageIcon con la imagen reescalada
+                    ImageIcon scaledIcon = new ImageIcon(scaledImage);
+                    ImageIcon zombieIcon = scaledIcon;
+                    
                     JLabel zombieLabel = new JLabel(zombieIcon);
                     zombieLabel.setBounds(x * 25, y * 25, 25, 25);
                     matrixPanel.add(zombieLabel, JLayeredPane.PALETTE_LAYER);
@@ -377,20 +557,10 @@ public class Game extends JFrame {
                     zombiesInLevel.add(z);
                     zombieMatrix[x][y] = z;
                     casillasConImagen[x][y] = true;
-                    zombieCounter += z.getFieldsInMatrix();
+                    zombieCounter += randomZombie.getFieldsInMatrix();
                 }
 
-                try {
-                    Thread.sleep(700); //Agregar retraso para mas interaccion
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
             }
-        }
-    });
-
-    zombieGenerationThread.start();
-
     return zombiesInLevel;
 }
 
@@ -416,6 +586,31 @@ public class Game extends JFrame {
         }
         return nearestGun;
     }
+   
+   public Zombie findNearestZombie(Gun gun, ArrayList<Zombie> zombies) {
+        Zombie nearestZombie = null;
+        double shortestDistance = Double.MAX_VALUE;
+
+        int gunX = gun.getX();
+        int gunY = gun.getY();
+        int gunRange = gun.getRange();
+
+        for (Zombie zombie : zombies) {
+            int zombieX = zombie.getX();
+            int zombieY = zombie.getY();
+
+            // Calculate the distance between the gun and the zombie
+            double distance = Math.sqrt(Math.pow(gunX - zombieX, 2) + Math.pow(gunY - zombieY, 2));
+
+            // Check if the zombie is within the range of the gun and closer than the previous nearest zombie
+            if (distance <= gunRange && distance < shortestDistance) {
+                nearestZombie = zombie;
+                shortestDistance = distance;
+            }
+        }
+        return nearestZombie;
+    }
+
    
    public void moveZombieTowardsGun(Zombie zombie, Gun nearestGun) {
         // Obtiene la posición actual del zombie
@@ -449,7 +644,9 @@ public class Game extends JFrame {
         if (zombieMatrix[destinationX][destinationY] == null) {
             // Mueve el zombie en la matriz
             zombieMatrix[zombieX][zombieY] = null;
+            casillasConImagen[zombieX][zombieY] = false;
             zombieMatrix[destinationX][destinationY] = zombie;
+            casillasConImagen[destinationX][destinationY] = true;
 
             // Mueve el label que representa al zombie
             JLabel zombieLabel = zombieLabels[zombie.getX()][zombie.getY()];
@@ -460,10 +657,10 @@ public class Game extends JFrame {
             // Actualiza las coordenadas del zombie
             zombie.setX(destinationX);
             zombie.setY(destinationY);
+
         }
     }
 
-   
    public boolean isZombieInRange(Zombie zombie, Gun gun) {
         int zombieX = zombie.getX();
         int zombieY = zombie.getY();
@@ -478,6 +675,59 @@ public class Game extends JFrame {
         return distance <= range;
     }
    
+   public boolean isGunInRange(Zombie zombie, Gun gun) {
+        int zombieX = zombie.getX();
+        int zombieY = zombie.getY();
+        int gunX = gun.getX();
+        int gunY = gun.getY();
+        int range = gun.getRange();
+
+        // Calcula la distancia entre el zombie y el arma
+        int distance = Math.abs(zombieX - gunX) + Math.abs(zombieY - gunY);
+
+        // Comprueba si la distancia es menor o igual al rango del arma
+        return distance <= range;
+    }
+    
+   public void deleteZombieFromMatrix(Zombie zombie, Gun gun, ArrayList<Zombie> zombiesInLevel) {
+        int x = zombie.getX();
+        int y = zombie.getY();
+        gun.setAttackState(false);
+
+        if (zombieLabels[x][y] != null) {
+            matrixPanel.remove(zombieLabels[x][y]);
+            zombieLabels[x][y] = null;
+            casillasConImagen[x][y] = false;
+
+            matrixPanel.revalidate();
+            matrixPanel.repaint();   
+            
+        }
+        zombiesInLevel.remove(zombie);
+        
+    }
+   
+   public void deleteGunFromMatrix(Gun g, Zombie z, ArrayList<Gun> guns) {
+        int x = g.getX();
+        int y = g.getY();
+        z.setIsGunNotInRange(true);
+
+        if (gunMatrix[x][y] != null) {
+            gunMatrix[x][y] = null;
+            casillasConImagen[x][y] = false;
+
+            JLabel gunLabel = zombieLabels[x][y];
+            if (gunLabel != null) {
+                // Remove the gun's JLabel from the matrixPanel
+                matrixPanel.remove(gunLabel);
+                matrixPanel.revalidate();
+                matrixPanel.repaint(); 
+            }
+        }
+        guns.remove(g);
+    }
+
+   
 //MATRIX LABEL MANAGERS ENDS  
     
     public void showEntityInformation(int x, int y) {
@@ -488,22 +738,27 @@ public class Game extends JFrame {
 
             if (zombie != null) {
                 // Se hizo clic en un zombie
-                System.out.println("-------------------------");
-                System.out.println("Información del Zombie:");
-                System.out.println("Nombre: " + zombie.getName());
-                System.out.println("Tipo: " + zombie.getType());
-                System.out.println("Salud: " + zombie.getHealth());
-                System.out.println("Espacios: " + zombie.getFieldsInMatrix());
-                System.out.println("-------------------------");
+                infoTextArea.setText("-------------------------\n");
+                infoTextArea.append("Información del Zombie:\n");
+                infoTextArea.append("Nombre: " + zombie.getName() + "\n");
+                infoTextArea.append("Tipo: " + zombie.getType() + "\n");
+                infoTextArea.append("Salud: " + zombie.getHealth() + "\n");
+                infoTextArea.append("GPS: " + zombie.getHitsPerSecond() + "\n");
+                infoTextArea.append("Espacios: " + zombie.getFieldsInMatrix() + "\n");
+                infoTextArea.append("-------------------------");
             } else if (gun != null) {
-                System.out.println("-------------------------");
-                System.out.println("Información del Arma:");
-                System.out.println("Nombre: " + gun.getName());
-                System.out.println("Tipo: " + gun.getType());
-                System.out.println("Salud: " + gun.getHealth());
-                System.out.println("Espacios: " + gun.getFieldsInMatrix());
-                System.out.println("-------------------------");
+                infoTextArea.setText("-------------------------\n");
+                infoTextArea.append("Información del Arma:\n");
+                infoTextArea.append("Nombre: " + gun.getName() + "\n");
+                infoTextArea.append("Tipo: " + gun.getType() + "\n");
+                infoTextArea.append("Salud: " + gun.getHealth() + "\n");
+                infoTextArea.append("GPS: " + gun.getHitsPerSecond() + "\n");
+                infoTextArea.append("Espacios: " + gun.getFieldsInMatrix() + "\n");
+                infoTextArea.append("-------------------------");
             }
+        } else {
+            // Si la casilla está vacía, borra la información en el área de texto
+            infoTextArea.setText("");
         }
     }
     

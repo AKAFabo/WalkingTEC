@@ -22,7 +22,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.util.ArrayList;
-import java.util.Random;
+
 
 public class Game extends JFrame {
     private JLayeredPane matrixPanel = new JLayeredPane();
@@ -74,69 +74,9 @@ public class Game extends JFrame {
         // Agregar el panel del marco al panel principal
         //panelContenedor.add(panelMarco, BorderLayout.CENTER);
         matrixPanel .setLayout(null);
+        
+        clearMatrix();
 
-        for (int i = 0; i < 25; i++) {
-            for (int j = 0; j < 25; j++) {
-                matriz[i][j] = new JLabel(new ImageIcon("src/main/resources/image/grass.png"));
-                matriz[i][j].setBounds(i * 25, j * 25, 25, 25); // Posición y tamaño del JLabel
-                matrixPanel .add(matriz[i][j], JLayeredPane.DEFAULT_LAYER);
-                casillasConImagen[i][j] = false;
-                zombieLabels[i][j] = null;
-
-                matriz[i][j].addMouseListener(new MouseAdapter() {
-                    
-                    @Override
-                    public void mouseClicked(MouseEvent e) {
-                    JLabel label = (JLabel) e.getSource();
-                    for (int x = 0; x < 25; x++) {
-                        for (int y = 0; y < 25; y++) {
-                            if (matriz[x][y] == label) {
-                                showEntityInformation(x, y);
-                                if (!casillasConImagen[x][y]) {
-                                    if (iconoSeleccionado != null && defenseCounter < maxGenericCounter) {
-                                        // Verifica si hay un icono seleccionado y coloca ese icono en la casilla                              
-                                            casillasConImagen[x][y] = true;                                           
-
-                                            for (Gun gun : availableGuns) {
-                                               if (gun.getNormalStateAppearance().equals(iconoSeleccionado.getDescription()) && gun.getUnlockLevel() <= actualLevel){
-                                                    gunMatrix[x][y] = new Gun(gun.getName(),
-                                                            gun.getNormalStateAppearance(), gun.getAttackStateAppearance(), 
-                                                            gun.getFieldsInMatrix(), gun.getUnlockLevel(), 
-                                                            gun.getHealth(), gun.getType(), gun.getRange(), gun.getHitsPerSecond());
-                                                    gunMatrix[x][y].setX(x);
-                                                    gunMatrix[x][y].setY(y);
-                                                    guns.add(gunMatrix[x][y]);
-                                                    defenseCounter += gunMatrix[x][y].getFieldsInMatrix();
-                                                    updateGameLabels();
-                                                    
-                                                     String imagePath = gun.getNormalStateAppearance(); // Ruta de la imagen
-                                                    ImageIcon originalIcon = new ImageIcon(imagePath); // Crear un ImageIcon a partir de la ruta
-
-                                                    // Reescalar la imagen al tamaño deseado (25x25)
-                                                    Image originalImage = originalIcon.getImage();
-                                                    Image scaledImage = originalImage.getScaledInstance(23, 23, Image.SCALE_SMOOTH);
-
-                                                    // Crear un nuevo ImageIcon con la imagen reescalada
-                                                    ImageIcon scaledIcon = new ImageIcon(scaledImage);
-                   
-                                                    JLabel gunLabel = new JLabel(scaledIcon);
-                                                    gunLabel.setBounds(matriz[x][y].getBounds());
-                                                    matrixPanel.add(gunLabel, JLayeredPane.PALETTE_LAYER);
-                                                    zombieLabels[x][y] = gunLabel;
-                                                    
-
-                                                }                                   
-                                            }                                
-                                    return;
-                                }
-                            }
-                        }
-                    }
-                    }
-                }
-                });
-            }
-        }
         panelContenedor.add(matrixPanel , BorderLayout.CENTER);
             
         JPanel gunButtonPanel = new JPanel();
@@ -281,6 +221,7 @@ public class Game extends JFrame {
                 zombieCounter = 0;
                 defenseCounter = 0;
                 upgradeComponents();
+                updateGameLabels();
                 clearMatrix();
                 
                 
@@ -371,14 +312,6 @@ public class Game extends JFrame {
                 }
                 });
             }
-        }
-
-        // Actualiza el contador
-        updateGameLabels();
-
-        // Vuelve a validar el juego si es necesario
-        if (defenseCounter < maxGenericCounter) {
-            startGameButton.setEnabled(true); // Vuelve a habilitar el botón de inicio de juego
         }
 
         // Repinta la matriz para que se reflejen los cambios

@@ -28,9 +28,8 @@ public class Combat {
 
     public void levelCompleted() {
 
-        JOptionPane.showMessageDialog(null, "Nivel terminado con éxito", "The Walking TEC", JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(null, "Nivel terminado con éxito", "The Walking TEC", JOptionPane.INFORMATION_MESSAGE);    
     }
-
 }
 
 

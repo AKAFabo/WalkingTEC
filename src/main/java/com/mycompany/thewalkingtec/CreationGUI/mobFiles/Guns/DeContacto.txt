@@ -1,0 +1,9 @@
+DeContacto
+De contacto
+45
+2
+1
+2
+1
+C:\Users\Xtremetech\Documents\NetBeansProjects\TheWalkingTEC\src\main\resources\image\ArmaContacto.png
+C:\Users\Xtremetech\Documents\NetBeansProjects\TheWalkingTEC\src\main\resources\image\ArmaContacto.png

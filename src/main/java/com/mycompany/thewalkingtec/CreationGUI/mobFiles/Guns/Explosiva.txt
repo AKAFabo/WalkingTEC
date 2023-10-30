@@ -1,0 +1,9 @@
+Explosiva
+De contacto
+10
+10
+1
+4
+3
+C:\Users\Xtremetech\Documents\NetBeansProjects\TheWalkingTEC\src\main\resources\image\ArmaExplosiva.png
+C:\Users\Xtremetech\Documents\NetBeansProjects\TheWalkingTEC\src\main\resources\image\ArmaContacto.png

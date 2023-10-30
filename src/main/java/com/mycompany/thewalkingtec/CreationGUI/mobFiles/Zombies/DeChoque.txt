@@ -1,0 +1,9 @@
+DeChoque
+De choque
+20
+10
+3
+3
+3
+C:\Users\Xtremetech\Documents\NetBeansProjects\TheWalkingTEC\src\main\resources\image\ZombieCrash.jpg
+C:\Users\Xtremetech\Documents\NetBeansProjects\TheWalkingTEC\src\main\resources\image\ZombieCrash.jpg

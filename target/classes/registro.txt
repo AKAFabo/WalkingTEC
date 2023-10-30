@@ -1,0 +1,2063 @@
+Nivel 1
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 8,13
+
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 8,13
+
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 8,13
+
+Zombie: Contacto en la posición 12,17 ha sido atacado por el arma: MedioAlcance
+
+Zombie: Contacto en la posición 8,13 ha sido atacado por el arma: MedioAlcance
+Zombie: Contacto en la posición 10,15 ha sido atacado por el arma: MedioAlcance
+
+Zombie: Contacto en la posición 13,9 ha sido atacado por el arma: MedioAlcance
+
+Zombie: MedioAlcance en la posición 18,13 ha sido atacado por el arma: MedioAlcance
+
+Zombie: MedioAlcance en la posición 10,16 ha sido atacado por el arma: MedioAlcance
+
+Zombie: MedioAlcance en la posición 10,16 ha sido atacado por el arma: MedioAlcance
+
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 10,16
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 9,15
+
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 10,16
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 9,15
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 9,15
+
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 10,16
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 9,15
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 9,15
+
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 12,17
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 12,18
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 10,16
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 12,18
+
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 10,16
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 9,15
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 9,15
+
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 12,17
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 12,18
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 10,16
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 12,18
+
+
+Zombie: MedioAlcance en la posición 10,9 ha sido atacado por el arma: MedioAlcance
+
+
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 13,9
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 13,8
+
+Zombie: MedioAlcance en la posición 8,14 ha sido atacado por el arma: MedioAlcance
+Zombie: MedioAlcance en la posición 9,15 ha sido atacado por el arma: MedioAlcance
+Zombie: MedioAlcance en la posición 11,13 ha sido atacado por el arma: MedioAlcance
+
+Zombie: MedioAlcance en la posición 8,14 ha sido atacado por el arma: MedioAlcance
+Zombie: MedioAlcance en la posición 9,15 ha sido atacado por el arma: MedioAlcance
+Zombie: MedioAlcance en la posición 11,13 ha sido atacado por el arma: MedioAlcance
+
+Zombie: MedioAlcance en la posición 8,14 ha sido atacado por el arma: MedioAlcance
+Zombie: MedioAlcance en la posición 9,15 ha sido atacado por el arma: MedioAlcance
+Zombie: MedioAlcance en la posición 11,13 ha sido atacado por el arma: MedioAlcance
+
+Zombie: MedioAlcance en la posición 7,13 ha sido atacado por el arma: MedioAlcance
+Zombie: MedioAlcance en la posición 10,12 ha sido atacado por el arma: MedioAlcance
+
+Zombie: MedioAlcance en la posición 7,13 ha sido atacado por el arma: MedioAlcance
+Zombie: MedioAlcance en la posición 10,12 ha sido atacado por el arma: MedioAlcance
+
+Zombie: MedioAlcance en la posición 7,13 ha sido atacado por el arma: MedioAlcance
+Zombie: MedioAlcance en la posición 10,12 ha sido atacado por el arma: MedioAlcance
+
+Zombie: Contacto en la posición 15,10 ha sido atacado por el arma: MedioAlcance
+
+Zombie: MedioAlcance en la posición 8,15 ha sido atacado por el arma: MedioAlcance
+Zombie: MedioAlcance en la posición 10,13 ha sido atacado por el arma: MedioAlcance
+
+Zombie: MedioAlcance en la posición 8,15 ha sido atacado por el arma: MedioAlcance
+Zombie: MedioAlcance en la posición 10,13 ha sido atacado por el arma: MedioAlcance
+
+Zombie: Contacto en la posición 15,10 ha sido atacado por el arma: MedioAlcance
+
+Zombie: MedioAlcance en la posición 8,15 ha sido atacado por el arma: MedioAlcance
+Zombie: MedioAlcance en la posición 10,13 ha sido atacado por el arma: MedioAlcance
+
+Zombie: MedioAlcance en la posición 8,15 ha sido atacado por el arma: MedioAlcance
+Zombie: MedioAlcance en la posición 10,13 ha sido atacado por el arma: MedioAlcance
+
+Zombie: MedioAlcance en la posición 8,15 ha sido atacado por el arma: MedioAlcance
+Zombie: MedioAlcance en la posición 10,13 ha sido atacado por el arma: MedioAlcance
+
+Zombie: MedioAlcance en la posición 8,15 ha sido atacado por el arma: MedioAlcance
+Zombie: MedioAlcance en la posición 10,13 ha sido atacado por el arma: MedioAlcance
+
+Zombie: MedioAlcance en la posición 8,15 ha sido atacado por el arma: MedioAlcance
+Zombie: MedioAlcance en la posición 10,13 ha sido atacado por el arma: MedioAlcance
+
+Zombie: MedioAlcance en la posición 8,15 ha sido atacado por el arma: MedioAlcance
+Zombie: MedioAlcance en la posición 10,13 ha sido atacado por el arma: MedioAlcance
+
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 10,9
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 10,12
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 10,13
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 10,11
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 10,13
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 10,11
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 10,11
+
+Zombie: Contacto en la posición 10,11 ha sido atacado por el arma: MedioAlcance
+Zombie: Contacto en la posición 11,12 ha sido atacado por el arma: MedioAlcance
+
+Zombie: Contacto en la posición 10,11 ha sido atacado por el arma: MedioAlcance
+Zombie: Contacto en la posición 11,12 ha sido atacado por el arma: MedioAlcance
+
+Zombie: Contacto en la posición 10,11 ha sido atacado por el arma: MedioAlcance
+Zombie: Contacto en la posición 11,12 ha sido atacado por el arma: MedioAlcance
+
+Zombie: Contacto en la posición 10,11 ha sido atacado por el arma: MedioAlcance
+Zombie: Contacto en la posición 11,12 ha sido atacado por el arma: MedioAlcance
+
+Zombie: Contacto en la posición 10,11 ha sido atacado por el arma: MedioAlcance
+Zombie: Contacto en la posición 11,12 ha sido atacado por el arma: MedioAlcance
+
+Zombie: Contacto en la posición 10,11 ha sido atacado por el arma: MedioAlcance
+Zombie: Contacto en la posición 11,12 ha sido atacado por el arma: MedioAlcance
+
+Zombie: Contacto en la posición 10,11 ha sido atacado por el arma: MedioAlcance
+Zombie: Contacto en la posición 11,12 ha sido atacado por el arma: MedioAlcance
+
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 10,9
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 10,12
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 10,13
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 10,11
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 10,13
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 10,11
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 10,11
+
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 11,13
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 10,12
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 10,13
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 10,13
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 10,13
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 10,11
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 10,11
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 10,11
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 11,12
+
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 11,13
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 10,12
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 10,13
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 10,13
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 10,13
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 10,11
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 10,11
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 10,11
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 11,12
+
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 11,13
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 10,12
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 10,13
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 10,13
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 10,13
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 10,11
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 10,11
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 10,11
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 11,12
+
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 11,13
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 10,12
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 10,13
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 10,13
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 10,13
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 10,11
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 10,11
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 10,11
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 11,12
+
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 18,13
+
+Zombie: MedioAlcance en la posición 13,11 ha sido atacado por el arma: MedioAlcance
+
+Zombie: MedioAlcance en la posición 13,11 ha sido atacado por el arma: MedioAlcance
+
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 15,10
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 13,11
+
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 13,11
+
+Nivel 2
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 15,16
+
+Zombie: DeContacto en la posición 8,9 ha sido atacado por el arma: MedioAlcance
+
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 15,16
+
+Arma: MedioAlcance ha sido atacada por el zombie: DeContacto en la posición 8,9
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 9,9
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 9,9
+
+Arma: MedioAlcance ha sido atacada por el zombie: DeContacto en la posición 8,9
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 9,9
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 9,9
+
+Arma: DeContacto ha sido atacada por el zombie: MedioAlcance en la posición 14,5
+
+Zombie: Contacto en la posición 15,16 ha sido atacado por el arma: MedioAlcance
+Zombie: Contacto en la posición 14,15 ha sido atacado por el arma: DeContacto
+
+Arma: DeContacto ha sido atacada por el zombie: MedioAlcance en la posición 10,17
+
+Arma: DeContacto ha sido atacada por el zombie: MedioAlcance en la posición 10,17
+
+Arma: DeContacto ha sido atacada por el zombie: MedioAlcance en la posición 18,11
+
+Arma: DeContacto ha sido atacada por el zombie: MedioAlcance en la posición 14,5
+
+Arma: DeContacto ha sido atacada por el zombie: MedioAlcance en la posición 14,5
+
+Arma: DeContacto ha sido atacada por el zombie: MedioAlcance en la posición 18,11
+
+Arma: DeContacto ha sido atacada por el zombie: MedioAlcance en la posición 18,11
+
+Arma: DeContacto ha sido atacada por el zombie: MedioAlcance en la posición 10,17
+
+Zombie: Contacto en la posición 9,9 ha sido atacado por el arma: MedioAlcance
+Zombie: Contacto en la posición 10,9 ha sido atacado por el arma: DeContacto
+
+Zombie: Contacto en la posición 9,9 ha sido atacado por el arma: MedioAlcance
+Zombie: Contacto en la posición 10,9 ha sido atacado por el arma: DeContacto
+
+Zombie: Contacto en la posición 9,9 ha sido atacado por el arma: MedioAlcance
+Zombie: Contacto en la posición 10,9 ha sido atacado por el arma: DeContacto
+
+Zombie: Contacto en la posición 15,15 ha sido atacado por el arma: MedioAlcance
+Zombie: Contacto en la posición 15,14 ha sido atacado por el arma: MedioAlcance
+
+Zombie: Contacto en la posición 15,15 ha sido atacado por el arma: MedioAlcance
+Zombie: Contacto en la posición 15,14 ha sido atacado por el arma: MedioAlcance
+
+Zombie: MedioAlcance en la posición 14,5 ha sido atacado por el arma: DeContacto
+Zombie: MedioAlcance en la posición 13,6 ha sido atacado por el arma: DeContacto
+
+Zombie: MedioAlcance en la posición 10,5 ha sido atacado por el arma: DeContacto
+
+Zombie: DeContacto en la posición 18,10 ha sido atacado por el arma: DeContacto
+Zombie: DeContacto en la posición 16,12 ha sido atacado por el arma: DeContacto
+
+Zombie: MedioAlcance en la posición 18,11 ha sido atacado por el arma: DeContacto
+Zombie: MedioAlcance en la posición 17,12 ha sido atacado por el arma: DeContacto
+
+Zombie: MedioAlcance en la posición 18,11 ha sido atacado por el arma: DeContacto
+Zombie: MedioAlcance en la posición 17,12 ha sido atacado por el arma: DeContacto
+
+Zombie: DeContacto en la posición 18,10 ha sido atacado por el arma: DeContacto
+Zombie: DeContacto en la posición 16,12 ha sido atacado por el arma: DeContacto
+
+Zombie: DeContacto en la posición 9,15 ha sido atacado por el arma: DeContacto
+Zombie: DeContacto en la posición 9,14 ha sido atacado por el arma: MedioAlcance
+
+Arma: DeContacto ha sido atacada por el zombie: MedioAlcance en la posición 13,17
+
+Zombie: MedioAlcance en la posición 10,17 ha sido atacado por el arma: DeContacto
+Zombie: MedioAlcance en la posición 12,15 ha sido atacado por el arma: DeContacto
+
+Zombie: MedioAlcance en la posición 13,17 ha sido atacado por el arma: DeContacto
+
+Zombie: MedioAlcance en la posición 10,17 ha sido atacado por el arma: DeContacto
+Zombie: MedioAlcance en la posición 12,15 ha sido atacado por el arma: DeContacto
+
+Arma: DeContacto ha sido atacada por el zombie: MedioAlcance en la posición 13,17
+Arma: DeContacto ha sido atacada por el zombie: MedioAlcance en la posición 12,15
+
+Arma: DeContacto ha sido atacada por el zombie: MedioAlcance en la posición 13,17
+Arma: DeContacto ha sido atacada por el zombie: MedioAlcance en la posición 12,15
+
+Zombie: MedioAlcance en la posición 15,6 ha sido atacado por el arma: DeContacto
+Zombie: MedioAlcance en la posición 15,7 ha sido atacado por el arma: MedioAlcance
+
+Zombie: MedioAlcance en la posición 15,6 ha sido atacado por el arma: DeContacto
+Zombie: MedioAlcance en la posición 15,7 ha sido atacado por el arma: MedioAlcance
+
+Zombie: DeContacto en la posición 10,16 ha sido atacado por el arma: DeContacto
+Zombie: DeContacto en la posición 11,14 ha sido atacado por el arma: DeContacto
+
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 15,14
+Arma: MedioAlcance ha sido atacada por el zombie: DeContacto en la posición 16,12
+
+Zombie: Contacto en la posición 14,6 ha sido atacado por el arma: DeContacto
+Zombie: Contacto en la posición 13,7 ha sido atacado por el arma: DeContacto
+
+Zombie: Contacto en la posición 14,6 ha sido atacado por el arma: DeContacto
+Zombie: Contacto en la posición 13,7 ha sido atacado por el arma: DeContacto
+
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 15,7
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 17,9
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 17,9
+
+Zombie: MedioAlcance en la posición 18,9 ha sido atacado por el arma: DeContacto
+Zombie: MedioAlcance en la posición 17,9 ha sido atacado por el arma: MedioAlcance
+Zombie: MedioAlcance en la posición 16,10 ha sido atacado por el arma: MedioAlcance
+
+Zombie: MedioAlcance en la posición 18,9 ha sido atacado por el arma: DeContacto
+Zombie: MedioAlcance en la posición 17,9 ha sido atacado por el arma: MedioAlcance
+Zombie: MedioAlcance en la posición 16,10 ha sido atacado por el arma: MedioAlcance
+
+Arma: MedioAlcance ha sido atacada por el zombie: DeContacto en la posición 9,14
+
+Zombie: MedioAlcance en la posición 18,9 ha sido atacado por el arma: DeContacto
+Zombie: MedioAlcance en la posición 17,9 ha sido atacado por el arma: MedioAlcance
+Zombie: MedioAlcance en la posición 16,10 ha sido atacado por el arma: MedioAlcance
+
+Zombie: MedioAlcance en la posición 18,9 ha sido atacado por el arma: DeContacto
+Zombie: MedioAlcance en la posición 17,9 ha sido atacado por el arma: MedioAlcance
+Zombie: MedioAlcance en la posición 16,10 ha sido atacado por el arma: MedioAlcance
+
+Zombie: MedioAlcance en la posición 18,9 ha sido atacado por el arma: DeContacto
+Zombie: MedioAlcance en la posición 17,9 ha sido atacado por el arma: MedioAlcance
+Zombie: MedioAlcance en la posición 16,10 ha sido atacado por el arma: MedioAlcance
+
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 15,7
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 17,9
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 17,9
+
+Arma: DeContacto ha sido atacada por el zombie: Contacto en la posición 13,7
+
+Arma: DeContacto ha sido atacada por el zombie: Contacto en la posición 13,7
+
+Arma: DeContacto ha sido atacada por el zombie: DeContacto en la posición 16,12
+Arma: DeContacto ha sido atacada por el zombie: MedioAlcance en la posición 17,12
+Arma: DeContacto ha sido atacada por el zombie: MedioAlcance en la posición 16,10
+Arma: DeContacto ha sido atacada por el zombie: MedioAlcance en la posición 16,11
+
+Arma: DeContacto ha sido atacada por el zombie: DeContacto en la posición 16,12
+Arma: DeContacto ha sido atacada por el zombie: MedioAlcance en la posición 17,12
+Arma: DeContacto ha sido atacada por el zombie: MedioAlcance en la posición 16,10
+Arma: DeContacto ha sido atacada por el zombie: MedioAlcance en la posición 16,11
+
+Zombie: MedioAlcance en la posición 16,11 ha sido atacado por el arma: MedioAlcance
+
+Zombie: MedioAlcance en la posición 16,11 ha sido atacado por el arma: MedioAlcance
+
+Zombie: MedioAlcance en la posición 16,11 ha sido atacado por el arma: MedioAlcance
+
+Arma: DeContacto ha sido atacada por el zombie: Contacto en la posición 10,9
+
+
+Arma: DeContacto ha sido atacada por el zombie: DeContacto en la posición 11,14
+
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 16,10
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 16,11
+
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 16,10
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 16,11
+
+Arma: DeContacto ha sido atacada por el zombie: MedioAlcance en la posición 10,5
+
+Nivel 2
+Zombie: Contacto en la posición 13,8 ha sido atacado por el arma: DeContacto
+
+Arma: DeContacto ha sido atacada por el zombie: Contacto en la posición 13,8
+
+Nivel 4
+Arma: MedioAlcance ha sido atacada por el zombie: DeChoque en la posición 9,5
+
+Arma: MedioAlcance ha sido atacada por el zombie: DeChoque en la posición 5,13
+
+Arma: MedioAlcance ha sido atacada por el zombie: DeChoque en la posición 9,5
+
+Arma: MedioAlcance ha sido atacada por el zombie: DeChoque en la posición 6,15
+
+Arma: MedioAlcance ha sido atacada por el zombie: Aereo en la posición 4,11
+
+Arma: MedioAlcance ha sido atacada por el zombie: Aereo en la posición 4,11
+
+Arma: MedioAlcance ha sido atacada por el zombie: Aereo en la posición 4,11
+
+Arma: MedioAlcance ha sido atacada por el zombie: DeChoque en la posición 13,17
+
+Zombie: DeChoque en la posición 5,13 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 6,12 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 7,12 ha sido atacado por el arma: DeContacto
+
+Zombie: DeChoque en la posición 5,13 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 6,12 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 7,12 ha sido atacado por el arma: DeContacto
+
+Zombie: DeChoque en la posición 5,13 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 6,12 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 7,12 ha sido atacado por el arma: DeContacto
+
+Zombie: DeChoque en la posición 9,5 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 10,6 ha sido atacado por el arma: DeContacto
+
+Arma: DeContacto ha sido atacada por el zombie: DeChoque en la posición 6,12
+Arma: DeContacto ha sido atacada por el zombie: DeChoque en la posición 8,13
+
+Zombie: DeChoque en la posición 9,5 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 10,6 ha sido atacado por el arma: DeContacto
+
+Arma: DeContacto ha sido atacada por el zombie: DeChoque en la posición 6,12
+Arma: DeContacto ha sido atacada por el zombie: DeChoque en la posición 8,13
+
+Arma: DeContacto ha sido atacada por el zombie: DeChoque en la posición 10,6
+
+Zombie: DeChoque en la posición 6,15 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 7,14 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 8,13 ha sido atacado por el arma: DeContacto
+Zombie: DeChoque en la posición 9,12 ha sido atacado por el arma: MedioAlcance
+
+Zombie: DeChoque en la posición 6,15 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 7,14 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 8,13 ha sido atacado por el arma: DeContacto
+Zombie: DeChoque en la posición 9,12 ha sido atacado por el arma: MedioAlcance
+
+Arma: DeContacto ha sido atacada por el zombie: DeChoque en la posición 10,6
+
+Zombie: DeChoque en la posición 6,15 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 7,14 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 8,13 ha sido atacado por el arma: DeContacto
+Zombie: DeChoque en la posición 9,12 ha sido atacado por el arma: MedioAlcance
+
+Zombie: DeChoque en la posición 6,15 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 7,14 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 8,13 ha sido atacado por el arma: DeContacto
+Zombie: DeChoque en la posición 9,12 ha sido atacado por el arma: MedioAlcance
+
+Zombie: DeChoque en la posición 13,17 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 13,16 ha sido atacado por el arma: DeContacto
+
+Zombie: DeChoque en la posición 13,17 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 13,16 ha sido atacado por el arma: DeContacto
+
+Arma: DeContacto ha sido atacada por el zombie: DeChoque en la posición 13,16
+
+Arma: MedioAlcance ha sido atacada por el zombie: DeChoque en la posición 7,12
+Arma: MedioAlcance ha sido atacada por el zombie: DeChoque en la posición 8,13
+
+Arma: Aerea ha sido atacada por el zombie: Aereo en la posición 20,10
+
+Arma: Aerea ha sido atacada por el zombie: Aereo en la posición 20,10
+
+Zombie: MedioAlcance en la posición 8,7 ha sido atacado por el arma: MedioAlcance
+Zombie: MedioAlcance en la posición 8,8 ha sido atacado por el arma: Aerea
+Zombie: MedioAlcance en la posición 8,8 ha sido atacado por el arma: Aerea
+
+Arma: Aerea ha sido atacada por el zombie: Aereo en la posición 20,10
+
+Zombie: MedioAlcance en la posición 8,7 ha sido atacado por el arma: MedioAlcance
+Zombie: MedioAlcance en la posición 8,8 ha sido atacado por el arma: Aerea
+Zombie: MedioAlcance en la posición 8,8 ha sido atacado por el arma: Aerea
+
+Zombie: MedioAlcance en la posición 18,12 ha sido atacado por el arma: MedioAlcance
+
+Zombie: MedioAlcance en la posición 15,6 ha sido atacado por el arma: MedioAlcance
+
+Zombie: Aereo en la posición 4,11 ha sido atacado por el arma: MedioAlcance
+Zombie: Aereo en la posición 6,9 ha sido atacado por el arma: Aerea
+
+Zombie: Aereo en la posición 4,11 ha sido atacado por el arma: MedioAlcance
+Zombie: Aereo en la posición 6,9 ha sido atacado por el arma: Aerea
+
+Zombie: Aereo en la posición 4,11 ha sido atacado por el arma: MedioAlcance
+Zombie: Aereo en la posición 6,9 ha sido atacado por el arma: Aerea
+
+Arma: Aerea ha sido atacada por el zombie: MedioAlcance en la posición 8,7
+Arma: Aerea ha sido atacada por el zombie: Aereo en la posición 6,9
+Arma: Aerea ha sido atacada por el zombie: Aereo en la posición 6,9
+
+Arma: Aerea ha sido atacada por el zombie: MedioAlcance en la posición 8,7
+Arma: Aerea ha sido atacada por el zombie: Aereo en la posición 6,9
+Arma: Aerea ha sido atacada por el zombie: Aereo en la posición 6,9
+
+Arma: Aerea ha sido atacada por el zombie: MedioAlcance en la posición 8,7
+Arma: Aerea ha sido atacada por el zombie: Aereo en la posición 6,9
+Arma: Aerea ha sido atacada por el zombie: Aereo en la posición 6,9
+
+Arma: MedioAlcance ha sido atacada por el zombie: Aereo en la posición 10,17
+
+Zombie: Aereo en la posición 10,17 ha sido atacado por el arma: MedioAlcance
+Zombie: Aereo en la posición 11,15 ha sido atacado por el arma: DeContacto
+
+Zombie: Aereo en la posición 20,10 ha sido atacado por el arma: Aerea
+Zombie: Aereo en la posición 19,9 ha sido atacado por el arma: Aerea
+
+Zombie: Aereo en la posición 10,17 ha sido atacado por el arma: MedioAlcance
+Zombie: Aereo en la posición 11,15 ha sido atacado por el arma: DeContacto
+
+Zombie: Aereo en la posición 20,10 ha sido atacado por el arma: Aerea
+Zombie: Aereo en la posición 19,9 ha sido atacado por el arma: Aerea
+
+Arma: Aerea ha sido atacada por el zombie: Aereo en la posición 19,9
+Arma: Aerea ha sido atacada por el zombie: MedioAlcance en la posición 17,9
+Arma: Aerea ha sido atacada por el zombie: MedioAlcance en la posición 17,9
+
+Arma: Aerea ha sido atacada por el zombie: Aereo en la posición 19,9
+Arma: Aerea ha sido atacada por el zombie: MedioAlcance en la posición 17,9
+Arma: Aerea ha sido atacada por el zombie: MedioAlcance en la posición 17,9
+
+Arma: Aerea ha sido atacada por el zombie: Aereo en la posición 19,9
+Arma: Aerea ha sido atacada por el zombie: MedioAlcance en la posición 17,9
+Arma: Aerea ha sido atacada por el zombie: MedioAlcance en la posición 17,9
+
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 15,6
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 16,8
+
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 15,6
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 16,8
+
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 15,6
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 16,8
+
+Zombie: MedioAlcance en la posición 18,10 ha sido atacado por el arma: Aerea
+Zombie: MedioAlcance en la posición 17,9 ha sido atacado por el arma: Aerea
+Zombie: MedioAlcance en la posición 16,8 ha sido atacado por el arma: MedioAlcance
+Zombie: MedioAlcance en la posición 15,9 ha sido atacado por el arma: Aerea
+
+Zombie: MedioAlcance en la posición 18,10 ha sido atacado por el arma: Aerea
+Zombie: MedioAlcance en la posición 17,9 ha sido atacado por el arma: Aerea
+Zombie: MedioAlcance en la posición 16,8 ha sido atacado por el arma: MedioAlcance
+Zombie: MedioAlcance en la posición 15,9 ha sido atacado por el arma: Aerea
+
+Zombie: MedioAlcance en la posición 18,10 ha sido atacado por el arma: Aerea
+Zombie: MedioAlcance en la posición 17,9 ha sido atacado por el arma: Aerea
+Zombie: MedioAlcance en la posición 16,8 ha sido atacado por el arma: MedioAlcance
+Zombie: MedioAlcance en la posición 15,9 ha sido atacado por el arma: Aerea
+
+Zombie: MedioAlcance en la posición 18,10 ha sido atacado por el arma: Aerea
+Zombie: MedioAlcance en la posición 17,9 ha sido atacado por el arma: Aerea
+Zombie: MedioAlcance en la posición 16,8 ha sido atacado por el arma: MedioAlcance
+Zombie: MedioAlcance en la posición 15,9 ha sido atacado por el arma: Aerea
+
+Zombie: MedioAlcance en la posición 18,10 ha sido atacado por el arma: Aerea
+Zombie: MedioAlcance en la posición 17,9 ha sido atacado por el arma: Aerea
+Zombie: MedioAlcance en la posición 16,8 ha sido atacado por el arma: MedioAlcance
+Zombie: MedioAlcance en la posición 15,9 ha sido atacado por el arma: Aerea
+
+Zombie: MedioAlcance en la posición 18,10 ha sido atacado por el arma: Aerea
+Zombie: MedioAlcance en la posición 17,9 ha sido atacado por el arma: Aerea
+Zombie: MedioAlcance en la posición 16,8 ha sido atacado por el arma: MedioAlcance
+Zombie: MedioAlcance en la posición 15,9 ha sido atacado por el arma: Aerea
+
+Zombie: MedioAlcance en la posición 11,6 ha sido atacado por el arma: DeContacto
+Zombie: MedioAlcance en la posición 12,7 ha sido atacado por el arma: DeContacto
+
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 18,12
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 17,12
+
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 18,12
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 17,12
+
+Zombie: Aereo en la posición 19,10 ha sido atacado por el arma: Aerea
+Zombie: Aereo en la posición 18,9 ha sido atacado por el arma: Aerea
+Zombie: Aereo en la posición 17,8 ha sido atacado por el arma: MedioAlcance
+Zombie: Aereo en la posición 16,9 ha sido atacado por el arma: MedioAlcance
+
+Zombie: Aereo en la posición 19,10 ha sido atacado por el arma: Aerea
+Zombie: Aereo en la posición 18,9 ha sido atacado por el arma: Aerea
+Zombie: Aereo en la posición 17,8 ha sido atacado por el arma: MedioAlcance
+Zombie: Aereo en la posición 16,9 ha sido atacado por el arma: MedioAlcance
+
+Zombie: Aereo en la posición 19,10 ha sido atacado por el arma: Aerea
+Zombie: Aereo en la posición 18,9 ha sido atacado por el arma: Aerea
+Zombie: Aereo en la posición 17,8 ha sido atacado por el arma: MedioAlcance
+Zombie: Aereo en la posición 16,9 ha sido atacado por el arma: MedioAlcance
+
+Zombie: Aereo en la posición 19,10 ha sido atacado por el arma: Aerea
+Zombie: Aereo en la posición 18,9 ha sido atacado por el arma: Aerea
+Zombie: Aereo en la posición 17,8 ha sido atacado por el arma: MedioAlcance
+Zombie: Aereo en la posición 16,9 ha sido atacado por el arma: MedioAlcance
+
+Zombie: Aereo en la posición 19,10 ha sido atacado por el arma: Aerea
+Zombie: Aereo en la posición 18,9 ha sido atacado por el arma: Aerea
+Zombie: Aereo en la posición 17,8 ha sido atacado por el arma: MedioAlcance
+Zombie: Aereo en la posición 16,9 ha sido atacado por el arma: MedioAlcance
+
+Zombie: Aereo en la posición 19,10 ha sido atacado por el arma: Aerea
+Zombie: Aereo en la posición 18,9 ha sido atacado por el arma: Aerea
+Zombie: Aereo en la posición 17,8 ha sido atacado por el arma: MedioAlcance
+Zombie: Aereo en la posición 16,9 ha sido atacado por el arma: MedioAlcance
+
+Zombie: Aereo en la posición 19,10 ha sido atacado por el arma: Aerea
+Zombie: Aereo en la posición 18,9 ha sido atacado por el arma: Aerea
+Zombie: Aereo en la posición 17,8 ha sido atacado por el arma: MedioAlcance
+Zombie: Aereo en la posición 16,9 ha sido atacado por el arma: MedioAlcance
+
+Zombie: Aereo en la posición 19,10 ha sido atacado por el arma: Aerea
+Zombie: Aereo en la posición 18,9 ha sido atacado por el arma: Aerea
+Zombie: Aereo en la posición 17,8 ha sido atacado por el arma: MedioAlcance
+Zombie: Aereo en la posición 16,9 ha sido atacado por el arma: MedioAlcance
+
+Zombie: Contacto en la posición 17,12 ha sido atacado por el arma: MedioAlcance
+Zombie: Contacto en la posición 16,13 ha sido atacado por el arma: MedioAlcance
+
+Zombie: Contacto en la posición 17,12 ha sido atacado por el arma: MedioAlcance
+Zombie: Contacto en la posición 16,13 ha sido atacado por el arma: MedioAlcance
+
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 15,9
+Arma: MedioAlcance ha sido atacada por el zombie: Aereo en la posición 16,9
+Arma: MedioAlcance ha sido atacada por el zombie: Aereo en la posición 16,9
+
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 16,13
+
+Arma: DeContacto ha sido atacada por el zombie: Aereo en la posición 11,15
+
+Nivel 5
+Arma: DeContacto ha sido atacada por el zombie: MedioAlcance en la posición 12,7
+
+Arma: Aerea ha sido atacada por el zombie: MedioAlcance en la posición 15,9
+Arma: Aerea ha sido atacada por el zombie: Aereo en la posición 16,9
+Arma: Aerea ha sido atacada por el zombie: Aereo en la posición 16,9
+Arma: Aerea ha sido atacada por el zombie: DeChoque en la posición 14,6
+
+Arma: Aerea ha sido atacada por el zombie: MedioAlcance en la posición 15,9
+Arma: Aerea ha sido atacada por el zombie: Aereo en la posición 16,9
+Arma: Aerea ha sido atacada por el zombie: Aereo en la posición 16,9
+Arma: Aerea ha sido atacada por el zombie: DeChoque en la posición 14,6
+
+Arma: Aerea ha sido atacada por el zombie: MedioAlcance en la posición 15,9
+Arma: Aerea ha sido atacada por el zombie: Aereo en la posición 16,9
+Arma: Aerea ha sido atacada por el zombie: Aereo en la posición 16,9
+Arma: Aerea ha sido atacada por el zombie: DeChoque en la posición 14,6
+
+Arma: Aerea ha sido atacada por el zombie: MedioAlcance en la posición 15,9
+Arma: Aerea ha sido atacada por el zombie: Aereo en la posición 16,9
+Arma: Aerea ha sido atacada por el zombie: Aereo en la posición 16,9
+Arma: Aerea ha sido atacada por el zombie: DeChoque en la posición 14,6
+
+Arma: Aerea ha sido atacada por el zombie: MedioAlcance en la posición 15,9
+Arma: Aerea ha sido atacada por el zombie: Aereo en la posición 16,9
+Arma: Aerea ha sido atacada por el zombie: Aereo en la posición 16,9
+Arma: Aerea ha sido atacada por el zombie: DeChoque en la posición 14,6
+
+Arma: DeContacto ha sido atacada por el zombie: DeChoque en la posición 5,15
+
+Arma: DeContacto ha sido atacada por el zombie: DeChoque en la posición 5,15
+
+Arma: DeContacto ha sido atacada por el zombie: DeChoque en la posición 5,15
+
+Arma: DeContacto ha sido atacada por el zombie: DeChoque en la posición 5,15
+
+Arma: DeContacto ha sido atacada por el zombie: DeChoque en la posición 5,15
+
+Zombie: DeChoque en la posición 14,6 ha sido atacado por el arma: Aerea
+Zombie: DeChoque en la posición 14,7 ha sido atacado por el arma: AtaqueMultiple
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: MedioAlcance en la posición 8,7
+
+Arma: MedioAlcance ha sido atacada por el zombie: DeContacto en la posición 9,14
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: MedioAlcance en la posición 8,7
+
+Arma: MedioAlcance ha sido atacada por el zombie: DeContacto en la posición 9,14
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: MedioAlcance en la posición 8,7
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: MedioAlcance en la posición 8,7
+
+Zombie: DeChoque en la posición 14,6 ha sido atacado por el arma: Aerea
+Zombie: DeChoque en la posición 14,7 ha sido atacado por el arma: AtaqueMultiple
+
+Arma: MedioAlcance ha sido atacada por el zombie: DeContacto en la posición 9,14
+
+Arma: MedioAlcance ha sido atacada por el zombie: DeContacto en la posición 9,14
+
+Arma: Explosiva ha sido atacada por el zombie: MedioAlcance en la posición 9,8
+
+Arma: Explosiva ha sido atacada por el zombie: MedioAlcance en la posición 9,8
+
+Arma: Explosiva ha sido atacada por el zombie: MedioAlcance en la posición 9,8
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 14,6
+Arma: AtaqueMultiple ha sido atacada por el zombie: MedioAlcance en la posición 14,9
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 14,8
+
+Zombie: DeChoque en la posición 5,15 ha sido atacado por el arma: DeContacto
+Zombie: DeChoque en la posición 7,13 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 8,12 ha sido atacado por el arma: MedioAlcance
+
+Zombie: DeChoque en la posición 5,15 ha sido atacado por el arma: DeContacto
+Zombie: DeChoque en la posición 7,13 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 8,12 ha sido atacado por el arma: MedioAlcance
+
+Zombie: DeChoque en la posición 5,15 ha sido atacado por el arma: DeContacto
+Zombie: DeChoque en la posición 7,13 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 8,12 ha sido atacado por el arma: MedioAlcance
+
+Arma: Explosiva ha sido atacada por el zombie: MedioAlcance en la posición 9,8
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 14,6
+Arma: AtaqueMultiple ha sido atacada por el zombie: MedioAlcance en la posición 14,9
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 14,8
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 14,6
+Arma: AtaqueMultiple ha sido atacada por el zombie: MedioAlcance en la posición 14,9
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 14,8
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 14,6
+Arma: AtaqueMultiple ha sido atacada por el zombie: MedioAlcance en la posición 14,9
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 14,8
+
+Zombie: MedioAlcance en la posición 8,7 ha sido atacado por el arma: AtaqueMultiple
+Zombie: MedioAlcance en la posición 9,8 ha sido atacado por el arma: Explosiva
+Zombie: MedioAlcance en la posición 10,9 ha sido atacado por el arma: Aerea
+
+Zombie: MedioAlcance en la posición 8,7 ha sido atacado por el arma: AtaqueMultiple
+Zombie: MedioAlcance en la posición 9,8 ha sido atacado por el arma: Explosiva
+Zombie: MedioAlcance en la posición 10,9 ha sido atacado por el arma: Aerea
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 14,6
+Arma: AtaqueMultiple ha sido atacada por el zombie: MedioAlcance en la posición 14,9
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 14,8
+
+Zombie: MedioAlcance en la posición 8,7 ha sido atacado por el arma: AtaqueMultiple
+Zombie: MedioAlcance en la posición 9,8 ha sido atacado por el arma: Explosiva
+Zombie: MedioAlcance en la posición 10,9 ha sido atacado por el arma: Aerea
+
+Zombie: MedioAlcance en la posición 8,7 ha sido atacado por el arma: AtaqueMultiple
+Zombie: MedioAlcance en la posición 9,8 ha sido atacado por el arma: Explosiva
+Zombie: MedioAlcance en la posición 10,9 ha sido atacado por el arma: Aerea
+
+Arma: MedioAlcance ha sido atacada por el zombie: Aereo en la posición 8,13
+
+Arma: MedioAlcance ha sido atacada por el zombie: Aereo en la posición 8,13
+
+Arma: MedioAlcance ha sido atacada por el zombie: Aereo en la posición 8,13
+
+Zombie: MedioAlcance en la posición 15,8 ha sido atacado por el arma: Aerea
+Zombie: MedioAlcance en la posición 14,9 ha sido atacado por el arma: AtaqueMultiple
+Zombie: MedioAlcance en la posición 13,10 ha sido atacado por el arma: DeContacto
+
+Zombie: MedioAlcance en la posición 15,8 ha sido atacado por el arma: Aerea
+Zombie: MedioAlcance en la posición 14,9 ha sido atacado por el arma: AtaqueMultiple
+Zombie: MedioAlcance en la posición 13,10 ha sido atacado por el arma: DeContacto
+
+Arma: MedioAlcance ha sido atacada por el zombie: Aereo en la posición 8,13
+
+Zombie: MedioAlcance en la posición 15,8 ha sido atacado por el arma: Aerea
+Zombie: MedioAlcance en la posición 14,9 ha sido atacado por el arma: AtaqueMultiple
+Zombie: MedioAlcance en la posición 13,10 ha sido atacado por el arma: DeContacto
+
+Zombie: MedioAlcance en la posición 15,8 ha sido atacado por el arma: Aerea
+Zombie: MedioAlcance en la posición 14,9 ha sido atacado por el arma: AtaqueMultiple
+Zombie: MedioAlcance en la posición 13,10 ha sido atacado por el arma: DeContacto
+
+Zombie: MedioAlcance en la posición 15,8 ha sido atacado por el arma: Aerea
+Zombie: MedioAlcance en la posición 14,9 ha sido atacado por el arma: AtaqueMultiple
+Zombie: MedioAlcance en la posición 13,10 ha sido atacado por el arma: DeContacto
+
+Zombie: MedioAlcance en la posición 15,8 ha sido atacado por el arma: Aerea
+Zombie: MedioAlcance en la posición 14,9 ha sido atacado por el arma: AtaqueMultiple
+Zombie: MedioAlcance en la posición 13,10 ha sido atacado por el arma: DeContacto
+
+Zombie: MedioAlcance en la posición 15,8 ha sido atacado por el arma: Aerea
+Zombie: MedioAlcance en la posición 14,9 ha sido atacado por el arma: AtaqueMultiple
+Zombie: MedioAlcance en la posición 13,10 ha sido atacado por el arma: DeContacto
+
+Zombie: DeContacto en la posición 7,9 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeContacto en la posición 8,10 ha sido atacado por el arma: Explosiva
+Zombie: DeContacto en la posición 9,11 ha sido atacado por el arma: MedioAlcance
+Zombie: DeContacto en la posición 10,10 ha sido atacado por el arma: DeContacto
+
+Zombie: DeContacto en la posición 7,9 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeContacto en la posición 8,10 ha sido atacado por el arma: Explosiva
+Zombie: DeContacto en la posición 9,11 ha sido atacado por el arma: MedioAlcance
+Zombie: DeContacto en la posición 10,10 ha sido atacado por el arma: DeContacto
+
+Zombie: DeContacto en la posición 14,8 ha sido atacado por el arma: Aerea
+Zombie: DeContacto en la posición 14,8 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeContacto en la posición 13,9 ha sido atacado por el arma: DeContacto
+
+Zombie: DeContacto en la posición 7,9 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeContacto en la posición 8,10 ha sido atacado por el arma: Explosiva
+Zombie: DeContacto en la posición 9,11 ha sido atacado por el arma: MedioAlcance
+Zombie: DeContacto en la posición 10,10 ha sido atacado por el arma: DeContacto
+
+Zombie: DeContacto en la posición 7,9 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeContacto en la posición 8,10 ha sido atacado por el arma: Explosiva
+Zombie: DeContacto en la posición 9,11 ha sido atacado por el arma: MedioAlcance
+Zombie: DeContacto en la posición 10,10 ha sido atacado por el arma: DeContacto
+
+Zombie: DeContacto en la posición 7,9 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeContacto en la posición 8,10 ha sido atacado por el arma: Explosiva
+Zombie: DeContacto en la posición 9,11 ha sido atacado por el arma: MedioAlcance
+Zombie: DeContacto en la posición 10,10 ha sido atacado por el arma: DeContacto
+
+Zombie: DeContacto en la posición 14,8 ha sido atacado por el arma: Aerea
+Zombie: DeContacto en la posición 14,8 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeContacto en la posición 13,9 ha sido atacado por el arma: DeContacto
+
+Zombie: DeContacto en la posición 14,8 ha sido atacado por el arma: Aerea
+Zombie: DeContacto en la posición 14,8 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeContacto en la posición 13,9 ha sido atacado por el arma: DeContacto
+
+Zombie: DeContacto en la posición 7,15 ha sido atacado por el arma: DeContacto
+Zombie: DeContacto en la posición 9,13 ha sido atacado por el arma: MedioAlcance
+Zombie: DeContacto en la posición 9,12 ha sido atacado por el arma: MedioAlcance
+Zombie: DeContacto en la posición 10,12 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: DeContacto en la posición 14,8 ha sido atacado por el arma: Aerea
+Zombie: DeContacto en la posición 14,8 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeContacto en la posición 13,9 ha sido atacado por el arma: DeContacto
+
+Zombie: DeContacto en la posición 7,15 ha sido atacado por el arma: DeContacto
+Zombie: DeContacto en la posición 9,13 ha sido atacado por el arma: MedioAlcance
+Zombie: DeContacto en la posición 9,12 ha sido atacado por el arma: MedioAlcance
+Zombie: DeContacto en la posición 10,12 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: DeContacto en la posición 7,15 ha sido atacado por el arma: DeContacto
+Zombie: DeContacto en la posición 9,13 ha sido atacado por el arma: MedioAlcance
+Zombie: DeContacto en la posición 9,12 ha sido atacado por el arma: MedioAlcance
+Zombie: DeContacto en la posición 10,12 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: DeContacto en la posición 14,8 ha sido atacado por el arma: Aerea
+Zombie: DeContacto en la posición 14,8 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeContacto en la posición 13,9 ha sido atacado por el arma: DeContacto
+
+Zombie: DeContacto en la posición 14,8 ha sido atacado por el arma: Aerea
+Zombie: DeContacto en la posición 14,8 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeContacto en la posición 13,9 ha sido atacado por el arma: DeContacto
+
+Zombie: DeChoque en la posición 7,7 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeChoque en la posición 8,8 ha sido atacado por el arma: Explosiva
+Zombie: DeChoque en la posición 9,9 ha sido atacado por el arma: DeContacto
+
+Zombie: DeChoque en la posición 7,7 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeChoque en la posición 8,8 ha sido atacado por el arma: Explosiva
+Zombie: DeChoque en la posición 9,9 ha sido atacado por el arma: DeContacto
+
+Zombie: Aereo en la posición 6,15 ha sido atacado por el arma: DeContacto
+Zombie: Aereo en la posición 7,14 ha sido atacado por el arma: MedioAlcance
+Zombie: Aereo en la posición 8,13 ha sido atacado por el arma: MedioAlcance
+Zombie: Aereo en la posición 9,12 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: Aereo en la posición 6,15 ha sido atacado por el arma: DeContacto
+Zombie: Aereo en la posición 7,14 ha sido atacado por el arma: MedioAlcance
+Zombie: Aereo en la posición 8,13 ha sido atacado por el arma: MedioAlcance
+Zombie: Aereo en la posición 9,12 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: Aereo en la posición 6,15 ha sido atacado por el arma: DeContacto
+Zombie: Aereo en la posición 7,14 ha sido atacado por el arma: MedioAlcance
+Zombie: Aereo en la posición 8,13 ha sido atacado por el arma: MedioAlcance
+Zombie: Aereo en la posición 9,12 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: Aereo en la posición 6,15 ha sido atacado por el arma: DeContacto
+Zombie: Aereo en la posición 7,14 ha sido atacado por el arma: MedioAlcance
+Zombie: Aereo en la posición 8,13 ha sido atacado por el arma: MedioAlcance
+Zombie: Aereo en la posición 9,12 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: Aereo en la posición 6,15 ha sido atacado por el arma: DeContacto
+Zombie: Aereo en la posición 7,14 ha sido atacado por el arma: MedioAlcance
+Zombie: Aereo en la posición 8,13 ha sido atacado por el arma: MedioAlcance
+Zombie: Aereo en la posición 9,12 ha sido atacado por el arma: AtaqueMultiple
+
+Arma: DeContacto ha sido atacada por el zombie: MedioAlcance en la posición 10,9
+Arma: DeContacto ha sido atacada por el zombie: DeContacto en la posición 10,10
+Arma: DeContacto ha sido atacada por el zombie: Aereo en la posición 10,8
+
+Zombie: Aereo en la posición 6,15 ha sido atacado por el arma: DeContacto
+Zombie: Aereo en la posición 7,14 ha sido atacado por el arma: MedioAlcance
+Zombie: Aereo en la posición 8,13 ha sido atacado por el arma: MedioAlcance
+Zombie: Aereo en la posición 9,12 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: DeContacto en la posición 8,16 ha sido atacado por el arma: DeContacto
+Zombie: DeContacto en la posición 9,14 ha sido atacado por el arma: MedioAlcance
+
+Zombie: DeContacto en la posición 8,16 ha sido atacado por el arma: DeContacto
+Zombie: DeContacto en la posición 9,14 ha sido atacado por el arma: MedioAlcance
+
+Zombie: Contacto en la posición 15,15 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: DeContacto en la posición 8,16 ha sido atacado por el arma: DeContacto
+Zombie: DeContacto en la posición 9,14 ha sido atacado por el arma: MedioAlcance
+
+Zombie: DeContacto en la posición 8,16 ha sido atacado por el arma: DeContacto
+Zombie: DeContacto en la posición 9,14 ha sido atacado por el arma: MedioAlcance
+
+Arma: DeContacto ha sido atacada por el zombie: MedioAlcance en la posición 10,9
+Arma: DeContacto ha sido atacada por el zombie: DeContacto en la posición 10,10
+Arma: DeContacto ha sido atacada por el zombie: Aereo en la posición 10,8
+
+
+
+
+Zombie: Aereo en la posición 8,6 ha sido atacado por el arma: AtaqueMultiple
+Zombie: Aereo en la posición 9,7 ha sido atacado por el arma: Explosiva
+Zombie: Aereo en la posición 10,8 ha sido atacado por el arma: Aerea
+
+Zombie: Aereo en la posición 8,6 ha sido atacado por el arma: AtaqueMultiple
+Zombie: Aereo en la posición 9,7 ha sido atacado por el arma: Explosiva
+Zombie: Aereo en la posición 10,8 ha sido atacado por el arma: Aerea
+
+Zombie: Aereo en la posición 8,6 ha sido atacado por el arma: AtaqueMultiple
+Zombie: Aereo en la posición 9,7 ha sido atacado por el arma: Explosiva
+Zombie: Aereo en la posición 10,8 ha sido atacado por el arma: Aerea
+
+Zombie: Aereo en la posición 8,6 ha sido atacado por el arma: AtaqueMultiple
+Zombie: Aereo en la posición 9,7 ha sido atacado por el arma: Explosiva
+Zombie: Aereo en la posición 10,8 ha sido atacado por el arma: Aerea
+
+Zombie: Aereo en la posición 8,6 ha sido atacado por el arma: AtaqueMultiple
+Zombie: Aereo en la posición 9,7 ha sido atacado por el arma: Explosiva
+Zombie: Aereo en la posición 10,8 ha sido atacado por el arma: Aerea
+
+Arma: Aerea ha sido atacada por el zombie: MedioAlcance en la posición 10,9
+Arma: Aerea ha sido atacada por el zombie: Aereo en la posición 10,8
+Arma: Aerea ha sido atacada por el zombie: Aereo en la posición 10,8
+Arma: Aerea ha sido atacada por el zombie: Contacto en la posición 9,8
+Arma: Aerea ha sido atacada por el zombie: Contacto en la posición 9,8
+
+Arma: Aerea ha sido atacada por el zombie: MedioAlcance en la posición 10,9
+Arma: Aerea ha sido atacada por el zombie: Aereo en la posición 10,8
+Arma: Aerea ha sido atacada por el zombie: Aereo en la posición 10,8
+Arma: Aerea ha sido atacada por el zombie: Contacto en la posición 9,8
+Arma: Aerea ha sido atacada por el zombie: Contacto en la posición 9,8
+
+Arma: Aerea ha sido atacada por el zombie: MedioAlcance en la posición 10,9
+Arma: Aerea ha sido atacada por el zombie: Aereo en la posición 10,8
+Arma: Aerea ha sido atacada por el zombie: Aereo en la posición 10,8
+Arma: Aerea ha sido atacada por el zombie: Contacto en la posición 9,8
+Arma: Aerea ha sido atacada por el zombie: Contacto en la posición 9,8
+
+
+
+
+
+
+
+Arma: DeContacto ha sido atacada por el zombie: MedioAlcance en la posición 14,9
+Arma: DeContacto ha sido atacada por el zombie: DeContacto en la posición 13,9
+Arma: DeContacto ha sido atacada por el zombie: DeContacto en la posición 13,9
+Arma: DeContacto ha sido atacada por el zombie: Aereo en la posición 16,10
+
+Zombie: Aereo en la posición 17,9 ha sido atacado por el arma: Aerea
+Zombie: Aereo en la posición 17,9 ha sido atacado por el arma: AtaqueMultiple
+Zombie: Aereo en la posición 16,10 ha sido atacado por el arma: DeContacto
+Zombie: Aereo en la posición 15,11 ha sido atacado por el arma: Aerea
+
+Arma: DeContacto ha sido atacada por el zombie: MedioAlcance en la posición 14,9
+Arma: DeContacto ha sido atacada por el zombie: DeContacto en la posición 13,9
+Arma: DeContacto ha sido atacada por el zombie: DeContacto en la posición 13,9
+Arma: DeContacto ha sido atacada por el zombie: Aereo en la posición 16,10
+
+Arma: DeContacto ha sido atacada por el zombie: MedioAlcance en la posición 14,9
+Arma: DeContacto ha sido atacada por el zombie: DeContacto en la posición 13,9
+Arma: DeContacto ha sido atacada por el zombie: DeContacto en la posición 13,9
+Arma: DeContacto ha sido atacada por el zombie: Aereo en la posición 16,10
+
+Zombie: Aereo en la posición 17,9 ha sido atacado por el arma: Aerea
+Zombie: Aereo en la posición 17,9 ha sido atacado por el arma: AtaqueMultiple
+Zombie: Aereo en la posición 16,10 ha sido atacado por el arma: DeContacto
+Zombie: Aereo en la posición 15,11 ha sido atacado por el arma: Aerea
+
+Arma: Aerea ha sido atacada por el zombie: MedioAlcance en la posición 16,12
+
+Zombie: Aereo en la posición 17,9 ha sido atacado por el arma: Aerea
+Zombie: Aereo en la posición 17,9 ha sido atacado por el arma: AtaqueMultiple
+Zombie: Aereo en la posición 16,10 ha sido atacado por el arma: DeContacto
+Zombie: Aereo en la posición 15,11 ha sido atacado por el arma: Aerea
+
+Zombie: Aereo en la posición 17,9 ha sido atacado por el arma: Aerea
+Zombie: Aereo en la posición 17,9 ha sido atacado por el arma: AtaqueMultiple
+Zombie: Aereo en la posición 16,10 ha sido atacado por el arma: DeContacto
+Zombie: Aereo en la posición 15,11 ha sido atacado por el arma: Aerea
+
+Arma: Aerea ha sido atacada por el zombie: MedioAlcance en la posición 16,12
+
+Arma: Aerea ha sido atacada por el zombie: MedioAlcance en la posición 16,12
+
+
+Arma: Aerea ha sido atacada por el zombie: MedioAlcance en la posición 16,12
+
+Zombie: DeContacto en la posición 15,12 ha sido atacado por el arma: Aerea
+Zombie: DeContacto en la posición 14,12 ha sido atacado por el arma: DeContacto
+
+Zombie: DeContacto en la posición 15,12 ha sido atacado por el arma: Aerea
+Zombie: DeContacto en la posición 14,12 ha sido atacado por el arma: DeContacto
+
+Zombie: MedioAlcance en la posición 16,12 ha sido atacado por el arma: Aerea
+Zombie: MedioAlcance en la posición 15,12 ha sido atacado por el arma: DeContacto
+
+Zombie: MedioAlcance en la posición 16,12 ha sido atacado por el arma: Aerea
+Zombie: MedioAlcance en la posición 15,12 ha sido atacado por el arma: DeContacto
+
+
+
+Arma: Explosiva ha sido atacada por el zombie: MedioAlcance en la posición 13,10
+Arma: Explosiva ha sido atacada por el zombie: DeContacto en la posición 10,10
+Arma: Explosiva ha sido atacada por el zombie: Aereo en la posición 10,8
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 8,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 9,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 10,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 9,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 9,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 9,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 9,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 9,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 9,14
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 8,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 9,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 10,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 9,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 9,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 9,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 9,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 9,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 9,14
+
+Zombie: MedioAlcance en la posición 8,17 ha sido atacado por el arma: DeContacto
+Zombie: MedioAlcance en la posición 10,15 ha sido atacado por el arma: Aerea
+
+Arma: DeContacto ha sido atacada por el zombie: MedioAlcance en la posición 13,10
+Arma: DeContacto ha sido atacada por el zombie: MedioAlcance en la posición 15,12
+Arma: DeContacto ha sido atacada por el zombie: Aereo en la posición 16,12
+
+Arma: DeContacto ha sido atacada por el zombie: MedioAlcance en la posición 13,10
+Arma: DeContacto ha sido atacada por el zombie: MedioAlcance en la posición 15,12
+Arma: DeContacto ha sido atacada por el zombie: Aereo en la posición 16,12
+
+Arma: DeContacto ha sido atacada por el zombie: MedioAlcance en la posición 13,10
+Arma: DeContacto ha sido atacada por el zombie: MedioAlcance en la posición 15,12
+Arma: DeContacto ha sido atacada por el zombie: Aereo en la posición 16,12
+
+Arma: Explosiva ha sido atacada por el zombie: DeChoque en la posición 8,12
+Arma: Explosiva ha sido atacada por el zombie: DeContacto en la posición 10,12
+Arma: Explosiva ha sido atacada por el zombie: Aereo en la posición 9,12
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: Contacto en la posición 15,15
+Arma: AtaqueMultiple ha sido atacada por el zombie: MedioAlcance en la posición 16,16
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 14,12
+
+Zombie: Aereo en la posición 17,12 ha sido atacado por el arma: Aerea
+Zombie: Aereo en la posición 16,12 ha sido atacado por el arma: DeContacto
+
+Zombie: Aereo en la posición 17,12 ha sido atacado por el arma: Aerea
+Zombie: Aereo en la posición 16,12 ha sido atacado por el arma: DeContacto
+
+Nivel 6
+Arma: Explosiva ha sido atacada por el zombie: DeChoque en la posición 18,10
+
+Arma: Explosiva ha sido atacada por el zombie: DeChoque en la posición 18,10
+
+Zombie: DeChoque en la posición 18,10 ha sido atacado por el arma: Explosiva
+Zombie: DeChoque en la posición 16,12 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: DeChoque en la posición 18,10 ha sido atacado por el arma: Explosiva
+Zombie: DeChoque en la posición 16,12 ha sido atacado por el arma: AtaqueMultiple
+
+Arma: Aerea ha sido atacada por el zombie: MedioAlcance en la posición 10,15
+Arma: Aerea ha sido atacada por el zombie: Contacto en la posición 11,16
+
+Arma: Aerea ha sido atacada por el zombie: MedioAlcance en la posición 10,15
+Arma: Aerea ha sido atacada por el zombie: Contacto en la posición 11,16
+
+Arma: Aerea ha sido atacada por el zombie: DeChoque en la posición 18,15
+
+Arma: Aerea ha sido atacada por el zombie: DeChoque en la posición 18,15
+
+Arma: Aerea ha sido atacada por el zombie: DeChoque en la posición 10,18
+
+Arma: Explosiva ha sido atacada por el zombie: Aereo en la posición 14,8
+
+Zombie: Aereo en la posición 11,7 ha sido atacado por el arma: DeContacto
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 9,7
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 9,7
+
+Arma: Explosiva ha sido atacada por el zombie: Aereo en la posición 14,8
+
+Zombie: Aereo en la posición 11,7 ha sido atacado por el arma: DeContacto
+
+Arma: Explosiva ha sido atacada por el zombie: Aereo en la posición 14,8
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 9,7
+
+Arma: Aerea ha sido atacada por el zombie: DeChoque en la posición 10,18
+
+Arma: DeContacto ha sido atacada por el zombie: MedioAlcance en la posición 13,10
+Arma: DeContacto ha sido atacada por el zombie: DeContacto en la posición 10,10
+Arma: DeContacto ha sido atacada por el zombie: DeContacto en la posición 10,10
+Arma: DeContacto ha sido atacada por el zombie: Aereo en la posición 10,8
+Arma: DeContacto ha sido atacada por el zombie: Aereo en la posición 11,7
+
+Arma: DeContacto ha sido atacada por el zombie: MedioAlcance en la posición 13,10
+Arma: DeContacto ha sido atacada por el zombie: DeContacto en la posición 10,10
+Arma: DeContacto ha sido atacada por el zombie: DeContacto en la posición 10,10
+Arma: DeContacto ha sido atacada por el zombie: Aereo en la posición 10,8
+Arma: DeContacto ha sido atacada por el zombie: Aereo en la posición 11,7
+
+Arma: DeContacto ha sido atacada por el zombie: MedioAlcance en la posición 13,10
+Arma: DeContacto ha sido atacada por el zombie: DeContacto en la posición 10,10
+Arma: DeContacto ha sido atacada por el zombie: DeContacto en la posición 10,10
+Arma: DeContacto ha sido atacada por el zombie: Aereo en la posición 10,8
+Arma: DeContacto ha sido atacada por el zombie: Aereo en la posición 11,7
+
+Zombie: DeChoque en la posición 9,7 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeChoque en la posición 10,8 ha sido atacado por el arma: DeContacto
+Zombie: DeChoque en la posición 11,9 ha sido atacado por el arma: Explosiva
+
+Zombie: DeChoque en la posición 9,7 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeChoque en la posición 10,8 ha sido atacado por el arma: DeContacto
+Zombie: DeChoque en la posición 11,9 ha sido atacado por el arma: Explosiva
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 16,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 16,13
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 16,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 16,13
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 16,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 16,13
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 16,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 16,13
+
+Zombie: DeChoque en la posición 9,7 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeChoque en la posición 10,8 ha sido atacado por el arma: DeContacto
+Zombie: DeChoque en la posición 11,9 ha sido atacado por el arma: Explosiva
+
+Arma: DeContacto ha sido atacada por el zombie: MedioAlcance en la posición 13,10
+Arma: DeContacto ha sido atacada por el zombie: DeContacto en la posición 10,10
+Arma: DeContacto ha sido atacada por el zombie: DeContacto en la posición 10,10
+Arma: DeContacto ha sido atacada por el zombie: Aereo en la posición 10,8
+Arma: DeContacto ha sido atacada por el zombie: Aereo en la posición 11,7
+
+Arma: Explosiva ha sido atacada por el zombie: Aereo en la posición 11,7
+Arma: Explosiva ha sido atacada por el zombie: DeChoque en la posición 11,9
+Arma: Explosiva ha sido atacada por el zombie: Contacto en la posición 11,10
+
+Zombie: Aereo en la posición 15,7 ha sido atacado por el arma: Explosiva
+Zombie: Aereo en la posición 14,8 ha sido atacado por el arma: Explosiva
+Zombie: Aereo en la posición 13,9 ha sido atacado por el arma: MedioAlcance
+
+Arma: Explosiva ha sido atacada por el zombie: Aereo en la posición 11,7
+Arma: Explosiva ha sido atacada por el zombie: DeChoque en la posición 11,9
+Arma: Explosiva ha sido atacada por el zombie: Contacto en la posición 11,10
+
+Arma: MedioAlcance ha sido atacada por el zombie: DeChoque en la posición 9,17
+
+Arma: Explosiva ha sido atacada por el zombie: Aereo en la posición 11,7
+Arma: Explosiva ha sido atacada por el zombie: DeChoque en la posición 11,9
+Arma: Explosiva ha sido atacada por el zombie: Contacto en la posición 11,10
+
+Zombie: Contacto en la posición 9,9 ha sido atacado por el arma: AtaqueMultiple
+Zombie: Contacto en la posición 10,10 ha sido atacado por el arma: DeContacto
+Zombie: Contacto en la posición 11,10 ha sido atacado por el arma: Explosiva
+Zombie: Contacto en la posición 11,11 ha sido atacado por el arma: DeContacto
+
+Zombie: Contacto en la posición 9,9 ha sido atacado por el arma: AtaqueMultiple
+Zombie: Contacto en la posición 10,10 ha sido atacado por el arma: DeContacto
+Zombie: Contacto en la posición 11,10 ha sido atacado por el arma: Explosiva
+Zombie: Contacto en la posición 11,11 ha sido atacado por el arma: DeContacto
+
+Zombie: Contacto en la posición 9,9 ha sido atacado por el arma: AtaqueMultiple
+Zombie: Contacto en la posición 10,10 ha sido atacado por el arma: DeContacto
+Zombie: Contacto en la posición 11,10 ha sido atacado por el arma: Explosiva
+Zombie: Contacto en la posición 11,11 ha sido atacado por el arma: DeContacto
+
+Zombie: Contacto en la posición 13,9 ha sido atacado por el arma: Explosiva
+Zombie: Contacto en la posición 13,10 ha sido atacado por el arma: MedioAlcance
+
+Arma: MedioAlcance ha sido atacada por el zombie: Aereo en la posición 16,13
+
+Arma: MedioAlcance ha sido atacada por el zombie: Aereo en la posición 16,13
+
+Arma: MedioAlcance ha sido atacada por el zombie: Aereo en la posición 16,13
+
+Zombie: Contacto en la posición 13,9 ha sido atacado por el arma: Explosiva
+Zombie: Contacto en la posición 13,10 ha sido atacado por el arma: MedioAlcance
+
+Arma: DeContacto ha sido atacada por el zombie: Aereo en la posición 9,12
+Arma: DeContacto ha sido atacada por el zombie: DeChoque en la posición 11,9
+Arma: DeContacto ha sido atacada por el zombie: Contacto en la posición 11,10
+Arma: DeContacto ha sido atacada por el zombie: Contacto en la posición 11,10
+
+Zombie: DeChoque en la posición 10,18 ha sido atacado por el arma: Aerea
+Zombie: DeChoque en la posición 9,17 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 8,16 ha sido atacado por el arma: Aerea
+
+Arma: DeContacto ha sido atacada por el zombie: Aereo en la posición 9,12
+Arma: DeContacto ha sido atacada por el zombie: DeChoque en la posición 11,9
+Arma: DeContacto ha sido atacada por el zombie: Contacto en la posición 11,10
+Arma: DeContacto ha sido atacada por el zombie: Contacto en la posición 11,10
+
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 13,10
+Arma: MedioAlcance ha sido atacada por el zombie: DeContacto en la posición 13,9
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 13,10
+Arma: MedioAlcance ha sido atacada por el zombie: DeContacto en la posición 13,11
+Arma: MedioAlcance ha sido atacada por el zombie: DeChoque en la posición 15,12
+
+Zombie: Contacto en la posición 11,16 ha sido atacado por el arma: Aerea
+Zombie: Contacto en la posición 12,15 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: DeChoque en la posición 10,18 ha sido atacado por el arma: Aerea
+Zombie: DeChoque en la posición 9,17 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 8,16 ha sido atacado por el arma: Aerea
+
+Arma: Aerea ha sido atacada por el zombie: DeContacto en la posición 7,14
+
+Arma: Aerea ha sido atacada por el zombie: DeContacto en la posición 7,14
+
+Arma: Aerea ha sido atacada por el zombie: DeContacto en la posición 7,14
+
+Zombie: Contacto en la posición 11,16 ha sido atacado por el arma: Aerea
+Zombie: Contacto en la posición 12,15 ha sido atacado por el arma: AtaqueMultiple
+
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 13,10
+Arma: MedioAlcance ha sido atacada por el zombie: DeContacto en la posición 13,9
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 13,10
+Arma: MedioAlcance ha sido atacada por el zombie: DeContacto en la posición 13,11
+Arma: MedioAlcance ha sido atacada por el zombie: DeChoque en la posición 15,12
+
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 13,10
+Arma: MedioAlcance ha sido atacada por el zombie: DeContacto en la posición 13,9
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 13,10
+Arma: MedioAlcance ha sido atacada por el zombie: DeContacto en la posición 13,11
+Arma: MedioAlcance ha sido atacada por el zombie: DeChoque en la posición 15,12
+
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 13,10
+Arma: MedioAlcance ha sido atacada por el zombie: DeContacto en la posición 13,9
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 13,10
+Arma: MedioAlcance ha sido atacada por el zombie: DeContacto en la posición 13,11
+Arma: MedioAlcance ha sido atacada por el zombie: DeChoque en la posición 15,12
+
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 13,10
+Arma: MedioAlcance ha sido atacada por el zombie: DeContacto en la posición 13,9
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 13,10
+Arma: MedioAlcance ha sido atacada por el zombie: DeContacto en la posición 13,11
+Arma: MedioAlcance ha sido atacada por el zombie: DeChoque en la posición 15,12
+
+Zombie: DeContacto en la posición 14,10 ha sido atacado por el arma: Explosiva
+Zombie: DeContacto en la posición 13,11 ha sido atacado por el arma: MedioAlcance
+Zombie: DeContacto en la posición 11,13 ha sido atacado por el arma: MedioAlcance
+
+Zombie: DeContacto en la posición 14,10 ha sido atacado por el arma: Explosiva
+Zombie: DeContacto en la posición 13,11 ha sido atacado por el arma: MedioAlcance
+Zombie: DeContacto en la posición 11,13 ha sido atacado por el arma: MedioAlcance
+
+Zombie: DeChoque en la posición 18,15 ha sido atacado por el arma: Aerea
+Zombie: DeChoque en la posición 16,13 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 15,12 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 14,13 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: DeChoque en la posición 18,15 ha sido atacado por el arma: Aerea
+Zombie: DeChoque en la posición 16,13 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 15,12 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 14,13 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: DeChoque en la posición 18,15 ha sido atacado por el arma: Aerea
+Zombie: DeChoque en la posición 16,13 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 15,12 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 14,13 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: DeChoque en la posición 18,15 ha sido atacado por el arma: Aerea
+Zombie: DeChoque en la posición 16,13 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 15,12 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 14,13 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: Aereo en la posición 16,13 ha sido atacado por el arma: AtaqueMultiple
+Zombie: Aereo en la posición 15,13 ha sido atacado por el arma: MedioAlcance
+Zombie: Aereo en la posición 14,12 ha sido atacado por el arma: MedioAlcance
+Zombie: Aereo en la posición 13,13 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: Aereo en la posición 16,13 ha sido atacado por el arma: AtaqueMultiple
+Zombie: Aereo en la posición 15,13 ha sido atacado por el arma: MedioAlcance
+Zombie: Aereo en la posición 14,12 ha sido atacado por el arma: MedioAlcance
+Zombie: Aereo en la posición 13,13 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: DeContacto en la posición 15,16 ha sido atacado por el arma: Aerea
+Zombie: DeContacto en la posición 14,14 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeContacto en la posición 13,13 ha sido atacado por el arma: MedioAlcance
+Zombie: DeContacto en la posición 12,14 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: Aereo en la posición 16,13 ha sido atacado por el arma: AtaqueMultiple
+Zombie: Aereo en la posición 15,13 ha sido atacado por el arma: MedioAlcance
+Zombie: Aereo en la posición 14,12 ha sido atacado por el arma: MedioAlcance
+Zombie: Aereo en la posición 13,13 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: DeContacto en la posición 15,16 ha sido atacado por el arma: Aerea
+Zombie: DeContacto en la posición 14,14 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeContacto en la posición 13,13 ha sido atacado por el arma: MedioAlcance
+Zombie: DeContacto en la posición 12,14 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: DeContacto en la posición 15,16 ha sido atacado por el arma: Aerea
+Zombie: DeContacto en la posición 14,14 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeContacto en la posición 13,13 ha sido atacado por el arma: MedioAlcance
+Zombie: DeContacto en la posición 12,14 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: Aereo en la posición 16,13 ha sido atacado por el arma: AtaqueMultiple
+Zombie: Aereo en la posición 15,13 ha sido atacado por el arma: MedioAlcance
+Zombie: Aereo en la posición 14,12 ha sido atacado por el arma: MedioAlcance
+Zombie: Aereo en la posición 13,13 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: DeContacto en la posición 15,16 ha sido atacado por el arma: Aerea
+Zombie: DeContacto en la posición 14,14 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeContacto en la posición 13,13 ha sido atacado por el arma: MedioAlcance
+Zombie: DeContacto en la posición 12,14 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: Aereo en la posición 16,13 ha sido atacado por el arma: AtaqueMultiple
+Zombie: Aereo en la posición 15,13 ha sido atacado por el arma: MedioAlcance
+Zombie: Aereo en la posición 14,12 ha sido atacado por el arma: MedioAlcance
+Zombie: Aereo en la posición 13,13 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: DeContacto en la posición 15,16 ha sido atacado por el arma: Aerea
+Zombie: DeContacto en la posición 14,14 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeContacto en la posición 13,13 ha sido atacado por el arma: MedioAlcance
+Zombie: DeContacto en la posición 12,14 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: DeContacto en la posición 15,16 ha sido atacado por el arma: Aerea
+Zombie: DeContacto en la posición 14,14 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeContacto en la posición 13,13 ha sido atacado por el arma: MedioAlcance
+Zombie: DeContacto en la posición 12,14 ha sido atacado por el arma: AtaqueMultiple
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: Contacto en la posición 12,15
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 12,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 14,13
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 12,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 12,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 14,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 14,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 14,14
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: Contacto en la posición 12,15
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 12,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 14,13
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 12,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 12,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 14,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 14,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 14,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: MedioAlcance en la posición 11,14
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: Contacto en la posición 12,15
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 12,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 14,13
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 12,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 12,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 14,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 14,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 14,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: MedioAlcance en la posición 11,14
+
+Zombie: Aereo en la posición 7,9 ha sido atacado por el arma: AtaqueMultiple
+Zombie: Aereo en la posición 8,10 ha sido atacado por el arma: Aerea
+
+Zombie: Aereo en la posición 7,9 ha sido atacado por el arma: AtaqueMultiple
+Zombie: Aereo en la posición 8,10 ha sido atacado por el arma: Aerea
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: Contacto en la posición 12,15
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 12,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 14,13
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 12,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 12,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 14,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 14,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 14,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: MedioAlcance en la posición 11,14
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: Contacto en la posición 12,15
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 12,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 14,13
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 12,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 12,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 14,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 14,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 14,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: MedioAlcance en la posición 11,14
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: Contacto en la posición 12,15
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 12,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 14,13
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 12,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 12,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 14,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 14,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 14,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: MedioAlcance en la posición 11,14
+
+Zombie: DeChoque en la posición 17,13 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeChoque en la posición 14,14 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: DeChoque en la posición 17,13 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeChoque en la posición 14,14 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: DeChoque en la posición 17,13 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeChoque en la posición 14,14 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: DeChoque en la posición 17,13 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeChoque en la posición 14,14 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: DeChoque en la posición 17,13 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeChoque en la posición 14,14 ha sido atacado por el arma: AtaqueMultiple
+
+Arma: MedioAlcance ha sido atacada por el zombie: DeChoque en la posición 14,13
+Arma: MedioAlcance ha sido atacada por el zombie: DeContacto en la posición 12,14
+Arma: MedioAlcance ha sido atacada por el zombie: Aereo en la posición 13,13
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 11,14
+
+Arma: MedioAlcance ha sido atacada por el zombie: DeChoque en la posición 14,13
+Arma: MedioAlcance ha sido atacada por el zombie: DeContacto en la posición 12,14
+Arma: MedioAlcance ha sido atacada por el zombie: Aereo en la posición 13,13
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 11,14
+
+Zombie: DeContacto en la posición 9,11 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: DeContacto en la posición 9,11 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: DeContacto en la posición 9,11 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: MedioAlcance en la posición 11,14 ha sido atacado por el arma: AtaqueMultiple
+Zombie: MedioAlcance en la posición 11,14 ha sido atacado por el arma: MedioAlcance
+Zombie: MedioAlcance en la posición 10,13 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: MedioAlcance en la posición 11,14 ha sido atacado por el arma: AtaqueMultiple
+Zombie: MedioAlcance en la posición 11,14 ha sido atacado por el arma: MedioAlcance
+Zombie: MedioAlcance en la posición 10,13 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: MedioAlcance en la posición 11,14 ha sido atacado por el arma: AtaqueMultiple
+Zombie: MedioAlcance en la posición 11,14 ha sido atacado por el arma: MedioAlcance
+Zombie: MedioAlcance en la posición 10,13 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: MedioAlcance en la posición 11,14 ha sido atacado por el arma: AtaqueMultiple
+Zombie: MedioAlcance en la posición 11,14 ha sido atacado por el arma: MedioAlcance
+Zombie: MedioAlcance en la posición 10,13 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: MedioAlcance en la posición 11,14 ha sido atacado por el arma: AtaqueMultiple
+Zombie: MedioAlcance en la posición 11,14 ha sido atacado por el arma: MedioAlcance
+Zombie: MedioAlcance en la posición 10,13 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: MedioAlcance en la posición 11,14 ha sido atacado por el arma: AtaqueMultiple
+Zombie: MedioAlcance en la posición 11,14 ha sido atacado por el arma: MedioAlcance
+Zombie: MedioAlcance en la posición 10,13 ha sido atacado por el arma: AtaqueMultiple
+
+Arma: MedioAlcance ha sido atacada por el zombie: DeChoque en la posición 14,13
+Arma: MedioAlcance ha sido atacada por el zombie: DeContacto en la posición 12,14
+Arma: MedioAlcance ha sido atacada por el zombie: Aereo en la posición 13,13
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 11,14
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 11,15
+
+Arma: Aerea ha sido atacada por el zombie: Aereo en la posición 5,12
+
+Arma: Aerea ha sido atacada por el zombie: Aereo en la posición 5,12
+
+Zombie: DeContacto en la posición 8,15 ha sido atacado por el arma: Aerea
+
+Arma: Aerea ha sido atacada por el zombie: Aereo en la posición 5,12
+
+Arma: Aerea ha sido atacada por el zombie: Aereo en la posición 5,12
+
+Zombie: DeContacto en la posición 8,12 ha sido atacado por el arma: Aerea
+Zombie: DeContacto en la posición 9,12 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: DeContacto en la posición 7,14 ha sido atacado por el arma: Aerea
+Zombie: DeContacto en la posición 8,13 ha sido atacado por el arma: Aerea
+
+Zombie: DeContacto en la posición 8,15 ha sido atacado por el arma: Aerea
+
+Zombie: DeContacto en la posición 8,12 ha sido atacado por el arma: Aerea
+Zombie: DeContacto en la posición 9,12 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: DeContacto en la posición 8,12 ha sido atacado por el arma: Aerea
+Zombie: DeContacto en la posición 9,12 ha sido atacado por el arma: AtaqueMultiple
+
+
+Zombie: DeContacto en la posición 8,12 ha sido atacado por el arma: Aerea
+Zombie: DeContacto en la posición 9,12 ha sido atacado por el arma: AtaqueMultiple
+
+
+
+
+
+
+
+
+Zombie: DeContacto en la posición 7,14 ha sido atacado por el arma: Aerea
+Zombie: DeContacto en la posición 8,13 ha sido atacado por el arma: Aerea
+
+
+
+
+Zombie: Aereo en la posición 5,12 ha sido atacado por el arma: Aerea
+Zombie: Aereo en la posición 6,12 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: Aereo en la posición 5,12 ha sido atacado por el arma: Aerea
+Zombie: Aereo en la posición 6,12 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: Aereo en la posición 5,12 ha sido atacado por el arma: Aerea
+Zombie: Aereo en la posición 6,12 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: Aereo en la posición 5,12 ha sido atacado por el arma: Aerea
+Zombie: Aereo en la posición 6,12 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: Aereo en la posición 5,12 ha sido atacado por el arma: Aerea
+Zombie: Aereo en la posición 6,12 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: Aereo en la posición 5,12 ha sido atacado por el arma: Aerea
+Zombie: Aereo en la posición 6,12 ha sido atacado por el arma: AtaqueMultiple
+
+
+
+
+
+
+
+
+
+
+
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 8,10
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 9,11
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 9,11
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 8,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 8,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 8,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 8,13
+Arma: AtaqueMultiple ha sido atacada por el zombie: Contacto en la posición 10,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: Contacto en la posición 10,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: Contacto en la posición 10,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 6,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 6,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 6,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 6,12
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 8,10
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 9,11
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 9,11
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 8,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 8,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 8,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 8,13
+Arma: AtaqueMultiple ha sido atacada por el zombie: Contacto en la posición 10,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: Contacto en la posición 10,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: Contacto en la posición 10,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 6,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 6,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 6,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 6,12
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 8,10
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 9,11
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 9,11
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 8,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 8,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 8,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 8,13
+Arma: AtaqueMultiple ha sido atacada por el zombie: Contacto en la posición 10,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: Contacto en la posición 10,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: Contacto en la posición 10,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 6,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 6,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 6,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 6,12
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 8,10
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 9,11
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 9,11
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 8,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 8,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 8,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 8,13
+Arma: AtaqueMultiple ha sido atacada por el zombie: Contacto en la posición 10,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: Contacto en la posición 10,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: Contacto en la posición 10,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 6,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 6,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 6,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 6,12
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 8,10
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 9,11
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 9,11
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 8,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 8,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 8,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 8,13
+Arma: AtaqueMultiple ha sido atacada por el zombie: Contacto en la posición 10,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: Contacto en la posición 10,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: Contacto en la posición 10,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 6,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 6,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 6,12
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 6,12
+
+Nivel 7
+Arma: Aerea ha sido atacada por el zombie: DeContacto en la posición 6,16
+
+Arma: Aerea ha sido atacada por el zombie: DeContacto en la posición 6,16
+
+Arma: Aerea ha sido atacada por el zombie: DeContacto en la posición 6,16
+
+Arma: Aerea ha sido atacada por el zombie: DeContacto en la posición 6,16
+
+Arma: Aerea ha sido atacada por el zombie: DeContacto en la posición 6,16
+
+Arma: DeContacto ha sido atacada por el zombie: DeChoque en la posición 18,16
+
+Arma: DeContacto ha sido atacada por el zombie: DeChoque en la posición 18,16
+
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 9,15
+
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 9,15
+
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 9,15
+
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 9,15
+
+Arma: Aerea ha sido atacada por el zombie: DeChoque en la posición 17,9
+
+Arma: Aerea ha sido atacada por el zombie: DeChoque en la posición 17,9
+
+Arma: Aerea ha sido atacada por el zombie: DeChoque en la posición 17,9
+
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 7,14
+
+Arma: Aerea ha sido atacada por el zombie: DeChoque en la posición 17,9
+
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 7,14
+
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 7,14
+
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 7,14
+
+Arma: Aerea ha sido atacada por el zombie: Contacto en la posición 5,10
+
+Arma: Aerea ha sido atacada por el zombie: Contacto en la posición 5,10
+
+Arma: Aerea ha sido atacada por el zombie: Contacto en la posición 5,10
+
+Arma: MedioAlcance ha sido atacada por el zombie: DeChoque en la posición 17,15
+
+Arma: MedioAlcance ha sido atacada por el zombie: DeChoque en la posición 17,15
+
+Arma: Aerea ha sido atacada por el zombie: Contacto en la posición 5,10
+
+Zombie: DeChoque en la posición 17,9 ha sido atacado por el arma: Aerea
+Zombie: DeChoque en la posición 15,11 ha sido atacado por el arma: MedioAlcance
+
+Zombie: DeChoque en la posición 17,9 ha sido atacado por el arma: Aerea
+Zombie: DeChoque en la posición 15,11 ha sido atacado por el arma: MedioAlcance
+
+Arma: MedioAlcance ha sido atacada por el zombie: DeChoque en la posición 15,11
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 15,12
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 15,12
+
+Zombie: DeChoque en la posición 17,9 ha sido atacado por el arma: Aerea
+Zombie: DeChoque en la posición 15,11 ha sido atacado por el arma: MedioAlcance
+
+Arma: MedioAlcance ha sido atacada por el zombie: DeChoque en la posición 15,11
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 15,12
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 15,12
+
+Zombie: MedioAlcance en la posición 5,16 ha sido atacado por el arma: Aerea
+Zombie: MedioAlcance en la posición 7,14 ha sido atacado por el arma: MedioAlcance
+Zombie: MedioAlcance en la posición 7,13 ha sido atacado por el arma: AtaqueMultiple
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: MedioAlcance en la posición 7,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 8,14
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: MedioAlcance en la posición 7,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 8,14
+
+Zombie: MedioAlcance en la posición 5,16 ha sido atacado por el arma: Aerea
+Zombie: MedioAlcance en la posición 7,14 ha sido atacado por el arma: MedioAlcance
+Zombie: MedioAlcance en la posición 7,13 ha sido atacado por el arma: AtaqueMultiple
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: MedioAlcance en la posición 7,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 8,14
+
+Arma: MedioAlcance ha sido atacada por el zombie: DeChoque en la posición 15,11
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 15,12
+Arma: MedioAlcance ha sido atacada por el zombie: MedioAlcance en la posición 15,12
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: MedioAlcance en la posición 7,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeContacto en la posición 8,14
+
+Zombie: DeContacto en la posición 6,16 ha sido atacado por el arma: Aerea
+Zombie: DeContacto en la posición 8,14 ha sido atacado por el arma: MedioAlcance
+Zombie: DeContacto en la posición 9,13 ha sido atacado por el arma: MedioAlcance
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: Contacto en la posición 7,11
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: Contacto en la posición 7,11
+
+Zombie: DeContacto en la posición 6,16 ha sido atacado por el arma: Aerea
+Zombie: DeContacto en la posición 8,14 ha sido atacado por el arma: MedioAlcance
+Zombie: DeContacto en la posición 9,13 ha sido atacado por el arma: MedioAlcance
+
+Zombie: DeContacto en la posición 6,16 ha sido atacado por el arma: Aerea
+Zombie: DeContacto en la posición 8,14 ha sido atacado por el arma: MedioAlcance
+Zombie: DeContacto en la posición 9,13 ha sido atacado por el arma: MedioAlcance
+
+Zombie: DeChoque en la posición 18,16 ha sido atacado por el arma: DeContacto
+Zombie: DeChoque en la posición 17,15 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 16,14 ha sido atacado por el arma: AtaqueMultiple
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: Contacto en la posición 7,11
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: Contacto en la posición 7,11
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: Contacto en la posición 7,11
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: Contacto en la posición 7,11
+
+Zombie: DeContacto en la posición 6,16 ha sido atacado por el arma: Aerea
+Zombie: DeContacto en la posición 8,14 ha sido atacado por el arma: MedioAlcance
+Zombie: DeContacto en la posición 9,13 ha sido atacado por el arma: MedioAlcance
+
+Arma: MedioAlcance ha sido atacada por el zombie: DeContacto en la posición 9,13
+Arma: MedioAlcance ha sido atacada por el zombie: DeContacto en la posición 9,12
+
+Arma: MedioAlcance ha sido atacada por el zombie: DeContacto en la posición 9,13
+Arma: MedioAlcance ha sido atacada por el zombie: DeContacto en la posición 9,12
+
+Arma: MedioAlcance ha sido atacada por el zombie: DeContacto en la posición 9,13
+Arma: MedioAlcance ha sido atacada por el zombie: DeContacto en la posición 9,12
+
+Arma: MedioAlcance ha sido atacada por el zombie: DeContacto en la posición 9,13
+Arma: MedioAlcance ha sido atacada por el zombie: DeContacto en la posición 9,12
+
+Zombie: DeChoque en la posición 18,16 ha sido atacado por el arma: DeContacto
+Zombie: DeChoque en la posición 17,15 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 16,14 ha sido atacado por el arma: AtaqueMultiple
+
+Arma: MedioAlcance ha sido atacada por el zombie: DeContacto en la posición 9,13
+Arma: MedioAlcance ha sido atacada por el zombie: DeContacto en la posición 9,12
+
+Arma: MedioAlcance ha sido atacada por el zombie: DeContacto en la posición 9,13
+Arma: MedioAlcance ha sido atacada por el zombie: DeContacto en la posición 9,12
+
+Arma: MedioAlcance ha sido atacada por el zombie: DeContacto en la posición 9,13
+Arma: MedioAlcance ha sido atacada por el zombie: DeContacto en la posición 9,12
+
+Zombie: Contacto en la posición 5,10 ha sido atacado por el arma: Aerea
+Zombie: Contacto en la posición 7,11 ha sido atacado por el arma: AtaqueMultiple
+
+
+
+Arma: MedioAlcance ha sido atacada por el zombie: DeContacto en la posición 9,13
+Arma: MedioAlcance ha sido atacada por el zombie: DeContacto en la posición 9,12
+
+Zombie: Contacto en la posición 5,10 ha sido atacado por el arma: Aerea
+Zombie: Contacto en la posición 7,11 ha sido atacado por el arma: AtaqueMultiple
+
+
+
+Zombie: Aereo en la posición 17,16 ha sido atacado por el arma: DeContacto
+Zombie: Aereo en la posición 16,15 ha sido atacado por el arma: MedioAlcance
+Zombie: Aereo en la posición 15,14 ha sido atacado por el arma: AtaqueMultiple
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 15,11
+Arma: AtaqueMultiple ha sido atacada por el zombie: MedioAlcance en la posición 12,10
+Arma: AtaqueMultiple ha sido atacada por el zombie: Contacto en la posición 13,11
+
+Zombie: Aereo en la posición 17,16 ha sido atacado por el arma: DeContacto
+Zombie: Aereo en la posición 16,15 ha sido atacado por el arma: MedioAlcance
+Zombie: Aereo en la posición 15,14 ha sido atacado por el arma: AtaqueMultiple
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 15,11
+Arma: AtaqueMultiple ha sido atacada por el zombie: MedioAlcance en la posición 12,10
+Arma: AtaqueMultiple ha sido atacada por el zombie: Contacto en la posición 13,11
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 15,11
+Arma: AtaqueMultiple ha sido atacada por el zombie: MedioAlcance en la posición 12,10
+Arma: AtaqueMultiple ha sido atacada por el zombie: Contacto en la posición 13,11
+
+Zombie: Aereo en la posición 17,16 ha sido atacado por el arma: DeContacto
+Zombie: Aereo en la posición 16,15 ha sido atacado por el arma: MedioAlcance
+Zombie: Aereo en la posición 15,14 ha sido atacado por el arma: AtaqueMultiple
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 16,15
+Arma: AtaqueMultiple ha sido atacada por el zombie: Contacto en la posición 14,14
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 16,15
+Arma: AtaqueMultiple ha sido atacada por el zombie: Contacto en la posición 14,14
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 15,11
+Arma: AtaqueMultiple ha sido atacada por el zombie: MedioAlcance en la posición 12,10
+Arma: AtaqueMultiple ha sido atacada por el zombie: Contacto en la posición 13,11
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 16,15
+Arma: AtaqueMultiple ha sido atacada por el zombie: Contacto en la posición 14,14
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 15,11
+Arma: AtaqueMultiple ha sido atacada por el zombie: MedioAlcance en la posición 12,10
+Arma: AtaqueMultiple ha sido atacada por el zombie: Contacto en la posición 13,11
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 15,11
+Arma: AtaqueMultiple ha sido atacada por el zombie: MedioAlcance en la posición 12,10
+Arma: AtaqueMultiple ha sido atacada por el zombie: Contacto en la posición 13,11
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 16,15
+Arma: AtaqueMultiple ha sido atacada por el zombie: Contacto en la posición 14,14
+
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 11,15
+
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 11,15
+
+Arma: MedioAlcance ha sido atacada por el zombie: Contacto en la posición 11,15
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 15,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: MedioAlcance en la posición 14,13
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 11,14
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 15,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: MedioAlcance en la posición 14,13
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 11,14
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 15,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: MedioAlcance en la posición 14,13
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 11,14
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 15,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: MedioAlcance en la posición 14,13
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 11,14
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 15,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: MedioAlcance en la posición 14,13
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 11,14
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 15,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: MedioAlcance en la posición 14,13
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 11,14
+
+Arma: AtaqueMultiple ha sido atacada por el zombie: Aereo en la posición 15,14
+Arma: AtaqueMultiple ha sido atacada por el zombie: MedioAlcance en la posición 14,13
+Arma: AtaqueMultiple ha sido atacada por el zombie: DeChoque en la posición 11,14
+
+Zombie: Contacto en la posición 15,9 ha sido atacado por el arma: Aerea
+Zombie: Contacto en la posición 14,11 ha sido atacado por el arma: MedioAlcance
+Zombie: Contacto en la posición 13,11 ha sido atacado por el arma: AtaqueMultiple
+Zombie: Contacto en la posición 13,12 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: MedioAlcance en la posición 17,10 ha sido atacado por el arma: Aerea
+Zombie: MedioAlcance en la posición 15,12 ha sido atacado por el arma: MedioAlcance
+Zombie: MedioAlcance en la posición 14,13 ha sido atacado por el arma: AtaqueMultiple
+Zombie: MedioAlcance en la posición 13,13 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: MedioAlcance en la posición 17,10 ha sido atacado por el arma: Aerea
+Zombie: MedioAlcance en la posición 15,12 ha sido atacado por el arma: MedioAlcance
+Zombie: MedioAlcance en la posición 14,13 ha sido atacado por el arma: AtaqueMultiple
+Zombie: MedioAlcance en la posición 13,13 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: Contacto en la posición 15,9 ha sido atacado por el arma: Aerea
+Zombie: Contacto en la posición 14,11 ha sido atacado por el arma: MedioAlcance
+Zombie: Contacto en la posición 13,11 ha sido atacado por el arma: AtaqueMultiple
+Zombie: Contacto en la posición 13,12 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: MedioAlcance en la posición 17,10 ha sido atacado por el arma: Aerea
+Zombie: MedioAlcance en la posición 15,12 ha sido atacado por el arma: MedioAlcance
+Zombie: MedioAlcance en la posición 14,13 ha sido atacado por el arma: AtaqueMultiple
+Zombie: MedioAlcance en la posición 13,13 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: Contacto en la posición 7,17 ha sido atacado por el arma: Aerea
+Zombie: Contacto en la posición 9,15 ha sido atacado por el arma: MedioAlcance
+Zombie: Contacto en la posición 13,16 ha sido atacado por el arma: DeContacto
+
+Arma: DeContacto ha sido atacada por el zombie: Contacto en la posición 13,18
+
+Zombie: MedioAlcance en la posición 12,10 ha sido atacado por el arma: AtaqueMultiple
+Zombie: MedioAlcance en la posición 13,11 ha sido atacado por el arma: AtaqueMultiple
+
+Arma: DeContacto ha sido atacada por el zombie: Contacto en la posición 13,18
+
+Zombie: Contacto en la posición 7,17 ha sido atacado por el arma: Aerea
+Zombie: Contacto en la posición 9,15 ha sido atacado por el arma: MedioAlcance
+Zombie: Contacto en la posición 13,16 ha sido atacado por el arma: DeContacto
+
+Zombie: MedioAlcance en la posición 12,10 ha sido atacado por el arma: AtaqueMultiple
+Zombie: MedioAlcance en la posición 13,11 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: MedioAlcance en la posición 12,10 ha sido atacado por el arma: AtaqueMultiple
+Zombie: MedioAlcance en la posición 13,11 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: DeChoque en la posición 6,18 ha sido atacado por el arma: Aerea
+Zombie: DeChoque en la posición 8,16 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 8,15 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 8,15 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeChoque en la posición 9,14 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 10,13 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 11,14 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 12,13 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeChoque en la posición 13,14 ha sido atacado por el arma: DeContacto
+
+Zombie: DeChoque en la posición 6,18 ha sido atacado por el arma: Aerea
+Zombie: DeChoque en la posición 8,16 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 8,15 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 8,15 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeChoque en la posición 9,14 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 10,13 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 11,14 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 12,13 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeChoque en la posición 13,14 ha sido atacado por el arma: DeContacto
+
+Arma: DeContacto ha sido atacada por el zombie: Contacto en la posición 13,18
+
+Arma: DeContacto ha sido atacada por el zombie: Contacto en la posición 13,18
+
+Zombie: MedioAlcance en la posición 4,10 ha sido atacado por el arma: Aerea
+Zombie: MedioAlcance en la posición 6,12 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: MedioAlcance en la posición 4,10 ha sido atacado por el arma: Aerea
+Zombie: MedioAlcance en la posición 6,12 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: MedioAlcance en la posición 4,10 ha sido atacado por el arma: Aerea
+Zombie: MedioAlcance en la posición 6,12 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: Contacto en la posición 14,14 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: Contacto en la posición 14,14 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: Contacto en la posición 8,10 ha sido atacado por el arma: AtaqueMultiple
+Zombie: Contacto en la posición 9,11 ha sido atacado por el arma: MedioAlcance
+
+Zombie: Contacto en la posición 9,16 ha sido atacado por el arma: MedioAlcance
+Zombie: Contacto en la posición 11,15 ha sido atacado por el arma: MedioAlcance
+
+Zombie: Contacto en la posición 9,16 ha sido atacado por el arma: MedioAlcance
+Zombie: Contacto en la posición 11,15 ha sido atacado por el arma: MedioAlcance
+
+Zombie: DeChoque en la posición 6,7 ha sido atacado por el arma: Aerea
+Zombie: DeChoque en la posición 8,9 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeChoque en la posición 9,10 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 10,11 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 10,11 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeChoque en la posición 11,12 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: Contacto en la posición 9,16 ha sido atacado por el arma: MedioAlcance
+Zombie: Contacto en la posición 11,15 ha sido atacado por el arma: MedioAlcance
+
+
+Zombie: DeChoque en la posición 6,7 ha sido atacado por el arma: Aerea
+Zombie: DeChoque en la posición 8,9 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeChoque en la posición 9,10 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 10,11 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 10,11 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeChoque en la posición 11,12 ha sido atacado por el arma: AtaqueMultiple
+
+
+Zombie: DeContacto en la posición 6,9 ha sido atacado por el arma: Aerea
+Zombie: DeContacto en la posición 8,11 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeContacto en la posición 9,12 ha sido atacado por el arma: MedioAlcance
+Zombie: DeContacto en la posición 10,12 ha sido atacado por el arma: MedioAlcance
+
+Zombie: DeContacto en la posición 6,9 ha sido atacado por el arma: Aerea
+Zombie: DeContacto en la posición 8,11 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeContacto en la posición 9,12 ha sido atacado por el arma: MedioAlcance
+Zombie: DeContacto en la posición 10,12 ha sido atacado por el arma: MedioAlcance
+
+Zombie: DeContacto en la posición 6,9 ha sido atacado por el arma: Aerea
+Zombie: DeContacto en la posición 8,11 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeContacto en la posición 9,12 ha sido atacado por el arma: MedioAlcance
+Zombie: DeContacto en la posición 10,12 ha sido atacado por el arma: MedioAlcance
+
+Zombie: DeContacto en la posición 6,9 ha sido atacado por el arma: Aerea
+Zombie: DeContacto en la posición 8,11 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeContacto en la posición 9,12 ha sido atacado por el arma: MedioAlcance
+Zombie: DeContacto en la posición 10,12 ha sido atacado por el arma: MedioAlcance
+
+Zombie: DeChoque en la posición 8,8 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeChoque en la posición 9,9 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 10,10 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 11,11 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeChoque en la posición 12,12 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: DeChoque en la posición 8,8 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeChoque en la posición 9,9 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 10,10 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 11,11 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeChoque en la posición 12,12 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: DeChoque en la posición 8,8 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeChoque en la posición 9,9 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 10,10 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 11,11 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeChoque en la posición 12,12 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: DeChoque en la posición 8,8 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeChoque en la posición 9,9 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 10,10 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 11,11 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeChoque en la posición 12,12 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: DeChoque en la posición 8,8 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeChoque en la posición 9,9 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 10,10 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 11,11 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeChoque en la posición 12,12 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: DeChoque en la posición 8,8 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeChoque en la posición 9,9 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 10,10 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 11,11 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeChoque en la posición 12,12 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: MedioAlcance en la posición 6,11 ha sido atacado por el arma: AtaqueMultiple
+Zombie: MedioAlcance en la posición 7,12 ha sido atacado por el arma: MedioAlcance
+
+Zombie: MedioAlcance en la posición 6,11 ha sido atacado por el arma: AtaqueMultiple
+Zombie: MedioAlcance en la posición 7,12 ha sido atacado por el arma: MedioAlcance
+
+Zombie: MedioAlcance en la posición 6,11 ha sido atacado por el arma: AtaqueMultiple
+Zombie: MedioAlcance en la posición 7,12 ha sido atacado por el arma: MedioAlcance
+
+Zombie: MedioAlcance en la posición 6,11 ha sido atacado por el arma: AtaqueMultiple
+Zombie: MedioAlcance en la posición 7,12 ha sido atacado por el arma: MedioAlcance
+
+Zombie: MedioAlcance en la posición 6,11 ha sido atacado por el arma: AtaqueMultiple
+Zombie: MedioAlcance en la posición 7,12 ha sido atacado por el arma: MedioAlcance
+
+Zombie: DeChoque en la posición 7,19 ha sido atacado por el arma: Aerea
+Zombie: DeChoque en la posición 9,17 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 8,16 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 7,15 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeChoque en la posición 8,14 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 9,15 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 12,16 ha sido atacado por el arma: DeContacto
+
+Zombie: DeChoque en la posición 7,19 ha sido atacado por el arma: Aerea
+Zombie: DeChoque en la posición 9,17 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 8,16 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 7,15 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeChoque en la posición 8,14 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 9,15 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 12,16 ha sido atacado por el arma: DeContacto
+
+Zombie: DeChoque en la posición 7,19 ha sido atacado por el arma: Aerea
+Zombie: DeChoque en la posición 9,17 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 8,16 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 7,15 ha sido atacado por el arma: AtaqueMultiple
+Zombie: DeChoque en la posición 8,14 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 9,15 ha sido atacado por el arma: MedioAlcance
+Zombie: DeChoque en la posición 12,16 ha sido atacado por el arma: DeContacto
+
+Zombie: MedioAlcance en la posición 15,8 ha sido atacado por el arma: Aerea
+Zombie: MedioAlcance en la posición 13,10 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: MedioAlcance en la posición 15,8 ha sido atacado por el arma: Aerea
+Zombie: MedioAlcance en la posición 13,10 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: MedioAlcance en la posición 15,8 ha sido atacado por el arma: Aerea
+Zombie: MedioAlcance en la posición 13,10 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: MedioAlcance en la posición 15,8 ha sido atacado por el arma: Aerea
+Zombie: MedioAlcance en la posición 13,10 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: MedioAlcance en la posición 15,8 ha sido atacado por el arma: Aerea
+Zombie: MedioAlcance en la posición 13,10 ha sido atacado por el arma: AtaqueMultiple
+
+
+
+Zombie: Contacto en la posición 13,18 ha sido atacado por el arma: DeContacto
+
+
+
+
+Zombie: DeChoque en la posición 12,8 ha sido atacado por el arma: AtaqueMultiple
+
+Zombie: DeChoque en la posición 12,8 ha sido atacado por el arma: AtaqueMultiple
+

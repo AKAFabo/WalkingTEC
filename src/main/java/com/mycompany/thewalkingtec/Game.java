@@ -19,8 +19,11 @@ import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 
 
@@ -51,11 +54,10 @@ public class Game extends JFrame {
     private ArrayList<Gun> availableGuns;
     private ArrayList<Zombie> availableZombies;
     private ArrayList<Block> availableBlocks;
+    
 
     public Game() {
-
         
-        //Builds Matrix and adds listener to each i,j position
         availableGuns = loadGunsFromFiles();
         availableZombies = loadZombiesFromFiles();
         
@@ -80,6 +82,8 @@ public class Game extends JFrame {
         panelContenedor.add(matrixPanel , BorderLayout.CENTER);
             
         JPanel gunButtonPanel = new JPanel();
+        
+        
 
         for (Gun gun : availableGuns) {
             String imagePath = gun.getNormalStateAppearance(); // Ruta de la imagen
@@ -150,7 +154,21 @@ public class Game extends JFrame {
         gameThread = new Thread(new Runnable() {     
             @Override
             public void run() {
+               String txtFilePath = "src/main/resources/registro.txt";
+               String lineToWrite = "Nivel " + actualLevel;
+                try (BufferedWriter writer = new BufferedWriter(new FileWriter(txtFilePath, true))) {
+                    // Escribir los datos en el archivo de texto, uno por línea
+                    writer.write(lineToWrite); 
+                    writer.newLine();
+
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
                 while (!zombiesInLevel.isEmpty()) {
+                    
+                    if (guns.isEmpty()){
+                        break;
+                    }
 
                     for (Zombie zombie : zombiesInLevel) {
                         
@@ -215,14 +233,72 @@ public class Game extends JFrame {
                     congratulationsFrame.setVisible(true);
                 }
                
-                combat.levelCompleted();
-                actualLevel++;
-                maxGenericCounter += 5;
-                zombieCounter = 0;
-                defenseCounter = 0;
-                upgradeComponents();
-                updateGameLabels();
-                clearMatrix();
+               if (zombiesInLevel.isEmpty()) {
+                   
+                   combat.levelCompleted();
+                    actualLevel++;
+                    maxGenericCounter += 5;
+                    zombieCounter = 0;
+                    defenseCounter = 0;
+                    upgradeComponents();
+                    updateGameLabels();
+                    clearMatrix();
+                   
+                   
+               }
+               
+               
+               else {
+                   
+                    JFrame lostLevelFrame = new JFrame("Nivel Perdido");
+                    lostLevelFrame.setSize(400, 200);
+                    lostLevelFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+
+                    JPanel lostLevelPanel = new JPanel();
+                    lostLevelPanel.setLayout(new BorderLayout());
+
+                    JLabel lostLevelLabel = new JLabel("¡Nivel Perdido!");
+                    lostLevelLabel.setHorizontalAlignment(JLabel.CENTER);
+                    lostLevelPanel.add(lostLevelLabel, BorderLayout.CENTER);
+
+                    JButton restartButton = new JButton("Reiniciar Nivel");
+                    restartButton.addActionListener(e -> {
+                        clearMatrix();
+                        defenseCounter = 0;
+                        updateGameLabels();
+                        // Coloca aquí la lógica para reiniciar el nivel, si es necesario
+                        lostLevelFrame.dispose();
+                    });
+
+                    JButton advanceButton = new JButton("Avanzar Nivel");
+                    advanceButton.addActionListener(e -> {
+                        clearMatrix();
+                        actualLevel++;
+                        maxGenericCounter += 5;
+                        zombieCounter = 0;
+                        defenseCounter = 0;
+                        upgradeComponents();
+                        updateGameLabels();
+                        lostLevelFrame.dispose();
+                    });
+
+                    JButton loseGameButton = new JButton("Perder Juego");
+                    loseGameButton.addActionListener(e -> {
+                        lostLevelFrame.dispose(); // Cierra el cuadro de diálogo
+                        // Coloca aquí la lógica para perder el juego, si es necesario
+                        // Esto podría incluir cerrar todas las ventanas o finalizar el juego por completo
+                    });
+
+                    JPanel buttonPanel = new JPanel();
+                    buttonPanel.add(restartButton);
+                    buttonPanel.add(advanceButton);
+                    buttonPanel.add(loseGameButton);
+                    lostLevelPanel.add(buttonPanel, BorderLayout.SOUTH);
+
+                    lostLevelFrame.add(lostLevelPanel);
+                    lostLevelFrame.setLocationRelativeTo(null); // Centra el cuadro de diálogo en la pantalla
+                    lostLevelFrame.setVisible(true);
+                }
                 
                 
             }
@@ -283,7 +359,7 @@ public class Game extends JFrame {
                                                     defenseCounter += gunMatrix[x][y].getFieldsInMatrix();
                                                     updateGameLabels();
                                                     
-                                                     String imagePath = gun.getNormalStateAppearance(); // Ruta de la imagen
+                                                    String imagePath = gun.getNormalStateAppearance(); // Ruta de la imagen
                                                     ImageIcon originalIcon = new ImageIcon(imagePath); // Crear un ImageIcon a partir de la ruta
 
                                                     // Reescalar la imagen al tamaño deseado (25x25)
@@ -301,7 +377,6 @@ public class Game extends JFrame {
 
                                                 }                                   
                                             }
-                                            System.out.println("Label clickeado en la posición: (" + x + ", " + y + ")");
                                     
                                     return;
                                 }
@@ -317,6 +392,7 @@ public class Game extends JFrame {
         // Repinta la matriz para que se reflejen los cambios
         matrixPanel.revalidate();
         matrixPanel.repaint();
+        
     }
     
 //GUN ARRAY CREATION STARTS
@@ -657,7 +733,7 @@ public class Game extends JFrame {
                 matrixPanel.repaint(); 
             }
         }
-        guns.remove(g);
+        this.guns.remove(g);
     }
 
    

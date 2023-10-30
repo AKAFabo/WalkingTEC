@@ -3,7 +3,11 @@ package com.mycompany.thewalkingtec.CreationGUI.mobStructure.Offense;
 
 import com.mycompany.thewalkingtec.CreationGUI.mobStructure.Defense.Guns.Gun;
 import com.mycompany.thewalkingtec.Game;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
+import javax.swing.JOptionPane;
 
 public class Zombie {
     
@@ -113,6 +117,23 @@ public class Zombie {
         this.isAlive = isAlive;
     }
     
+    private String attackRegister = "";
+    
+    public void writeAttack(String attack){
+        this.attackRegister += attack + "\n";
+    }
+    public String getAttackRegister(){
+        return attackRegister;
+    }
+    
+    private int totalDamageGiven;
+    public void addTotalDamageGiven(int damage){
+        this.totalDamageGiven += damage;
+    }
+    public int getTotalDamageGiven(){
+        return totalDamageGiven;
+    }
+    
     public Zombie(String name, String normalStateAppearance, String attackStateAppearance, int hitsPerSecond, int range, int fieldsInMatrix, int unlockLevel, String type, int health) {
         this.name = name;
         this.normalStateAppearance = normalStateAppearance;
@@ -126,11 +147,15 @@ public class Zombie {
     }
     
     public void attack(Zombie z, Gun g, Game game, ArrayList<Gun> guns){    
+        String txtFilePath = "src/main/resources/registro.txt";
         Thread attackThread = new Thread(new Runnable() {
+            
             @Override
             public void run(){        
+                z.writeAttack("Zombie: " + z.getName() + " en la posición " + z.getX() + "," + z.getY() + " ha sido atacado por el arma: " + g.getName());
                 while (g.isIsAlive()) {
                     g.takeDamage(1); //CADA GOLPE EQUIVALE A 1 DE DAÑO
+                    z.addTotalDamageGiven(1);
                     if (g.getHealth() <= 0){
                         g.setIsAlive(false);
                     }
@@ -142,6 +167,16 @@ public class Zombie {
                     }
 
                 }
+                String lineToWrite = g.getAttackRegister();
+                try (BufferedWriter writer = new BufferedWriter(new FileWriter(txtFilePath, true))) {
+                    // Escribir los datos en el archivo de texto, uno por línea
+                    writer.write(lineToWrite); 
+                    writer.newLine();
+
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                
                 game.deleteGunFromMatrix(g, z, guns);
                 
             Gun newTarget = game.findNearestGun(z, guns);

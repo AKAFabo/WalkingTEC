@@ -1,9 +1,0 @@
-PvZ
-Medio alcance
-45
-2
-3
-1
-2
-C:\Users\Xtremetech\Documents\NetBeansProjects\TheWalkingTEC\src\main\resources\image\zombieHead.png
-C:\Users\Xtremetech\Documents\NetBeansProjects\TheWalkingTEC\src\main\resources\image\zombieHead.png

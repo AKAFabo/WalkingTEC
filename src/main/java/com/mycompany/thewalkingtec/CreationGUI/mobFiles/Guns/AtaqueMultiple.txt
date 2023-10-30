@@ -1,0 +1,9 @@
+AtaqueMultiple
+Ataque multiple
+50
+5
+3
+5
+5
+C:\Users\Xtremetech\Documents\NetBeansProjects\TheWalkingTEC\src\main\resources\image\ArmaMultiple.png
+C:\Users\Xtremetech\Documents\NetBeansProjects\TheWalkingTEC\src\main\resources\image\ArmaContacto.png

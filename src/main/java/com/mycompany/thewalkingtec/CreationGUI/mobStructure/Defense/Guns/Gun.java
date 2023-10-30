@@ -4,6 +4,9 @@ package com.mycompany.thewalkingtec.CreationGUI.mobStructure.Defense.Guns;
 import com.mycompany.thewalkingtec.CreationGUI.mobStructure.Defense.Defender;
 import com.mycompany.thewalkingtec.CreationGUI.mobStructure.Offense.Zombie;
 import com.mycompany.thewalkingtec.Game;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
@@ -69,6 +72,23 @@ public class Gun extends Defender{
         this.isAttacking = b;
     }
     
+    private String attackRegister = ""; 
+    public void writeAttack(String attack){
+        this.attackRegister += attack + "\n";
+    }  
+    public String getAttackRegister(){
+        return attackRegister;
+    }
+
+    
+    private int totalDamageGiven;
+    public void addTotalDamageGiven(int damage){
+        this.totalDamageGiven += damage;
+    }
+    public int getTotalDamageGiven(){
+        return totalDamageGiven;
+    }
+    
     
     
     public Gun(String name, String normalStateAppearance, String attackStateAppearance, int fieldsInMatrix,
@@ -86,13 +106,16 @@ public class Gun extends Defender{
         return button;
     }
     
-    public void attack(Gun g, Zombie z, Game game, ArrayList<Zombie> zombiesInLevel){  
+    public void attack(Gun g, Zombie z, Game game, ArrayList<Zombie> zombiesInLevel){      
+        String txtFilePath = "src/main/resources/registro.txt";
 
         Thread attackThread = new Thread(new Runnable(){
             @Override
             public void run(){
+                g.writeAttack("Arma: " + g.getName() + " ha sido atacada por el zombie: " + z.getName() + " en la posición " + z.getX() + "," + z.getY());
                 while (z.isIsAlive()) {
                     z.takeDamage(1); //CADA GOLPE EQUIVALE A 1 DE DAÑO
+                    g.addTotalDamageGiven(1);
                     
                     if (z.getHealth() <= 0){
                         z.setIsAlive(false);
@@ -103,6 +126,15 @@ public class Gun extends Defender{
                     }   catch (InterruptedException e) {
                         e.printStackTrace();
                      }                 
+                }
+                String lineToWrite = z.getAttackRegister();
+                try (BufferedWriter writer = new BufferedWriter(new FileWriter(txtFilePath, true))) {
+                    // Escribir los datos en el archivo de texto, uno por línea
+                    writer.write(lineToWrite); 
+                    writer.newLine();
+
+                } catch (IOException e) {
+                    e.printStackTrace();
                 }
                 game.deleteZombieFromMatrix(z, g, zombiesInLevel);
                 

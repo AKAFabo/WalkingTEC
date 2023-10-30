@@ -1,6 +1,6 @@
 Bloque1
-50
+45
 1
 1
 1
-C:\Users\Xtremetech\Downloads\paquete2\_DSC7081.png
+C:\Users\Xtremetech\Documents\NetBeansProjects\TheWalkingTEC\src\main\resources\image\Bloque.jpg

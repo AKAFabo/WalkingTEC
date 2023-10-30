@@ -1,0 +1,9 @@
+MedioAlcance
+Medio alcance
+25
+3
+2
+1
+2
+C:\Users\Xtremetech\Documents\NetBeansProjects\TheWalkingTEC\src\main\resources\image\ArmaMedioAlcance.png
+C:\Users\Xtremetech\Documents\NetBeansProjects\TheWalkingTEC\src\main\resources\image\ArmaContacto.png

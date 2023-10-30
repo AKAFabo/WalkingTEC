@@ -1,0 +1,9 @@
+Aereo
+Aereo
+40
+2
+3
+3
+3
+C:\Users\Xtremetech\Documents\NetBeansProjects\TheWalkingTEC\src\main\resources\image\ZombieAereo.png
+C:\Users\Xtremetech\Documents\NetBeansProjects\TheWalkingTEC\src\main\resources\image\ZombieAereo.png
